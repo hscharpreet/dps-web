@@ -76,10 +76,10 @@ const Navbar = () => {
               alt="Logo"
             />
           </a>
-                <h1>MENU</h1>
+               
               <ul class="menu">
                 <li class="dropdown dropdown-5">
-                  <GiHamburgerMenu/>
+                <h1>MENU</h1>  <GiHamburgerMenu/>
                   <ul class="dropdown_menu dropdown_menu-5">
                     <li class="dropdown_item-1">Item 1</li>
                     <li class="dropdown_item-2">Item 2</li>

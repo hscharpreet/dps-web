@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+
+#divine-care{
+    display: flex;
+    align-items: center;
+    background:  url(../assets//Group\ 26.png);
+    background-repeat: no-repeat;
+    background-position-x: center  ;
+    position: relative;
+    top: -1.5%;
+    z-index: 1;
+    height: 1000px;
+}
+.img-1{
+    position: absolute;
+    z-index: -1;
+}
+.img-2{
+    margin-left: 100px;
+}
+
+.lines{
+    margin-left: 100px;
+}
+.lines h2{
+    font-size: 14px;
+    margin: 0 1.8rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.59);
+    font-family: 'Montagu Slab', serif;
+}
+.lines h1{
+    margin: 0 1.5rem;
+    font-size: 70px;
+    font-weight: 540;
+    letter-spacing: 3px;
+    color: rgba(98, 95, 95, 0.4);
+    font-family:'Open Sans' ;
+}
+.lines .purpose{
+    margin: 5px 0;
+    width: 400px;
+   text-align: center;
+   font-size: 16px;
+   line-height: 1.8;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 0.59);
+   font-family: 'Open Sans';
+}
