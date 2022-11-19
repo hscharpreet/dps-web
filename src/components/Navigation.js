@@ -1,16 +1,17 @@
 import React from 'react';
-import './Navigation.css'
+import './Navigation.css';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <div className='nav'> 
     <ul class="navigation">
-    <li class="item">About</li>
-    <li class="item">Admission</li>
-    <li class="item">Information</li>
-    <li class="item">Academics</li>
-    <li class="item">Activities</li>
-    <li class="item">Contact</li>
+    <Link to="/about" className='link'><li class="item">About</li></Link>
+    <Link to="/admission" className='link'><li class="item">Admission</li></Link>
+    <Link to="/information" className='link'><li class="item">Information</li></Link>
+    <Link to="/academics" className='link'><li class="item">Academics</li></Link>
+    <Link to="/activities" className='link'><li class="item">Activities</li></Link>
+    <Link to="/contact" className='link'><li class="item">Contact</li></Link>
   </ul> 
 </div>
   )

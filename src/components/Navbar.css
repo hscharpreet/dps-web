@@ -1,8 +1,9 @@
 .menu-container{
+  background: #ffffff;
    margin-top: 10px;
    position: sticky;
    top: 0;
-   z-index: 2;
+   z-index: 3;
    background-color: rgb(255, 255, 255);
    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
    -12px 0 8px -4px rgba(31, 73, 125, 0.8);
@@ -12,91 +13,58 @@
 }
 
 nav{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
-
 img{
   margin-right: 10% ;
 }
 .dropdown{
-padding: 20px 40px;
 display: flex;
- justify-content: center;
 align-items: center;
-color: rgb(23, 22, 22);
-position: relative;
-font-size: 18px;
-perspective: 1000px;
-z-index: 100;
+color: rgb(135, 132, 132);
+
 }
 .dropdown h1{
   color: #1c38b7;
+  padding:5px 20px;
 }
-.dropdown:hover{
- background: #cad019 ;
+.underline{
+  display: inline-block;
+  position: relative;
+  color: #d6d638;
+}
+.underline::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d2d743;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+.underline:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+.icon{
+  padding: 10px;
+}
+.icon:hover{
  cursor:pointer;
+ color: #d2d743;
+ 
 }
  
-dropdown:hover .dropdown_menu li{
- display: block;
-} 
 
-.dropdown_menu{
-position: absolute;
-top: 100%;
-left: 0;
-width: 100%;
-perspective: 1000px;
-z-index: -1;
-}
-.dropdown_menu li{
-display: none;
-color: white;
-background-color: #34495e;
-padding: 10px 20px;
-font-size: 16px;
-opacity: 0};
-
-.dropdown_menu li:hover{
-  background-color: #2980b9 
-} 
-
-
-
-.dropdown:hover .dropdown_menu--animated{
-  display: block;
-}
-
-.dropdown_menu--animated{
-display: none}
-
-.dropdown_menu--animated li{
-  display: block;
-  opacity: 1;
-}
-
-.dropdown_menu-5{
-  transform-origin: top center;
-  animation: translateX 300ms (num * 60ms) ease-in-out forwards
-}
-
-/* @keyframes translateX {
-0% {
-opacity: 0;
-transform: translateX(60px);
-}
-
-80% {
-transform: translateX(-5px);
-}
-
-100% {
-opacity: 1;
-transform: translateX(0px);
-}
-} */
  
+
+
+
+

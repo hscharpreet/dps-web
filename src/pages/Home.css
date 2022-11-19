@@ -1,3 +1,14 @@
-.home{
-    height: 11000px;
-}
+
+  *{
+    -ms-overflow-style: none;
+    
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .home{
+    width: 1920px;
+  }

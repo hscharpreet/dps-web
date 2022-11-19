@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+#footer{
+    height: 600px;
+    background: white url(../assets//Group\ 28.png) no-repeat  center;
+    background-size: 1920px;
+}
+.footer-container{
+    padding-top: 5rem;
+    display: flex;
+   /* align-items: center;  */
+
+}
+.address{
+    flex: 30%;
+}
+.address img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    
+
+}
+.line {
+    border-left: 0.6px solid #8AA1D6;
+    height: 400px;
+    position: static;
+    padding: 10px;
+}
+
+
+  .column {
+    flex: 15%;
+  }
+  .column h1{ 
+    line-height: 3;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montagu Slab', serif;
+    margin-left: 10px;
+  }
+ .link{
+  text-decoration: none;
+ }

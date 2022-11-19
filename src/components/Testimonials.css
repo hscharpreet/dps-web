@@ -1,4 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap');
+
+
+
 .testimonial{
     display: flex;
     align-items: center;
+    background-color: rgba(214, 214, 214, 0.38);
+    height: 600px;
+}
+
+
+.shape-2{
+   position: absolute;
+   z-index: 1;
+   
+}
+ .parents-img{
+    width: 277px;
+    height: 270px;
+    border-radius: 50%;
+    position:absolute;
+      z-index: 2;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 50%;
+}
+.voices{
+    margin-left: 5rem ;
+}
+.voices h3{
+   color: rgb(121, 120, 120);
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Montagu Slab', serif;
+}
+.voices h1{
+    color: rgb(35, 29, 141);
+    font-size: 48px;
+    font-family: 'Montagu Slab', serif;
+    font-weight: 500;
+}
+.voices p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Montagu Slab', serif;
+}
+.parents-name{
+    display: flex;
+}
+.parents-name .line{
+        margin-left: 20px;
+        height: 20px;
+        border-left: 1px solid #FFCB42;
+}
+.parents-name p{
+    color: rgb(175, 64, 56);
 }
