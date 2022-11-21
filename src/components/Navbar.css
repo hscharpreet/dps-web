@@ -1,42 +1,39 @@
-.menu-container{
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+.menu-container {
   background: #ffffff;
-   margin-top: 10px;
-   position: sticky;
-   top: 0;
-   z-index: 3;
-   background-color: rgb(255, 255, 255);
-   box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
-   -12px 0 8px -4px rgba(31, 73, 125, 0.8);
- box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
-   12px 0 15px -4px rgba(31, 73, 125, 0.8),
-   -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  margin-top: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-img{
-  margin-right: 10% ;
+img {
+  margin-right: 10%;
 }
-.dropdown{
-display: flex;
-align-items: center;
-color: rgb(135, 132, 132);
 
+ .menu-icon {
+  display: flex;
+  align-items: center;
+ 
 }
-.dropdown h1{
+.menu-icon p {
   color: #1c38b7;
-  padding:5px 20px;
+  padding: 5px 20px;
+  cursor: pointer;
 }
-.underline{
+/* .underline {
   display: inline-block;
   position: relative;
   color: #d6d638;
 }
-.underline::after{
-  content: '';
+.underline::after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -48,23 +45,40 @@ color: rgb(135, 132, 132);
   transition: transform 0.25s ease-out;
   cursor: pointer;
 }
-.underline:hover::after{
+.underline:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
   cursor: pointer;
-}
-.icon{
+} 
+.icon {
   padding: 10px;
 }
-.icon:hover{
- cursor:pointer;
- color: #d2d743;
- 
+.icon:hover {
+  cursor: pointer;
+  color: #d2d743;
+} */
+.menu-dropdown{
+  position: relative;
+  display: inline-block;
 }
- 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d2d743;
+  min-width: 200px;
+  flex-wrap: wrap;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content li {
+  color: rgb(49, 36, 161);
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: 'Montagu Slab', serif;
+  display: block;
+}
+.dropdown-content li:hover {background-color: #e6e840}
 
- 
-
-
-
-
+.menu-dropdown:hover .dropdown-content {
+  display: block;
+}

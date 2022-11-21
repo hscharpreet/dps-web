@@ -1,14 +1,11 @@
-
 import React from "react";
 import "./Navbar.css";
-import {
-  doc,
-  onSnapshot,
-} from "firebase/firestore";
+import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from '../assets/Group 25.png'
+import logo from "../assets/Group 25.png";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const storageRef = doc(db, "home", "banner");
@@ -16,40 +13,48 @@ const Navbar = () => {
     console.log(doc.data(), doc.id);
   });
   return (
-    <>  
-    <IconContext.Provider
-      value={{ size: '30px' }}
-    >
-          <div class="menu-container">
-            <nav>
+    <>
+      <IconContext.Provider value={{ size: "30px" }}>
+        <div class="menu-container">
+          <nav>
             <a href="/" class="navbar-header logo">
-            <img
-              src={logo}
-              alt="Logo"
-            />
-          </a>
-               
-              <ul class="menu">
-                <li class="dropdown dropdown-5">
-                <h1 className="underline">MENU</h1> <i className="icon"> <GiHamburgerMenu/></i>
-                  <ul class="dropdown_menu dropdown_menu-5">
-                    <li class="dropdown_item-1">Item 1</li>
-                    <li class="dropdown_item-2">Item 2</li>
-                    <li class="dropdown_item-3">Item 3</li>
-                    <li class="dropdown_item-4">Item 4</li>
-                    <li class="dropdown_item-5">Item 5</li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-           
+              <img src={logo} alt="Logo" />
+            </a>
 
-          </div>
-          </IconContext.Provider>
+            <div className="menu-dropdown">
+              <h1 className="menu-icon">
+                <p className="underline">MENU</p>
+                <i className="icon">
+                  {" "}
+                  <GiHamburgerMenu />
+                </i>
+              </h1>
+              <ul class="dropdown-content">
+                <Link to="/about" className="link">
+                  <li class="item">About</li>
+                </Link>
+                <Link to="/admission" className="link">
+                  <li class="item">Admission</li>
+                </Link>
+                <Link to="/information" className="link">
+                  <li class="item">Information</li>
+                </Link>
+                <Link to="/academics" className="link">
+                  <li class="item">Academics</li>
+                </Link>
+                <Link to="/activities" className="link">
+                  <li class="item">Activities</li>
+                </Link>
+                <Link to="/contact" className="link">
+                  <li class="item">Contact</li>
+                </Link>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </IconContext.Provider>
     </>
   );
 };
 
 export default Navbar;
-
-
