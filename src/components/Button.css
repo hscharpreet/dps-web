@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #202ba9;
+    margin: 20px 20px 20px 20px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 19px 0px -21px rgba(0,0,0,0.3),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+  }
+  
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button-1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-1 a {
+    position: relative;
+    transition: all .35s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    /* left: -200px; */
+    left: 0;
+    background: #202ba9;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-1:hover #slide {
+    /* left: 0; */
+    left: -200px;
+    
+  }
+  
+  #button-1:hover .link {
+    color: #000000;
+  }
+  

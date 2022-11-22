@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+
+.facts{
+    height: 1000px;
+    background-color: #3634AE;
+}
+.facts .img-text img{
+    width: 70%;
+    height: 700px;
+}
+
+.facts .img-text {
+    /* display: flex; */
+    position: relative;
+    color: white;
+    /* text-align: center; */
+}
+.facts .img-text .text{
+    position: absolute;
+    top:55%;
+    right: 24%;
+    z-index: 1;
+    
+}
+.facts .img-text .text h1{
+    color:#FFCB42;
+    font-size: 64px;
+    font-family: 'Montagu Slab';
+}
+.facts .img-text .text h2{
+    color:#FFCB42;
+    font-size: 24px;
+    font-family: 'Montagu Slab';
+}
+.facts .img-text .lines{
+    position: absolute;
+    bottom:-15%;
+    right: 10%;
+    width: 450px;
+    height: 200px;
+    text-align: justify;
+    background-color: #3634AE;
+    padding: 40px 20px;
+    font-family: 'Montagu Slab';
+}
