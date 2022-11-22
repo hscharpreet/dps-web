@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import Testimonials from '../components/Testimonials';
 import Facts from '../components/Facts';
+import Activities from '../components/Activities';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Header/>
         <DivineCare/>
         <Facts/>
+        <Activities/>
         <Testimonials/>
         <Footer/>
         </div>

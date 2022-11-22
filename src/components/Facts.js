@@ -1,14 +1,18 @@
 import React from "react";
 import "./Fact.css";
 import children from "../assets/children.jpeg";
+import { SiGoogleclassroom } from "react-icons/si";
+import { IconContext } from "react-icons";
 const Facts = () => {
   return (
     <>
       <div className="facts">
         <div className="img-text">
           <img src={children} alt="children-img" />
-          <div className="text">
+          <div className="everything">
             <h2>Everything You</h2>
+          </div>
+          <div className="want">
             <h1>WANT</h1>
           </div>
           <div className="lines">
@@ -20,6 +24,59 @@ const Facts = () => {
               you thought possible.
             </p>
           </div>
+        </div>
+        <div id="content">
+          <h1 className="facts-heading"> <span></span> FACTS</h1>
+          <div className="ellipse">
+          <div className="outer-circle">
+            <div className="inner-circle">
+            <IconContext.Provider
+      value={{ color: '#FFCB42', size: '20px' }}
+    >
+              <span className="inside-content"><SiGoogleclassroom/></span>
+              </IconContext.Provider>
+            </div>
+          </div>
+          <h1 className="text">average size <br /> classrom</h1>
+          </div>
+          <div className="ellipse">
+          <div className="outer-circle">
+            <div className="inner-circle">
+            <IconContext.Provider
+      value={{ color: '#FFCB42', size: '20px' }}
+    >
+              <span className="inside-content"><SiGoogleclassroom/></span>
+              </IconContext.Provider>
+            </div>
+          </div>
+          <h1 className="text">average size <br /> classrom</h1>
+          </div>
+          <div className="ellipse">
+          <div className="outer-circle">
+            <div className="inner-circle">
+            <IconContext.Provider
+      value={{ color: '#FFCB42', size: '20px' }}
+    >
+              <span className="inside-content"><SiGoogleclassroom/></span>
+              </IconContext.Provider>
+            </div>
+          </div>
+          <h1 className="text">average size <br /> classrom</h1>
+          </div>
+          <div className="ellipse">
+          <div className="outer-circle">
+            <div className="inner-circle">
+            <IconContext.Provider
+      value={{ color: '#FFCB42', size: '20px' }}
+    >
+              <span className="inside-content"><SiGoogleclassroom/></span>
+              </IconContext.Provider>
+            </div>
+          </div>
+          <h1 className="text">average size <br /> classrom</h1>
+          </div>
+
+        
         </div>
       </div>
     </>

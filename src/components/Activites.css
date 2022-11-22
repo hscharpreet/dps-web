@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+
+
+
+.activity{
+    background-color: #3634AE;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activity .text{
+   background-color: #FFCB42;
+   width: 400px;
+   height: 700px;
+   position: relative;
+}
+.activity .text img{
+    float: right;
+margin: 70px 1;
+}
+
+.activity .gallery img{
+    width: 450px;
+    height: 700px;
+}

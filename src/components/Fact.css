@@ -2,37 +2,42 @@
 
 
 .facts{
-    height: 1000px;
+    height: 1200px;
     background-color: #3634AE;
 }
 .facts .img-text img{
+    margin-top: 100px;
     width: 70%;
-    height: 700px;
+    height: 600px;
 }
 
-.facts .img-text {
-    /* display: flex; */
+ .facts .img-text {
     position: relative;
-    color: white;
-    /* text-align: center; */
+    color: rgb(240, 240, 223);
 }
-.facts .img-text .text{
+.facts .img-text .everything{
     position: absolute;
-    top:55%;
-    right: 24%;
-    z-index: 1;
-    
+    top:30%;
+    right: 19%;
+    z-index: 1; 
 }
-.facts .img-text .text h1{
-    color:#FFCB42;
-    font-size: 64px;
-    font-family: 'Montagu Slab';
-}
-.facts .img-text .text h2{
+.facts .img-text .everything {
     color:#FFCB42;
     font-size: 24px;
     font-family: 'Montagu Slab';
 }
+.facts .img-text .want{
+    position: absolute;
+    top:27%;
+    right: 15%;
+    z-index: 1; 
+}
+.facts .img-text .want  {
+    color:#FFCB42;
+    font-size: 60px;
+    font-family: 'Montagu Slab';
+}
+
 .facts .img-text .lines{
     position: absolute;
     bottom:-15%;
@@ -41,6 +46,55 @@
     height: 200px;
     text-align: justify;
     background-color: #3634AE;
-    padding: 40px 20px;
+    padding: 40px ;
     font-family: 'Montagu Slab';
+    line-height: 1.7;
+} 
+
+#content{
+  margin: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 }
+.facts-heading{
+    font-size: 48px;
+    font-family: 'Montagu Slab';
+    color: #fffdf7;
+    text-orientation: upright;
+    writing-mode: vertical-rl; 
+}
+.facts-heading{
+        border-right: 2px solid #FFCB42;
+        height: 300px;
+        padding:0 15px;
+}
+.outer-circle {
+    border: 2px solid #FFCB42;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+ 
+  }
+  .inner-circle {
+    position: absolute;
+    background: #25238E;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0px 0px -35px;
+
+  }
+  .inside-content{
+    position: absolute;
+    margin: 25px 0 0 25px;
+  }
+  .text{
+    font-size: 14px;
+    font-family: 'Montagu Slab';
+   color: white;
+  }
