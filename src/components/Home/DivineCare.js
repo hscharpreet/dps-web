@@ -1,17 +1,17 @@
 import React from "react";
 import "./DivineCare.css";
-import kids from "../assets/Group 27.png";
-import yellow from "../assets/Rectangle 20.png"
+import kids from "../../assets/Group 27.png";
+import yellow from "../../assets/Rectangle 20.png";
 
 const DivineCare = () => {
   return (
     <>
       <section id="divine-care">
-      <div className="img-1">
-      <img src={yellow} alt="" />
-      </div>
-      <div className="img-2">
-        <img src={kids} alt="kids" />
+        <div className="img-1">
+          <img src={yellow} alt="" />
+        </div>
+        <div className="img-2">
+          <img src={kids} alt="kids" />
         </div>
         <div className="lines">
           <h2>DIVINE</h2>
