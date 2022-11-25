@@ -91,7 +91,7 @@ const Facts = () => {
               </div>
             </div>
             <h1 className="text">
-              average size <br /> classrom
+              average size <br /> classroom
             </h1>
           </div>
         </div>
