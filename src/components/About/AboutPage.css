@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap');
 
 .banner-img img{
-    width: 1920px;
+    max-width: 1440px;
     height: 800px;
     object-fit: fill;
 }

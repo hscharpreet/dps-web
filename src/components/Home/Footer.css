@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 
 #footer{
-    height: 600px;
+    height: 500px;
     background: white url(../../assets//Group\ 28.png) no-repeat  center;
-    background-size: 1920px;
+    /* background-size:auto; */
 }
 .footer-container{
     padding-top: 5rem;

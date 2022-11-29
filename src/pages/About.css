@@ -1,6 +1,8 @@
-.home{
-  margin: auto;
+
+
+.about{
+    padding: 0;
+    margin: auto;
    max-width: 1440px;
-   flex: 1;
    overflow-x: hidden important!;
 }
