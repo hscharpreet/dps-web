@@ -2,7 +2,11 @@ import React from 'react'
 
 const Admission = () => {
   return (
-    <div>Admission</div>
+    <div className="academics">
+    <Navbar/>
+    <AboutPage/>
+    <Footer/>   </div>
+
   )
 }
 

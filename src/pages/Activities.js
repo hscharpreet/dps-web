@@ -2,7 +2,10 @@ import React from 'react'
 
 const Activities = () => {
   return (
-    <div>Activities</div>
+    <div className="academics">
+    <Navbar/>
+    <AboutPage/>
+    <Footer/>   </div>
   )
 }
 

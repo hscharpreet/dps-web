@@ -6,6 +6,7 @@ import Navbar from "../components/Contact/Navbar";
 import AboutPage from '../components/About/AboutPage';
 import DivineWelcome from '../components/About/DivineWelcome';
 import PrinciplalM from '../components/About/PrinciplalM';
+import Faculty from '../components/About/Faculty';
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
  <AboutPage/>
  <DivineWelcome/>
  <PrinciplalM/>
+ <Faculty/>
  <Footer/>
     </div>
   )

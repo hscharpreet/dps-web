@@ -9,7 +9,7 @@
   html,
   body{
     scroll-behavior: smooth;
-  
+  background-color: rgb(73, 67, 67);
     margin: 0;padding: 0;box-sizing: border-box;
   }
 /* @media only screen and (max-width:1440px){

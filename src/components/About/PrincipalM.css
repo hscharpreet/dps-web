@@ -6,22 +6,22 @@
   position: relative;
   padding: 2rem 0;
   height: 1000px;
+  display: flex;
 }
 
-.heading {
-  font-size: 40px;
+.heading {    
+  font-size: 48px;
   font-family: 'Montagu Slab';
-  text-align: center;
-  margin-bottom:5rem;
-  font-weight: 500;
+  text-orientation: upright;
+  writing-mode:vertical-lr;
+  font-weight: 500; 
   color: #FFCB42;
-  /* background-color: bisque; */
+
 }
 .parah {
-  float: right;
   position: absolute;
   text-align: center;
-  padding: 30px ;
+  padding: 5rem 2rem 40px 10rem ;
   top: 10rem;
   right: 10rem;
   width: 500px;
@@ -32,7 +32,13 @@
   font-weight: 500;
   background-color: #FFCB42;
 }
-img {
+.principal-image {
   margin-left: 10rem;
-  background-color: beige;
+  position: relative;
+  right:  8rem;
+  top: 12rem;
+  width: 500px;
+  height: 600px;
+
+  
 }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap');
+
+
+.faculty{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montagu Slab', serif;
+    background-color: white;
+}
+
+.faculty .teacher-text{
+    /* height:574px ; */
+    width: 350px;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+left:6rem;
+    font-size:20px ;
+    font-weight:400 ;
+    padding: 10rem 5rem;
+    box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+.teacher-text .know-more{
+   margin-top: 5rem;
+   padding: 10px;
+   border: none;
+   background-color: #FFCB42;
+   box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
+   0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+.faculty .teacher-img img{
+width: 754px;
+height: 585px;
+/* padding: 20px; */
+border: 10px solid #083ba996;
+position: relative;
+
+}
+/* .faculty .teacher-text .know-more */

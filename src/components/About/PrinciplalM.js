@@ -1,6 +1,6 @@
 import React from "react";
 import "./PrincipalM.css";
-import principlephoto from '../../assets/Rectangle 3.png'
+import principlephoto from '../../assets/Group 10.png'
 const PrinciplalM = () => {
   return (
     <div className="message">
@@ -15,7 +15,7 @@ const PrinciplalM = () => {
         essentially unchanged.It was popularised in the 1960s .
       </p>
      
-    <img src={principlephoto} alt="" />
+    <img className="principal-image" src={principlephoto} alt="" />
    
  
 

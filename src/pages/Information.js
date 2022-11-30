@@ -2,7 +2,10 @@ import React from 'react'
 
 const Information = () => {
   return (
-    <div>Information</div>
+    <div className="academics">
+    <Navbar/>
+    <AboutPage/>
+    <Footer/>   </div>
   )
 }
 
