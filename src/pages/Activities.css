@@ -1,0 +1,8 @@
+.activities{
+    margin: auto;
+    max-width: 1440px;
+    flex: 1;
+    overflow-x: hidden important!;
+    background-color: white;
+
+}

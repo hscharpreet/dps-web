@@ -1,0 +1,81 @@
+.gallery {
+  background-color: #052462fe;
+  padding-bottom: 5rem;
+  font-size: 48px;
+  font-family: "Montagu Slab";
+  font-weight: 500;
+  color: #ffcb42;
+}
+.gallery h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col {
+  flex: 25%;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  width: 320px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid #ffcb42;
+  position: relative;
+}
+
+.column-heading h1 {
+  position: absolute;
+  top: 5rem;
+  left: 4rem;
+  font-size: 30px;
+  font-family: "Montagu Slab";
+  font-weight: 500;
+  color: #ffcb42;
+}
+
+ .image{
+  width: 100%;
+  height: 100%;
+  object-fit:cover ;
+  border-radius: 15px;
+ }
+ .overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background-color: #ffc94225;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  transition: 0.5s ease;
+ }
+ .col:hover .overlay{
+  right: 0;
+ }
+
+ .overlay .btn{
+   position: relative;
+   top: 35%;
+   left: 30%;
+   width: 120px;
+   height: 50px;
+  
+   border-radius: 12px;
+   border:2px solid #ffcb42;
+   background-color: #ffcb42;
+   font-size: 16px;
+   font-weight: 500;
+   font-family: "Montagu Slab";
+ }
+ .btn a {
+  text-decoration: none;
+  color: #1b073a;
+ }
