@@ -1,5 +1,6 @@
 import React from "react";
 import "./Galllery.css";
+import { Link } from "react-router-dom";
 import science from "../../assets/Banner.jpg";
 const Gallery = () => {
   return (
@@ -13,7 +14,10 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          <p>See More</p>
+        </Link>
+        </button>
         </div>
       </div>
       <div className="col 2">

@@ -1,0 +1,20 @@
+
+
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.imageGallery > li {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+  }
+  .imageGallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }

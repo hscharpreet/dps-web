@@ -8,6 +8,7 @@ import Academics from './pages/Academics';
 import Admission from './pages/Admission';
 import Activities from './pages/Activities';
 import Contact from './pages/Contact';
+import ImageGallery from './components/Activities/ImageGallery';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/admission" element={<Admission/>}/>
       <Route path="/academics" element={<Academics/>}/>
       <Route path="/activities" element={<Activities/>}/>
+      <Route path="/activities/images" element={<ImageGallery/>}/>
       <Route path="/contact" element={<Contact/>}/>
    </Routes>
     </>
