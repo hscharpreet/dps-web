@@ -12,8 +12,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem ;
-  box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
-  0px 15px 12px 0px rgba(0,0,0,0.22);
+ 
 }
 .row {
   display: flex;
@@ -41,6 +40,8 @@
   font-family: "Montagu Slab";
   font-weight: 500;
   color: #ffcb42;
+  box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
+  0px 15px 12px 0px rgba(0,0,0,0.22);
 }
 
  .image{
