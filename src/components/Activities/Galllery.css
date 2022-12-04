@@ -1,5 +1,5 @@
 .gallery {
-  background-color: #052462fe;
+  background-color: rgb(30, 26, 137);
   padding-bottom: 5rem;
   font-size: 48px;
   font-family: "Montagu Slab";
@@ -7,10 +7,13 @@
   color: #ffcb42;
 }
 .gallery h1 {
+  background-color: rgb(30, 26, 137);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 2rem ;
+  box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
+  0px 15px 12px 0px rgba(0,0,0,0.22);
 }
 .row {
   display: flex;
@@ -26,7 +29,7 @@
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
-  border: 2px solid #ffcb42;
+  /* border: 2px solid #ffcb42; */
   position: relative;
 }
 

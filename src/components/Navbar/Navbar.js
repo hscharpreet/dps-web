@@ -1,11 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Ellipse 2.png";
 const Navbar = () => {
   return (
-    <motion.div className="nav"   initial={{ opacity: 0 }}  animate={{ opacity:1 }}  exit={{ opacity:0, transition:{duration:0.3} }}>
+    <div className="nav" >
       <ul class="navigation">
         <Link to="/about" className="link">
           <li class="item">About</li>
@@ -29,7 +28,7 @@ const Navbar = () => {
           <li class="item">Contact</li>
         </Link>
       </ul>
-    </motion.div>
+    </div>
   );
 };
 
