@@ -7,11 +7,11 @@ import Footer from "../components/Home/Footer";
 import Testimonials from "../components/Home/Testimonials";
 import Facts from "../components/Home/Facts";
 import Activities from "../components/Home/Activities";
-
+import { motion } from "framer-motion";
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <motion.div className="home" initial={{ width: 0 }}  animate={{ width: "100%" }}  exit={{ x:window.innerWidth, transition:{duration:0.3} }}>
         <Navbar />
         <Header />
         <DivineCare />
@@ -19,7 +19,7 @@ const Home = () => {
         <Activities />
         <Testimonials />
         <Footer />
-      </div>
+      </motion.div>
     </>
   );
 };

@@ -4,9 +4,10 @@ import SimpleMap from './Map'
 const Contact = () => {
   return (
     <>
-    <div className="contact">
-      <h1> <span></span> CONTACT</h1>
-    </div>
+    <div className="contactMap">
+   <div className="contactHeading">
+      <h1 > <span></span> CONTACT</h1>
+      </div>
     <div className="map-contact">
         <div className="address">
         <div class="rectangle">
@@ -25,6 +26,7 @@ const Contact = () => {
         <div className="map">
            <SimpleMap/>
         </div>
+    </div>
     </div>
 </>
   )

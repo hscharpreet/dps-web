@@ -4,14 +4,17 @@ import "./ImageGallery.css";
 const ImageGallery = () => {
   return (
     <>
+
+   <h1 className="galleryHeading">Math's Day</h1>
+ 
       <div className="imageGallery">
+      
         {data.map((item, index) => {
           return (
-            <ul className="pics" key={index}>
-              <li>
-                <img src={item.imgSrc} alt="" />
-              </li>
-            </ul>
+            
+            <div className="pics" key={index}>
+                <img src={item.imgSrc} alt="" /> 
+            </div>
           );
         })}
       </div>

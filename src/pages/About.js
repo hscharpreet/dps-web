@@ -7,10 +7,13 @@ import AboutPage from '../components/About/AboutPage';
 import DivineWelcome from '../components/About/DivineWelcome';
 import PrinciplalM from '../components/About/PrinciplalM';
 import Faculty from '../components/About/Faculty';
-
+import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className='about'>
+    <motion.div className='about' 
+    initial={{ width: 0 }} 
+     animate={{ width: "100%" }}  
+     exit={{ x:window.innerWidth, transition:{duration:0.3} }}>
 
  <Navbar/>
  <AboutPage/>
@@ -18,7 +21,7 @@ const About = () => {
  <PrinciplalM/>
  <Faculty/>
  <Footer/>
-    </div>
+  </motion.div> 
   )
 }
 
