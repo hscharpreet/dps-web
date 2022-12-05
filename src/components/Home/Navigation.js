@@ -12,9 +12,9 @@ const Navigation = () => {
         <Link to="/admission" className="link">
           <li class="item">Admission</li>
         </Link>
-        <Link to="/information" className="link">
+        {/* <Link to="/information" className="link">
           <li class="item">Information</li>
-        </Link>
+        </Link> */}
         <Link to="/academics" className="link">
           <li class="item">Academics</li>
         </Link>

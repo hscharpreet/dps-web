@@ -8,6 +8,7 @@ import Testimonials from "../components/Home/Testimonials";
 import Facts from "../components/Home/Facts";
 import Activities from "../components/Home/Activities";
 import { motion } from "framer-motion";
+import Card from "../components/Home/Card";
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
         <Facts />
         <Activities />
         <Testimonials />
+        <Card/>
         <Footer />
       </motion.div>
     </>

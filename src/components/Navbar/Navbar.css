@@ -5,7 +5,7 @@
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
   list-style: none;
   background: #3634ae;
@@ -13,16 +13,23 @@
   /* position: relative;
   top: -10px; */
 }
+
+.rightNav{
+  display: flex;
+  
+}
 .navigation li {
   color: white;
   font-size: 16px;
   text-transform: uppercase;
   position: relative;
+  float: right;
+  margin: 5px 2rem;
   padding: 5px 0;
   /* top: -20%; */
   font-family: "Montagu Slab", serif;
 }
-ul li img{
+.divineLogo img{
     width: 100px;
     height: 100px;
 }
@@ -44,6 +51,8 @@ ul li img{
   transform: scaleX(1);
   
 }
-.navigation li:nth-child(4){
-  transform-origin: 0;
+.navigation .item:hover{
+  color: #e3d53e;
 }
+
+
