@@ -1,57 +1,24 @@
-import React, {useEffect, useState} from 'react'
-import { items } from './CardData'
+
+import React from 'react'
 import './Card.css'
+import { Link } from 'react-router-dom'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Card = () => {
-  const [moveClass, setMoveClass] = useState('');
-  const [carouselItems, setCarouselItems] = useState(items);
-  
-  useEffect(() => {
-    document.documentElement.style.setProperty('--num', carouselItems.length);
-  }, [carouselItems])
-  
-  const handleAnimationEnd = () => {
-    if(moveClass === 'prev'){
-      shiftNext([...carouselItems]);
-    }else if(moveClass === 'next'){
-      shiftPrev([...carouselItems]);
-    }
-    setMoveClass('')
-  }
-  
-  const shiftPrev = (copy) => {
-    let lastcard = copy.pop();
-    copy.splice(0, 0, lastcard);
-    setCarouselItems(copy);
-  }
-  
-  const shiftNext = (copy) => {
-    let firstcard = copy.shift();
-    copy.splice(copy.length, 0, firstcard);
-    setCarouselItems(copy);
-  }
-  
-    
   return (
-   
-  <div className="carouselwrapper module-wrapper">
-  <div className="ui">
-    <button onClick={() => setMoveClass('next')} className="prev">
-      <span className="material-icons">chevron_left</span>
-    </button>
-    <button onClick={() => setMoveClass('prev')} className="next">
-      <span className="material-icons">chevron_right</span>
-    </button>
-  </div>
-  <ul onAnimationEnd={handleAnimationEnd} className={`${moveClass} carousel`}>
-    {carouselItems.map((t, index) => 
-      <Card key={t.copy + index} icon={t.icon} copy={t.copy} />
-    )}
-  </ul>
-</div>
-)
+    <div className="cardItem">
+      <div className="cardImg">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="" />
+      </div>
+      <div className="cardText">
+        <h1>Math's Day</h1>
+        <button className="btn">
+        <Link to="/activities/images" >
+          <p>See More <ArrowForwardIcon/></p>
+        </Link>
+        </button>
+      </div>
+    </div>
+  )
 }
-
-
-
 
 export default Card

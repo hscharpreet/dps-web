@@ -9,6 +9,7 @@ import Facts from "../components/Home/Facts";
 import Activities from "../components/Home/Activities";
 import { motion } from "framer-motion";
 import Card from "../components/Home/Card";
+import CardCarousel from "../components/Home/CardCarousel";
 const Home = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Home = () => {
         <Facts />
         <Activities />
         <Testimonials />
-        <Card/>
+        <CardCarousel/>
         <Footer />
       </motion.div>
     </>
