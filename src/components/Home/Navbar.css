@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 
 .menu-container {
-  background: #ffffff;
-  margin-top: 10px;
+  background-color: #d6d6d661;
+padding-top: 10px;
+
+}
+.navbar{
+  background-color: white;
   position: sticky;
   top: 0;
   z-index: 3;
+  padding-top: 10px;
 }
 
 nav {

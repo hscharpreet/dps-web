@@ -1,32 +1,29 @@
-.cardItem{
-  height: 710px;
+.cardItem {
+  height: 610px;
   width: 500px;
-  border-radius: 2%;
-  overflow: hidden;
-  border: 5px solid white;
   background: #ffffff;
 }
-.cardImg img{
-  height: 600px;
+.cardImg img {
+  height: 500px;
   width: 500px;
+  object-fit: cover;
 }
-.cardText h1{
+.cardText h1 {
   color: rgba(88, 87, 126, 0.612);
   text-align: center;
   font-size: 20px;
-  
 }
-.cardText .btn{
+.cardText .btn {
   background-color: #ffffff;
   border: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Montagu Slab";
-  margin:0 30%;
+  margin: 0 30%;
   padding: 0 8%;
 }
-.cardText .btn p{
-  color: rgb(231, 199, 22);
+.cardText .btn p {
+  color: #ffcb42;
   display: flex;
   align-items: center;
   justify-items: center;

@@ -3,7 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import "./CardCarousel.css";
 import Card from "./Card";
-
+import { motion } from "framer-motion";
 const responsive = {
   0: { items: 1 },
   568: { items: 2 },
@@ -41,6 +41,13 @@ const items = [
 ];
 
 const CardCarousel = () => (
+  <div className="carousel">
+  <div className="square" >
+    <span></span>
+  </div>
+  <div className="littleSquare">
+  <span></span>
+  </div>
   <div className="carouselCard">
     <AliceCarousel
       mouseTracking
@@ -48,6 +55,7 @@ const CardCarousel = () => (
       responsive={responsive}
       controlsStrategy="alternate"
     />
+  </div>
   </div>
 );
 

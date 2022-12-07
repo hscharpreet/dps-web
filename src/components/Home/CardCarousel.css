@@ -1,13 +1,36 @@
  .carouselCard{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: end;
     height: 1000px;
     width:100%;
-    /* margin: 5% ; */
     padding: 0 3%;
-    background-color: rgb(33, 25, 146);
+    background-color: #d6d6d661;
 }
 .item{
     padding-left: 10px;
+}
+
+.carousel{
+    position: relative;
+}
+
+.square{
+    background-color: rgba(246, 222, 86, 0.211);
+    height: 85%;
+    width: 90%;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    /* z-index: 1; */
+
+}
+
+.littleSquare{
+    position: absolute;
+    bottom: 23%;
+    left: 2.4%;
+    background-color: rgba(17, 12, 169, 0.646);
+    height: 12%;
+    width: 8%;
 }

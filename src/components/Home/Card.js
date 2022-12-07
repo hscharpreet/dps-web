@@ -1,14 +1,17 @@
 
 import React from 'react'
 import './Card.css'
+import { motion } from "framer-motion"
+import children from '../../assets/children1jpg.jpg'
 import { Link } from 'react-router-dom'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Card = () => {
   return (
     <div className="cardItem">
-      <div className="cardImg">
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="" />
-      </div>
+      <motion.div className="cardImg" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}>
+        <img src={children} alt="" />
+      </motion.div>
       <div className="cardText">
         <h1>Math's Day</h1>
         <button className="btn">
