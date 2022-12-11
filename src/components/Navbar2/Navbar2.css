@@ -1,31 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap");
-
- .navBar{
-  background-color: #191860;
-  
+nav{
+  height: 150px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-.navChange{
-  background-color: aliceblue;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+ .navBar {
+  background-color: #191860;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  transition: all 1s ease;
+}
+.navChange {
+  background-color: rgb(255, 255, 255);
+  color: #e3d53e;
+  border-bottom: 1px solid rgba(137, 135, 135, 0.652) ;
   }
- .navigation {
+  .navChange li{
+    color: #191860;
+  }
+.navContainer  {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /* justify-content: space-between; */
   list-style: none;
   height: 150px;
 }
 
-
-.rightNav{
+.rightNav {
   display: flex;
-  
 }
-.navigation li {
-  color: white;
+.rightNav  li {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -38,8 +45,10 @@
 .divineLogo img{
     width: 100px;
     height: 100px;
+ 
 }
-.navigation li::before{
+
+.rightNav li::before{
   content: '';
   position: absolute;
   width: 100%;
@@ -52,12 +61,12 @@
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
 }
-.navigation li:hover::before{
+.rightNav li:hover::before{
   transform-origin: left;
   transform: scaleX(1);
   
 }
-.navigation .item:hover{
+.rightNav .item:hover{
   color: #e3d53e;
 } 
 

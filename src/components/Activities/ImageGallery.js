@@ -1,11 +1,11 @@
 import React from "react";
 import { data } from "./GalleryData";
 import "./ImageGallery.css";
-import Navbar from "../Navbar/Navbar";
+import Navbar2 from "../Navbar2/Navbar2";
 const ImageGallery = () => {
   return (
     <>
-<Navbar/>
+<Navbar2/>
    <h1 className="galleryHeading">Math's Day</h1>
  
       <div className="imageGallery">

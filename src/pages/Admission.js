@@ -1,13 +1,13 @@
 import React from 'react'
 import Admission1 from '../components/Admisssion/Admission1';
 import Footer from '../components/Home/Footer'
-import Navbar from "../components/Navbar/Navbar";
 import AboutPage from '../components/About/AboutPage';
 import { motion } from "framer-motion";
+import Navbar2 from '../components/Navbar2/Navbar2';
 const Admission = () => {
   return (
     <motion.div className="academics" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
-    <Navbar/>
+    <Navbar2/>
     <AboutPage/>
     <Admission1/>
     <Footer/>   </motion.div>
