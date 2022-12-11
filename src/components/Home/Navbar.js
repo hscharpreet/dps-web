@@ -16,6 +16,7 @@ const Navbar = () => {
      }
   };
   window.addEventListener('scroll', changeNavbarColor);
+  
   const storageRef = doc(db, "home", "banner");
   onSnapshot(storageRef, (doc) => {
     console.log(doc.data(), doc.id);

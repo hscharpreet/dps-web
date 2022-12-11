@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Ellipse 2.png";
+
 const Navbar = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
-    <div className="nav">
-      <ul class="navigation">
+    <div  className={colorChange ? "navChange" : "navBar"}>
+      <ul className="navigation">
         <div className="leftNav">
-          {" "}
           <Link to="/" className="link">
             <div class=" divineLogo">
-              {" "}
               <img src={logo} alt="Logo" />
             </div>
           </Link>
@@ -22,10 +30,6 @@ const Navbar = () => {
           <Link to="/admission" className="link">
             <li class="item">Admission</li>
           </Link>
-          {/* <Link to="/information" className="link">
-          <li class="item">Information</li>
-        </Link> */}
-
           <Link to="/academics" className="link">
             <li class="item">Academics</li>
           </Link>

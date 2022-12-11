@@ -2,10 +2,13 @@ import React from 'react'
 import  './Admission1.css'
 const Admission1 = () => {
   return (
-    <div className="admission">
-        <h1>het</h1>
+    <div className="admissionContainer">
+    <div className="admissionContent">
+     <h1>ADMISSIONS</h1>
+    </div>
+        
     </div>
   )
 }
 
-export default Admission1
+export default Admission1;

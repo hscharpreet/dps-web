@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const Card = () => {
   return (
-    <motion.div className="cardItem" whileHover={{ scale: 1.1 }}
+    <div className="cardItem" >
+      <motion.div className="cardImg" whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}>
-      <div className="cardImg" >
         <img src={children} alt="" />
-      </div>
+      </motion.div>
       <div className="cardText">
         <h1>Math's Day</h1>
         <button className="btn">
@@ -20,7 +20,7 @@ const Card = () => {
         </Link>
         </button>
       </div>
-    </motion.div>
+    </div>
   )
 }
 
