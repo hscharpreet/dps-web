@@ -1,18 +1,18 @@
 .gallery {
-  background-color: rgb(30, 26, 137);
-  padding-bottom: 5rem;
-  font-size: 48px;
+  background-color: white;
   font-family: "Montagu Slab";
-  font-weight: 500;
-  color: #ffcb42;
+  
 }
 .gallery h1 {
-  background-color: rgb(30, 26, 137);
+  /* background-color: rgb(30, 26, 137); */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem ;
- 
+  padding: 0 2rem ;
+  color: rgb(21, 24, 124);
+  padding-bottom: 5rem;
+  font-size: 48px;
+  font-weight: 700;
 }
 .row {
   display: flex;
@@ -32,7 +32,7 @@
   position: relative;
 }
 
-.column-heading h1 {
+.column-heading h2 {
   position: absolute;
   top: 5rem;
   left: 4rem;

@@ -10,7 +10,7 @@ const Gallery = () => {
         <div className="col 1">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -23,7 +23,7 @@ const Gallery = () => {
       <div className="col 2">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -33,7 +33,7 @@ const Gallery = () => {
       <div className="col 3">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -43,7 +43,7 @@ const Gallery = () => {
       <div className="col 4">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -55,7 +55,7 @@ const Gallery = () => {
         <div className="col 1">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -65,7 +65,7 @@ const Gallery = () => {
       <div className="col 2">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -75,7 +75,7 @@ const Gallery = () => {
       <div className="col 3">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
@@ -85,7 +85,7 @@ const Gallery = () => {
       <div className="col 4">
         <div className="column-heading">
             {" "}
-            <h1>Math's day</h1>
+            <h2>Math's day</h2>
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">

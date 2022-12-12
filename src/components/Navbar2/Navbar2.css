@@ -8,9 +8,6 @@ nav{
 }
  .navBar {
   background-color: #191860;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-around; */
   transition: all 1s ease;
 }
 .navChange {
@@ -18,21 +15,16 @@ nav{
   color: #e3d53e;
   border-bottom: 1px solid rgba(137, 135, 135, 0.652) ;
   }
-  .navChange li{
-    color: #191860;
+  .navChange h5{
+    color: #252377;
   }
-.navContainer  {
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  list-style: none;
-  height: 150px;
-}
 
-.rightNav {
+.rightNav{
   display: flex;
 }
-.rightNav  li {
+.rightNav h5 {
+  list-style: none;
+  text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -48,7 +40,7 @@ nav{
  
 }
 
-.rightNav li::before{
+.rightNav h5::before{
   content: '';
   position: absolute;
   width: 100%;
@@ -61,12 +53,12 @@ nav{
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
 }
-.rightNav li:hover::before{
+.rightNav  h5:hover::before{
   transform-origin: left;
   transform: scaleX(1);
   
 }
-.rightNav .item:hover{
+.rightNav h5:hover{
   color: #e3d53e;
 } 
 

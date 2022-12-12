@@ -1,62 +1,6 @@
-// import React, { useState } from "react";
-// import "./Navbar.css";
-// import { Link } from "react-router-dom";
-// import logo from "../../assets/Ellipse 2.png";
-
-// const Navbar = () => {
-//   const [colorChange, setColorchange] = useState(false);
-//   const changeNavbarColor = () => {
-//     if (window.scrollY >= 80) {
-//       setColorchange(true);
-//     } else {
-//       setColorchange(false);
-//     }
-//   };
-//   window.addEventListener("scroll", changeNavbarColor);
-//   return (
-//     <>
-//       <nav className={colorChange ? "navChange" : "navBar"}>
-//         <ul>
-//           <div className="leftNav">
-//             <Link to="/" className="link">
-//               <div class=" divineLogo">
-//                 <img src={logo} alt="Logo" />
-//                 <h1>hey</h1>
-//               </div>
-//             </Link>
-//           </div>
-
-//         </ul>
-//       </nav>
-//     </>
-//   );
-// };
-
-// export default Navbar;
-
-// {
-//   /* <div className="rightNav">
-// <Link to="/about" className="link">
-//   <li class="item">About</li>
-// </Link>
-// <Link to="/admission" className="link">
-//   <li class="item">Admission</li>
-// </Link>
-// <Link to="/academics" className="link">
-//   <li class="item">Academics</li>
-// </Link>
-// <Link to="/activities" className="link">
-//   <li class="item">Activities</li>
-// </Link>
-// <Link to="/contact" className="link">
-//   <li class="item">Contact</li>
-// </Link>
-// </div> */
-// }
-
 import React, { useState } from "react";
 import "./Navbar2.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/Ellipse 2.png";
 
 const Navbar2 = () => {
@@ -69,37 +13,40 @@ const Navbar2 = () => {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
+
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      color: isActive ? "#e3d53e" : "white",
+    };
+  };
   return (
     <>
       <nav className={colorChange ? "navChange" : "navBar"}>
-        
-          <div className="leftNav">
-            <Link to="/" className="link">
-              <div class=" divineLogo">
-                <img src={logo} alt="Logo" />
-               
-              </div>
-            </Link>
-          </div>
-          <ul className="navContainer">
-          <div className="rightNav">
-            <Link to="/about" className="link">
-              <li class="item">About</li>
-            </Link>
-            <Link to="/admission" className="link">
-              <li class="item">Admission</li>
-            </Link>
-            <Link to="/academics" className="link">
-              <li class="item">Academics</li>
-            </Link>
-            <Link to="/activities" className="link">
-              <li class="item">Activities</li>
-            </Link>
-            <Link to="/contact" className="link">
-              <li class="item">Contact</li>
-            </Link>
-          </div>
-        </ul>
+        <div className="leftNav">
+          <NavLink to="/" className="link">
+            <div class=" divineLogo">
+              <img src={logo} alt="Logo" />
+            </div>
+          </NavLink>
+        </div>
+
+        <div className="rightNav">
+          <NavLink style={navLinkStyles} to="/about" className="item">
+           <h5>About</h5> 
+          </NavLink>
+          <NavLink style={navLinkStyles} to="/admission" className="item">
+          <h5>Admission</h5> 
+          </NavLink>
+          <NavLink style={navLinkStyles} to="/academics" className="item">
+          <h5>Academics</h5> 
+          </NavLink>
+          <NavLink style={navLinkStyles} to="/activities" className="item">
+          <h5>Activities</h5> 
+          </NavLink>
+          <NavLink style={navLinkStyles} to="/contact" className="item">
+          <h5>Contact</h5> 
+          </NavLink>
+        </div>
       </nav>
     </>
   );
