@@ -2,11 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 .message {
-  background-color: #083aa9;
-  position: relative;
-  padding: 2rem 0;
-  height: 1000px;
+  background-color: #112e6d;
+  height: 100%;
+  margin: auto;
+  width: 80%;
   display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .heading {    
@@ -14,31 +16,33 @@
   font-family: 'Montagu Slab';
   text-orientation: upright;
   writing-mode:vertical-lr;
-  font-weight: 500; 
+  font-weight: bold; 
   color: #FFCB42;
 
 }
-.parah {
-  position: absolute;
+.messageContainer{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+/* .parah {
+ 
   text-align: center;
-  padding: 5rem 2rem 40px 10rem ;
-  top: 10rem;
-  right: 10rem;
-  width: 500px;
-  height: 550px;
+  padding: 3rem 3rem   ;
+
+  width: 15%;
+  height: 50%;
   font-family: 'Montagu Slab';
-  font-size: 20px;
+  font-size: 16px;
   line-height: 2;
   font-weight: 500;
   background-color: #FFCB42;
 }
 .principal-image {
   margin-left: 10rem;
-  position: relative;
-  right:  8rem;
-  top: 12rem;
+
   width: 500px;
   height: 600px;
 
   
-}
+} */

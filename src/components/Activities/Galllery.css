@@ -1,16 +1,16 @@
 .gallery {
   background-color: white;
   font-family: "Montagu Slab";
+  width: 70%;
+  margin: auto;
   
 }
 .gallery h1 {
-  /* background-color: rgb(30, 26, 137); */
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 2rem ;
   color: rgb(21, 24, 124);
-  padding-bottom: 5rem;
   font-size: 48px;
   font-weight: 700;
 }
@@ -24,19 +24,18 @@
   margin: 20px;
   position: relative;
   cursor: pointer;
-  width: 320px;
-  height: 300px;
+  width: 220px;
+  height: 200px;
   border-radius: 20px;
   overflow: hidden;
-  /* border: 2px solid #ffcb42; */
   position: relative;
 }
 
 .column-heading h2 {
   position: absolute;
   top: 5rem;
-  left: 4rem;
-  font-size: 30px;
+  left: 5.5rem;
+  font-size: 16px;
   font-family: "Montagu Slab";
   font-weight: 500;
   color: #ffcb42;
@@ -69,17 +68,17 @@
    position: relative;
    top: 35%;
    left: 30%;
-   width: 120px;
-   height: 50px;
-  
+   width: 100px;
+   height: 30px;
    border-radius: 12px;
    border:2px solid #ffcb42;
    background-color: #ffcb42;
-   font-size: 16px;
+   font-size: 12px;
    font-weight: 500;
    font-family: "Montagu Slab";
  }
  .btn a {
   text-decoration: none;
   color: #1b073a;
+  
  }

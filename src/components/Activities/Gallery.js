@@ -15,7 +15,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          <p>See More</p>
+          See More
         </Link>
         </button>
         </div>
@@ -27,7 +27,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       <div className="col 3">
@@ -37,7 +39,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       <div className="col 4">
@@ -47,7 +51,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       </div>
@@ -59,7 +65,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       <div className="col 2">
@@ -69,7 +77,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       <div className="col 3">
@@ -79,7 +89,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       <div className="col 4">
@@ -89,7 +101,9 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><a href="/math">See More</a></button>
+          <button className="btn"><Link to="/activities/images" >
+          See More
+        </Link></button>
         </div>
       </div>
       </div>
