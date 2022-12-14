@@ -1,6 +1,6 @@
 import React from 'react'
 import './ContactMap.css'
-import SimpleMap from './Map'
+import SimpleMap from './CMap'
 const Contact = () => {
   return (
     <>

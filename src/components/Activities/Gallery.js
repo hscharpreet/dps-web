@@ -15,7 +15,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link>
         </button>
         </div>
@@ -28,7 +28,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -66,7 +66,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -78,7 +78,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -90,7 +90,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>
@@ -102,7 +102,7 @@ const Gallery = () => {
         <img src={science} alt="" className="image" />
         <div className="overlay">
           <button className="btn"><Link to="/activities/images" >
-          See More
+          <span class="noselect">See More</span>
         </Link></button>
         </div>
       </div>

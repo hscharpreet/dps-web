@@ -64,9 +64,9 @@
   right: 0;
  }
 
- .overlay .btn{
+ /* .overlay .btn{
    position: relative;
-   top: 35%;
+   top: 45%;
    left: 30%;
    width: 100px;
    height: 30px;
@@ -77,8 +77,83 @@
    font-weight: 500;
    font-family: "Montagu Slab";
  }
+ .overlay .btn:hover{
+  background-color: #1a0c67;
+border: none;
+ }
  .btn a {
   text-decoration: none;
   color: #1b073a;
   
  }
+ .btn a:hover{
+  color: #ffcb42;
+ } */
+ .btn {
+  position: relative;
+  top: 40%;
+  left: 25%;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #333;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 1s;
+  background-color: #ffcb42;
+}
+
+.btn::before, .btn::after {
+  position: absolute;
+  background: rgba(13, 10, 85, 0);
+  z-index: -1;
+  transition: 1s;
+  content: '';
+}
+
+.btn::before {
+  height: 50px;
+  width: 130px;
+}
+
+.btn::after {
+  width: 150px;
+  height: 30px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.btn:hover::before {
+  width: 0px;
+  background: #15125d;
+}
+
+.btn:hover::after {
+  height: 0px;
+  background: #15125d;
+}
+
+.btn:hover {
+  background: #15125d;
+}
+.btn a {
+  text-decoration: none;
+  color: #1b073a;
+  
+ }
+ .btn a:hover{
+  color: #ffcb42;
+ } 
