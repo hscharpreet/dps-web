@@ -15,8 +15,10 @@ const Card = () => {
       <div className="cardText">
         <h1>Math's Day</h1>
         <button className="btn">
-        <Link to="/activities/images" >
-          <p>See More <ArrowForwardIcon/></p>
+        <Link to="/activities/images"  style={{textDecoration: 'none'}}>
+        <motion.h4 whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}> See More <ArrowForwardIcon/></motion.h4>
+       
         </Link>
         </button>
       </div>

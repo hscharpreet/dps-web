@@ -1,5 +1,6 @@
 import React from "react";
 import "./Galllery.css";
+import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
 import science from "../../assets/Banner.jpg";
 const Gallery = () => {
@@ -14,10 +15,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+          <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
         </Link>
-        </button>
+        </motion.button>
         </div>
       </div>
       <div className="col 2">
@@ -27,9 +29,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       <div className="col 3">
@@ -39,9 +43,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       <div className="col 4">
@@ -51,9 +57,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       </div>
@@ -65,9 +73,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       <div className="col 2">
@@ -77,9 +87,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       <div className="col 3">
@@ -89,9 +101,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       <div className="col 4">
@@ -101,9 +115,11 @@ const Gallery = () => {
           </div>
         <img src={science} alt="" className="image" />
         <div className="overlay">
-          <button className="btn"><Link to="/activities/images" >
+        <motion.button className="btn" whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}><Link to="/activities/images" >
           <span class="noselect">See More</span>
-        </Link></button>
+        </Link>
+        </motion.button>
         </div>
       </div>
       </div>
