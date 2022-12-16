@@ -3,21 +3,24 @@
 
 
 .faculty{
-    height: 800px;
+    height: 100%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     font-family: 'Montagu Slab', serif;
     background-color: white;
+    margin-bottom: 5% ;
+    
 }
 
 .faculty .teacher-text{
-    /* height:574px ; */
+    background-color: #ffffff;
     width: 350px;
     text-align: center;
     position: relative;
-    z-index: 0;
-left:6rem;
+    z-index: 1;
+    left:6rem;
     font-size:20px ;
     font-weight:400 ;
     padding: 10rem 5rem;
@@ -35,9 +38,11 @@ left:6rem;
 .faculty .teacher-img img{
 width: 754px;
 height: 585px;
-/* padding: 20px; */
 border: 10px solid #083ba996;
 position: relative;
-
+padding: 2rem ;
+/* z-index: 0; */
 }
-/* .faculty .teacher-text .know-more */
+.know-more span{
+  color: black;
+}

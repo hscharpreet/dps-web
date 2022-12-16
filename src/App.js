@@ -11,6 +11,7 @@ import Activities from './pages/Activities';
 import Contact from './pages/Contact';
 import ImageGallery from './components/Activities/ImageGallery';
 import {AnimatePresence} from 'framer-motion'
+import Teachers from './components/About/Teachers';
 const App = () => {
   const location = useLocation();
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Routes location = {location} key ={ location.pathname}>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/about/teachers" element={<Teachers/>}/>
       <Route path="/information" element={<Information/>}/>
       <Route path="/admission" element={<Admission/>}/>
       <Route path="/academics" element={<Academics/>}/>

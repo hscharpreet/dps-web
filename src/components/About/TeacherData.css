@@ -1,0 +1,33 @@
+.teacherContainer{
+    width: 60%;
+    margin: 0  auto 2%;
+    font-family: "Montagu Slab";
+    
+}
+.teacherContainer h1{
+    text-align: left;
+    font-size: 3em;
+    font-weight: 400;
+    color: rgb(27, 22, 127);
+}
+.teacherContainer span .underline{
+    border-bottom: 4px solid black;
+    width: 500px;
+    position: sticky;
+}
+
+
+
+.teacherData{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   /* background-color: aqua; */
+  
+    gap: 4.2rem;
+    flex-wrap: wrap;
+    /* padding: 1%; */
+}
+.facultyHeading{
+    text-align: center;
+}
