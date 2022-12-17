@@ -6,7 +6,7 @@ const TeacherData = () => {
     <>
 <div className="teacherContainer">
  <h1 className='facultyHeading'>Faculty and Staff </h1>
- <span className='underline'> </span>
+ <hr className='underline' />
     <div className='teacherData'>
     
       <TeachersCard/>
