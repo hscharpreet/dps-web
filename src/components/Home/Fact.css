@@ -2,13 +2,15 @@
 
 
 .facts{
-    height: 1200px;
-    background-color: #3634AE;
+    height: 100%;
+    background-color: #131251;
+    padding: 5% 0 0;
+    overflow: hidden;
 }
 .facts .img-text img{
-    margin-top: 100px;
     width: 70%;
     height: 600px;
+    min-height: 70%;
     object-fit: cover;
 }
 
@@ -46,7 +48,7 @@
     width: 450px;
     height: 200px;
     text-align: justify;
-    background-color: #3634AE;
+    background-color: #131251;
     padding: 40px ;
     font-family: 'Montagu Slab';
     line-height: 1.7;
@@ -81,7 +83,7 @@
   }
   .inner-circle {
     position: absolute;
-    background: #25238E;
+    background-color: #19186a;
     border-radius: 50%;
     height: 70px;
     width: 70px;

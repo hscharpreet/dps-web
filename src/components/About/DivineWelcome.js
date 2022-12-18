@@ -1,9 +1,11 @@
 import React from "react";
 import "./DivineWelcome.css";
+import svg from "../../assets/blob.svg"
 const DivineWelcome = () => {
   return (
     <div className="welcome">
     <div className="welcome-text">
+    <img src={svg} alt="" className="svg"/>
       <h1>
         WELCOME TO <br /> DIVINE
       </h1>

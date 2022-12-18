@@ -6,7 +6,7 @@
     display: inline-flex;
     height: 40px;
     width: 150px;
-    border: 2px solid #202ba9;
+    border: 2px solid #141d7a;
     margin: 20px 20px 20px 20px;
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -39,7 +39,7 @@
     height: 100%;
     /* left: -200px; */
     left: 0;
-    background: #202ba9;
+    background: #141d7a;
     position: absolute;
     transition: all .35s ease-Out;
     bottom: 0;

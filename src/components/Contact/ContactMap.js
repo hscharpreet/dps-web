@@ -7,6 +7,7 @@ const Contact = () => {
     <div className="contactMap">
    <div className="contactHeading">
       <h1 > <span></span> CONTACT</h1>
+      <hr className='underline' />
       </div>
     <div className="map-contact">
         <div className="address">

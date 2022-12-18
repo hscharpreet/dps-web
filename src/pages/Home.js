@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import Card from "../components/Home/Card";
 import CardCarousel from "../components/Home/CardCarousel";
 import Navbar from "../components/Home/Navbar";
+import TestimonialCarousel from "../components/Home/TestimonialCarousel";
 const Home = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Home = () => {
         <DivineCare />
         <Facts />
         <Activities />
-        <Testimonials />
+        <Testimonials/>
         <CardCarousel/>
         <Footer />
       </motion.div>

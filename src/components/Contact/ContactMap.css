@@ -14,6 +14,7 @@
    font-weight: 600;
    letter-spacing: 10px;
    margin-left:15%;
+   padding: 5% 0;
 }
 .contactHeading span{
    border-right: 5px solid #FFCB42;
@@ -24,6 +25,7 @@
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  margin: 3% 0;
   
 }
 

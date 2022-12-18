@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className=" address ">
           <img src={logo} alt="" />
-          <p></p>
+          <p className="addressText">Robert Robertson, <br />
+          1234 NW Bobcat Lane, <br />
+           St. Robert, <br />
+           MO 65584-5678</p>
         </div>
         <div className="line "></div>
         <div class="column col-1">
@@ -35,7 +38,7 @@ const Footer = () => {
           <Link to="/" className="link">
             <h1>Testimonials</h1>
           </Link>
-          <Link to="/information" className="link">
+          <Link to="/academics" className="link">
             <h1>News and Events</h1>
           </Link>
           <Link to="/admission" className="link">

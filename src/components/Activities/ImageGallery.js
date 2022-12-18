@@ -7,7 +7,7 @@ const ImageGallery = () => {
     <>
 <Navbar2/>
    <h1 className="galleryHeading">Math's Day</h1>
- 
+   <hr className='underline' />
       <div className="imageGallery">
       
         {data.map((item, index) => {
