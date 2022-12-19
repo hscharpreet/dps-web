@@ -8,6 +8,7 @@
   }
   .slide .image{
     height: 800px;
+    object-fit: fill;
   }
   
   .slide {
@@ -83,9 +84,9 @@
   }
   
   .arrow {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: transparent;
-    color: #fff;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     height: 2rem;
     width: 2rem;

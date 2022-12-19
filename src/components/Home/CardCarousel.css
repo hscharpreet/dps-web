@@ -2,13 +2,14 @@
     display: flex;
     align-items: flex-end;
     justify-content: end;
-    height: 1000px;
+    height: 100%;
     width:100%;
-    padding: 0 3%;
+    padding: 8% 3%;
     background-color: #d6d6d661;
+    overflow: hidden;
 }
 .item{
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 .carousel{
@@ -18,7 +19,7 @@
 .square{
     background-color: rgba(246, 222, 86, 0.211);
     height: 85%;
-    width: 90%;
+    width: 85%;
     position: absolute;
     left: 15%;
     top: 5%;

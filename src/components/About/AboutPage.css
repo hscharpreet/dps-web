@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap');
 
 .banner{
-  position: relative;
   width:100%;
-  top: -28px;
   height: 100%;
 
 }
@@ -25,6 +23,7 @@
   align-items: center;
   justify-content: center;
   list-style: none;
+  flex-wrap: wrap;
  margin-top: 30px;
 }
 .aboutNav li {
@@ -36,7 +35,7 @@
   font-family: "Montagu Slab", serif;
 }
 .aboutNav .line {
-  border-left: 0.6px solid #8aa1d6;
+  border-left: 0.6px solid #a5aab5b6;
   height: 10px;
   margin-left: 2rem;
 }
