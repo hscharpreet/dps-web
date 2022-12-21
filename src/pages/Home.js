@@ -11,6 +11,8 @@ import Card from "../components/Home/Card";
 import CardCarousel from "../components/Home/CardCarousel";
 import Navbar from "../components/Home/Navbar";
 import TestimonialCarousel from "../components/Home/TestimonialCarousel";
+import SlideUp from "../components/SlideUp";
+import VisitCard from "../components/Home/VisitCard";
 const Home = () => {
   return (
     <>
@@ -22,6 +24,8 @@ const Home = () => {
         <Activities />
         <Testimonials/>
         <CardCarousel/>
+        <SlideUp/>
+        <VisitCard/>
         <Footer />
       </motion.div>
     </>

@@ -1,0 +1,19 @@
+.visitCard{
+background-color: white;
+width: 100%;
+height: 1000px;
+}
+.visitRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.visitCol{
+
+    background-repeat: no-repeat;
+    background-color: rgba(255, 210, 127, 0.501);
+    width: 40em;
+    height: 25em;
+}

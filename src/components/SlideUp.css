@@ -1,0 +1,27 @@
+.slideUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    background-color: rgb(255, 183, 38);
+    /* box-shadow: ; */
+    border-radius: 25%;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    z-index: 1;
+    cursor: pointer;
+}
+.slideUp:hover{
+    background-color: black;
+    color: black;
+}
+.topbtnIcon{
+    color: rgb(0, 0, 0);
+}
+.topbtnIcon:hover{
+    color: white;
+}
