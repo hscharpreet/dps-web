@@ -1,19 +1,86 @@
-.visitCard{
-background-color: white;
-width: 100%;
-height: 1000px;
+.visitCard {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 0;
+ 
 }
-.visitRow{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    
+.visitRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-.visitCol{
+.visitCol {
+  position: relative;
+  width: 40em;
+  height: 25em;
+}
+.visitCol h1 {
+  align-items: center;
+  position: absolute;
+  left: 5rem;
+  bottom: 3rem;
+  color: white;
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  
+}
 
-    background-repeat: no-repeat;
-    background-color: rgba(255, 210, 127, 0.501);
-    width: 40em;
-    height: 25em;
+.visitCol .visitLine {
+  position: absolute;
+  bottom: 7rem;
+  display: flex;
+  height: 0.6px;
+  border: 0;
+  background-color: rgb(255, 178, 10);
+  width: 80%;
+  left: 4rem;
 }
+.visitCol img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3),
+  0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+
+.visitOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+    background-color: #2c3aff49;
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    
+   }
+
+   .visitBtn{
+    position: absolute;
+    left: 5rem;
+    bottom: 1rem;
+    width: 7rem;
+    height: 2.5rem;
+border: none;
+background-color: white;
+padding: 1%;
+   }
+   .visitBtn .visitLink{
+    text-decoration: none;
+    color: rgb(18, 18, 71);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   }
+   .visitBtn:hover{
+    background-color: #ffffff00;
+    border: 1.5px solid rgb(255, 255, 255);
+    color: white;
+   }
+   .visitBtn .visitLink:hover{
+    color: white;
+   }

@@ -2,7 +2,10 @@
 
 
 .welcome{
+    background-color: white;
 position: relative;
+padding: 4rem 0;
+top: -2rem;
 
 }
 .welcome .svg{

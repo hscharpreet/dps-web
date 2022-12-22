@@ -7,6 +7,7 @@ import PrinciplalM from "../components/About/PrinciplalM";
 import Faculty from "../components/About/Faculty";
 import { motion } from "framer-motion";
 import Navbar2 from "../components/Navbar2/Navbar2";
+import VisitCard from "../components/Home/VisitCard";
 const About = () => {
   return (
     <motion.div
@@ -20,6 +21,7 @@ const About = () => {
       <DivineWelcome />
       <PrinciplalM />
       <Faculty />
+      <VisitCard/>
       <Footer />
     </motion.div>
   );

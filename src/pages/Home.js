@@ -13,12 +13,14 @@ import Navbar from "../components/Home/Navbar";
 import TestimonialCarousel from "../components/Home/TestimonialCarousel";
 import SlideUp from "../components/SlideUp";
 import VisitCard from "../components/Home/VisitCard";
+import DivineWelcome from "../components/About/DivineWelcome";
 const Home = () => {
   return (
     <>
       <motion.div className="home" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
         <Navbar />
         <Header />
+        <DivineWelcome/>
         <DivineCare />
         <Facts />
         <Activities />

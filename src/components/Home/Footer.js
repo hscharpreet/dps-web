@@ -8,10 +8,12 @@ const Footer = () => {
       <div className="footer-container">
         <div className=" address ">
           <img src={logo} alt="" />
-          <p className="addressText">Robert Robertson, <br />
-          1234 NW Bobcat Lane, <br />
-           St. Robert, <br />
-           MO 65584-5678</p>
+          <p className="addressText">
+            Robert Robertson, <br />
+            1234 NW Bobcat Lane, <br />
+            St. Robert, <br />
+            MO 65584-5678
+          </p>
         </div>
         <div className="line "></div>
         <div class="column col-1">
@@ -48,7 +50,15 @@ const Footer = () => {
             <h1>Alumni</h1>
           </Link>
         </div>
-        <div className="column"></div>
+        
+      </div>
+      <div className="copyright">
+        <div className="left">
+          <p>&#169; 2022 DivinePublic School. Developed by Parul Thakur - Web Developer</p>
+        </div>
+        <div className="right">
+          Term and condition  | Privacy Policy
+        </div>
       </div>
     </section>
   );
