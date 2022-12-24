@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 
 .menu-container {
-  background-color: #d6d6d661;
+  background-color: #0e1a4f0f;
 padding-top: 10px;
 
 }
@@ -31,7 +31,7 @@ img {
   color: #0e1a4f;
   padding: 5px 20px;
   cursor: pointer;
-}
+} */
 /* .underline {
   display: inline-block;
   position: relative;
@@ -62,7 +62,7 @@ img {
   cursor: pointer;
   color: #d2d743;
 } */
-.menu-dropdown{
+/* .menu-dropdown{
   position: relative;
   display: inline-block;
 }
@@ -86,4 +86,4 @@ img {
 
 .menu-dropdown:hover .dropdown-content {
   display: block;
-}
+} */

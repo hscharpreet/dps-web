@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <>
       <div className="header">
-       
-        <Slider />
-        <Navigation />
+      
+        <Slider/>
+        {/* <Navigation /> */}
       </div>
     </>
   );

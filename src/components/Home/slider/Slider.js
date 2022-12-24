@@ -3,14 +3,15 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import Navbar from "../Navbar";
 import { sliderData } from "./slider-data";
 import "./Slider.css";
-
+import logo from "../../../assets/Group 25.png";
+import Button from "../Button";
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
 
   const autoScroll = true;
   let slideInterval;
-  let intervalTime = 3000;
+  let intervalTime = 3000000;
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -38,10 +39,8 @@ const Slider = () => {
   }, [currentSlide]);
 
   return (
-    
-     <div className="slider">
-   
-      <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+    <div className="slider">
+      {/* <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} /> */}
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => {
         return (
@@ -52,19 +51,26 @@ const Slider = () => {
             {index === currentSlide && (
               <div>
                 <img src={slide.image} alt="slide" className="image" />
+                <div className="navbar">
+                  <nav>
+                    <a href="/" className="navbar-header logo">
+                      <img src={logo} alt="Logo" />
+                    </a>
+                    <Button />
+                  </nav>
+                </div>
+
                 <div className="content">
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
                   <hr />
-                  
                 </div>
               </div>
             )}
           </div>
         );
       })}
-      </div>
-   
+    </div>
   );
 };
 

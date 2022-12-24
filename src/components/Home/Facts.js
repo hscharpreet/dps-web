@@ -7,10 +7,13 @@ const Facts = () => {
   return (
     <>
       <div className="facts">
-      <img className ="factImg" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+      {/* <img className ="factImg" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" /> */}
         <div className="factOverlay">
         <div className="img-text">
-          <img src={children} alt="children-img" />
+        <div className="childrenImg">
+        <img src={children} alt="children-img" />
+        </div>
+         
           <div className="everything">
             <h2>Everything You</h2>
           </div>
@@ -26,77 +29,16 @@ const Facts = () => {
               you thought possible.
             </p>
           </div>
+          <div className="content">
+            <h1 >hey</h1>
+          </div>
         </div>
-        <div className="content">
+        {/* <div className="content">
           <h1 className="facts-heading">
-            {" "}
             <span></span> FACTS
           </h1>
-          <div className="ellipse">
-            <div className="outer-circle">
-              <div className="inner-circle">
-                <IconContext.Provider
-                  value={{ color: "#FFCB42", size: "20px" }}
-                >
-                  <span className="inside-content">
-                    <SiGoogleclassroom />
-                  </span>
-                </IconContext.Provider>
-              </div>
-            </div>
-            <h1 className="text">
-              average size <br /> classrom
-            </h1>
-          </div>
-          <div className="ellipse">
-            <div className="outer-circle">
-              <div className="inner-circle">
-                <IconContext.Provider
-                  value={{ color: "#FFCB42", size: "20px" }}
-                >
-                  <span className="inside-content">
-                    <SiGoogleclassroom />
-                  </span>
-                </IconContext.Provider>
-              </div>
-            </div>
-            <h1 className="text">
-              average size <br /> classrom
-            </h1>
-          </div>
-          <div className="ellipse">
-            <div className="outer-circle">
-              <div className="inner-circle">
-                <IconContext.Provider
-                  value={{ color: "#FFCB42", size: "20px" }}
-                >
-                  <span className="inside-content">
-                    <SiGoogleclassroom />
-                  </span>
-                </IconContext.Provider>
-              </div>
-            </div>
-            <h1 className="text">
-              average size <br /> classrom
-            </h1>
-          </div>
-          <div className="ellipse">
-            <div className="outer-circle">
-              <div className="inner-circle">
-                <IconContext.Provider
-                  value={{ color: "#FFCB42", size: "20px" }}
-                >
-                  <span className="inside-content">
-                    <SiGoogleclassroom />
-                  </span>
-                </IconContext.Provider>
-              </div>
-            </div>
-            <h1 className="text">
-              average size <br /> classroom
-            </h1>
-          </div>
-        </div>
+       
+        </div> */}
         </div>
       </div>
     </>
@@ -104,3 +46,71 @@ const Facts = () => {
 };
 
 export default Facts;
+
+
+
+
+{/* <div className="ellipse">
+<div className="outer-circle">
+  <div className="inner-circle">
+    <IconContext.Provider
+      value={{ color: "#FFCB42", size: "20px" }}
+    >
+      <span className="inside-content">
+        <SiGoogleclassroom />
+      </span>
+    </IconContext.Provider>
+  </div>
+</div>
+<h1 className="text">
+  average size <br /> classrom
+</h1>
+</div>
+<div className="ellipse">
+<div className="outer-circle">
+  <div className="inner-circle">
+    <IconContext.Provider
+      value={{ color: "#FFCB42", size: "20px" }}
+    >
+      <span className="inside-content">
+        <SiGoogleclassroom />
+      </span>
+    </IconContext.Provider>
+  </div>
+</div>
+<h1 className="text">
+  average size <br /> classrom
+</h1>
+</div>
+<div className="ellipse">
+<div className="outer-circle">
+  <div className="inner-circle">
+    <IconContext.Provider
+      value={{ color: "#FFCB42", size: "20px" }}
+    >
+      <span className="inside-content">
+        <SiGoogleclassroom />
+      </span>
+    </IconContext.Provider>
+  </div>
+</div>
+<h1 className="text">
+  average size <br /> classrom
+</h1>
+</div>
+<div className="ellipse">
+<div className="outer-circle">
+  <div className="inner-circle">
+    <IconContext.Provider
+      value={{ color: "#FFCB42", size: "20px" }}
+    >
+      <span className="inside-content">
+        <SiGoogleclassroom />
+      </span>
+    </IconContext.Provider>
+  </div>
+</div>
+<h1 className="text">
+  average size <br /> classroom
+</h1>
+</div> */}

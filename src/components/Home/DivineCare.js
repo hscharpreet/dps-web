@@ -1,22 +1,13 @@
 import React from "react";
 import "./DivineCare.css";
-import kids from "../../assets/Group 27.png";
+
 import yellow from "../../assets/Group 26.png";
 
 const DivineCare = () => {
   return (
     <>
-      <section id="divine-care">
-        <div className="img-1">
-          <img src={yellow} alt="" />
-          
-        </div>
-        <div className="rect">
-          
-        </div>
-        <div className="img-2">
-          <img src={kids} alt="kids" />
-        </div>
+      <div className="divine-care">
+        <div className="rect"></div>    
         <div className="lines">
           <h2>DIVINE</h2>
           <h1>CARES</h1>
@@ -28,7 +19,7 @@ const DivineCare = () => {
             world and engaged in the improvement of their communities.
           </p>
         </div>
-      </section>
+      </div>
     </>
   );
 };

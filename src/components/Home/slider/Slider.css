@@ -1,14 +1,14 @@
 .slider {
     width: 100%;
-    height: 750px;
+    height: 900px;
     position: relative;
     overflow: hidden;
     margin-top: 20px;
    
   }
   .slide .image{
-    height: 800px;
-    object-fit: fill;
+    height: 900px;
+    object-fit: cover;
   }
   
   .slide {
@@ -84,7 +84,7 @@
   }
   
   .arrow {
-    /* border: 2px solid white; */
+
     background-color: transparent;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -113,4 +113,16 @@
     background: white;
     width: 50%;
   }
+.navbar{
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+  width: 100%;
 
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
