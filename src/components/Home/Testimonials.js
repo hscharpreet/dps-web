@@ -1,36 +1,83 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import "./Testimonials.css";
-import shape1 from "../../assets/Ellipse 4.png";
 import shape2 from "../../assets/Ellipse 7.png";
+import { TestimonialData } from "./TestimonialData";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Testimonials = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slideLength = TestimonialData.length;
+
+  const autoScroll = true;
+  let slideInterval;
+  let intervalTime = 9000;
+
+  const nextSlide = () => {
+    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
+    console.log("next");
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+    console.log("prev");
+  };
+
+  function auto() {
+    slideInterval = setInterval(nextSlide, intervalTime);
+  }
+
+  useEffect(() => {
+    setCurrentSlide(0);
+  }, []);
+
+  useEffect(() => {
+    if (autoScroll) {
+      auto();
+    }
+    return () => clearInterval(slideInterval);
+  }, [currentSlide]);
+
   return (
     <>
       <div className="testimonial">
-        <div className="row">
-          <div className="col">
-            <img src={shape1} alt="" className="shape-1" />
-            <img src={shape2} alt="" className="shape-2" />
-            <img
-              className="parents-img"
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
-          </div>
-          <div className="col voices">
-            <h3>Our Voices</h3>
-            <h1>TESTIMONIALS</h1>
-            <p>
-              The core beliefs of Divine, which the faculty and administration
-              embrace and exeplify, have been essenetial to our daughters’
-              intellectual, emotional and spiritual developement.
-            </p>
-            <div className="parents-name">
-              <p> Rohan Kumar</p> <span className="line"></span> <p> Parent</p>
-            </div>
-          </div>
+       
+          {TestimonialData.map((data, index) => {
+            return (
+              <div className="row">
+              <div
+                className={index === currentSlide ? "col current" : "col"}
+                key={index}
+              >
+                {index === currentSlide && (
+                  <div>
+                    <AiOutlineArrowLeft
+                      className="arrow prev"
+                      onClick={prevSlide}
+                    />
+                    <AiOutlineArrowRight
+                      className="arrow next"
+                      onClick={nextSlide}
+                    />
+                    {/* <img src={shape2} alt="" className="shape-2" /> */}
+                    <img className="parents-img" src={data.image} alt="image" />
+
+                    <div className="col voices">
+                      <h3>{data.heading2}</h3>
+                      <h1>{data.heading1}</h1>
+                      <p>{data.desc}</p>
+                      <div className="parents-name">
+                        <p> {data.parentsName}</p>{" "}
+                        <span className="line"></span> <p> Parent</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+              </div>
+            );
+          })}
         </div>
-      </div>
+      
     </>
   );
 };

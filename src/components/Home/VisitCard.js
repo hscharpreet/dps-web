@@ -16,7 +16,7 @@ const VisitCard = () => {
             <h1> Admissions </h1>
             <motion.button
               className="visitBtn"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 0.2 }}
               whileTap={{ scale: 0.9 }}
             >
               <Link to="/admission" className="visitLink">
