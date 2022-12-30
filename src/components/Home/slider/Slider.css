@@ -3,7 +3,7 @@
     height: 1000px;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+    /* margin-top: 20px; */
    
   }
   .slide .image{
@@ -41,7 +41,7 @@
   
   .content {
     position: absolute;
-    top: 23rem;
+    top: 40rem;
     left: 5rem;
     opacity: 0;
     width: 50%;
@@ -58,11 +58,11 @@
   @keyframes slide-up {
     0% {
       visibility: visible;
-      top: 23rem;
+      top: 40rem;
     }
     100% {
       visibility: visible;
-      top: 17rem;
+      top: 30rem;
     }
   }
   
@@ -95,7 +95,7 @@
     z-index: 999;
   }
   .arrow:hover {
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #777;
   }
   
@@ -114,10 +114,11 @@
     width: 50%;
   }
 .navbar{
-  position: absolute;
+  position: fixed;
   top: 0;
   padding-top: 10px;
   width: 100%;
+  /* background-color: rgba(119, 119, 119, 0.313); */
 
 }
 

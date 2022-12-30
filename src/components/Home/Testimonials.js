@@ -10,7 +10,7 @@ const Testimonials = () => {
 
   const autoScroll = true;
   let slideInterval;
-  let intervalTime = 9000;
+  let intervalTime = 5000;
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);

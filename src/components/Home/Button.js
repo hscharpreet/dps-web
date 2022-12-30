@@ -23,9 +23,9 @@ const Button = () => {
       <nav className={sidebar ? "navMenu active" : "navMenu"}>
         <ul className="navMenuItem" onClick={showSidebar} >
           <li className="navbarToggle">
-            {/* <NavLink to="/" className="menuBars">
+            <NavLink to="/" className="menuBars">
               <RxCross1 onClick={showSidebar}/>
-            </NavLink> */}
+            </NavLink>
           </li>
           {SidebarData.map((item, index) => {
             return (

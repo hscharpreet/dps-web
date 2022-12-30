@@ -64,29 +64,30 @@
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  
 }
 
 .navMenu {
   background-color: rgb(18, 7, 75);
-  width: 350px;
+  width: 30%;
   height: 100vh;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   position: fixed;
   top: 0;
   right: -100%;
-  transition: 850ms;
-  z-index: 1;
+  transition: 3s;
   padding-top: 2rem;
+ 
 }
 .navMenu.active {
-  left: 0;
-  transition: 350ms;
+  right: 0;
+  transition: 0.9s;
  
 }
 .navText {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   padding: 8px 0px 8px 16px;
   list-style: none;
@@ -102,6 +103,9 @@
   align-items: center;
   padding: 0 16px;
   border-radius: 4px;
+}
+.navText a:hover{
+  color: rgb(245, 191, 14);
 }
 .navMenuItem{
   width: 100%;

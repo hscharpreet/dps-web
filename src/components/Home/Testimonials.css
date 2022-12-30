@@ -4,15 +4,15 @@
 .testimonial {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: #d6d6d661;
   height: 600px;
-  max-height: 100%;
+  
   position: relative;
   background-image: url("../../assets/Ellipse\ 4.png");
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 30%;
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
   border-radius: 50%;
   position: absolute;
   object-fit: cover;
-  top: 25%;
+  top: 5%;
   z-index: 1;
   right: 10%;
   box-shadow: 9px -16px 0px 0px rgba(235, 204, 42, 0.21),
@@ -38,6 +38,8 @@
 .row {
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 .col {
   flex: 50%;
