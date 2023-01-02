@@ -17,7 +17,8 @@
 }
 
 .square{
-    background-color: rgba(246, 222, 86, 0.211);
+    background-color: rgba(246, 222, 86, 0.251);
+    opacity: 50%;
     height: 85%;
     width: 85%;
     position: absolute;

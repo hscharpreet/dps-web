@@ -8,8 +8,7 @@ const Faculty = () => {
     <div className="faculty">
       <div className="teacher-text">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the induer.
+        “A caring atmosphere with an exceptionally dedicated staff team.
         </p>
         <motion.button className="know-more" whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}><Link to="/about/teachers" style={{textDecoration: 'none'}}>

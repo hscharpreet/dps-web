@@ -8,6 +8,7 @@ import Faculty from "../components/About/Faculty";
 import { motion } from "framer-motion";
 import Navbar2 from "../components/Navbar2/Navbar2";
 import VisitCard from "../components/Home/VisitCard";
+import Growth from "../components/About/Growth";
 const About = () => {
   return (
     <motion.div
@@ -18,8 +19,9 @@ const About = () => {
     >
       <Navbar2 />
       <AboutPage />
-      <DivineWelcome />
+      {/* <DivineWelcome /> */}
       <PrinciplalM />
+      <Growth/>
       <Faculty />
       <VisitCard/>
       <Footer />

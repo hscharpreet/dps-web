@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <motion.div className="home" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
-        {/* <Navbar /> */}
+        <Navbar />
         <Header/>
         <DivineWelcome/>
         <DivineCare />

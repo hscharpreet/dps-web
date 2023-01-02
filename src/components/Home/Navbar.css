@@ -1,19 +1,19 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 
-.menu-container {
-  background-color: #0e1a4f0f;
-padding-top: 10px;
+.menuContainer {
+  background-color: #161052;
+opacity: 1;
 
 }
-.navbar{
-  background-color: white;
+.homeNavbar{
+  background-color: rgba(12, 8, 72, 0.255);
   position: sticky;
   top: 0;
   z-index: 3;
   padding-top: 10px;
 }
 
-nav {
+.homeNav {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -22,7 +22,12 @@ img {
   margin-right: 10%;
 }
 
- .menu-icon {
+
+
+
+
+
+ /* .menu-icon {
   display: flex;
   align-items: center;
  
@@ -31,8 +36,8 @@ img {
   color: #0e1a4f;
   padding: 5px 20px;
   cursor: pointer;
-} */
-/* .underline {
+} 
+ .underline {
   display: inline-block;
   position: relative;
   color: #d6d638;
@@ -61,8 +66,8 @@ img {
 .icon:hover {
   cursor: pointer;
   color: #d2d743;
-} */
-/* .menu-dropdown{
+} 
+ .menu-dropdown{
   position: relative;
   display: inline-block;
 }

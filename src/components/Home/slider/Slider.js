@@ -11,7 +11,7 @@ const Slider = () => {
 
   const autoScroll = true;
   let slideInterval;
-  let intervalTime = 500000;
+  let intervalTime = 5000;
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -52,13 +52,13 @@ const Slider = () => {
               <div>
                 <img src={slide.image} alt="slide" className="image" />
                 <div className="navbar">
-                  <nav>
+                  {/* <nav>
                     <a href="/" className="navbar-header logo">
                       <img src={logo} alt="Logo" />
                     </a>
                     <Button />
                   </nav>
-                  <hr className="underline"/>
+                  <hr className="underline"/> */}
                 </div>
 
                 <div className="content">

@@ -1,0 +1,32 @@
+.growthCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin: 10% 0;
+}
+.growthCard .growth{
+    flex: 33.33%;
+    height: 900px;
+    width: 100%;
+    background-color: rgb(233, 194, 88);
+    margin:0 1px;
+}
+
+.growth img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.growthContent{
+    color: black;
+    text-align: center;
+    padding: 10% ;
+}
+.growthContent h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.growthContent p{
+    line-height: 30px;
+}
