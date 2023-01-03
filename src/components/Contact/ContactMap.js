@@ -6,29 +6,20 @@ const Contact = () => {
     <>
     <div className="contactMap">
    <div className="contactHeading">
-      <h1 > <span></span> CONTACT</h1>
-      <hr className='underline' />
-      </div>
-    <div className="map-contact">
-        <div className="address">
-        <div class="rectangle">
-          <h1 className='text'>Telephone</h1>
-        </div>
-        <div class="rectangle">
-        <h1 className='text'>Email</h1>
-        </div>
-        <div class="rectangle">
-        <h1 className='text'>WhatsApp</h1>
-        </div>
-        <div class="rectangle">
-        <h1 className='text'>Address</h1>
-        </div>
+      <h1>Get in touch with Divine School</h1>
+      <h2>You can contact us via any of the methods below:</h2>
+      <h3>Address:</h3>
+      <p>Moorlands School, Foxhill Drive, Weetwood Lane, Leeds LS16 5PF</p>
+      <h3>Phone:</h3><p>36239756298</p>
+      <h3>Email:</h3> <p>info@moorlands-school.co.uk</p>
+      <p>The Headteacher can be contacted by email at: Jacqueline.Atkinson@moorlands-school.co.uk</p>
+    
         </div>
         <div className="map">
            <SimpleMap/>
         </div>
     </div>
-    </div>
+    
 </>
   )
 }

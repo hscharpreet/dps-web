@@ -1,44 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 
-.contactMap {
-  background: white url("../../assets/World\ Map.svg") center no-repeat;
-  background-size: 1000px;
-  width: 80%;
-  margin:  auto;
 
-}
 .contactHeading{
-   color: #083aa9;
-   font-size: 22px;
+   /* color: #083aa9; */
+   /* font-size: 22px;
    font-family: "Montagu Slab";
+   font-weight: 600; */
+  margin: auto;
+  width: 100%;
+  text-align: center;
+padding: 5% 0;
+letter-spacing: 2px;
+background-color: rgba(148, 148, 187, 0.081);
+}
+.contactHeading h1{
+   font-size: 30px;
+   font-family: "Roboto";
    font-weight: 600;
-   letter-spacing: 10px;
-   margin-left:15%;
-   padding: 5% 0;
 }
-.contactHeading span{
-   border-right: 5px solid #FFCB42;
-   margin-right: 8px;
+.contactHeading h2{
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
-.map-contact {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  margin: 3% 0;
-  
-}
 
-.address {
-  flex: 1;
-}
 .map {
-  flex: 1;
-  height: 100vh;
-  padding: 40px 20px;
+  
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.rectangle {
+/* .rectangle {
   height: 200px;
   width: 400px;
   border: 2px solid #083aa9;
@@ -59,4 +50,4 @@
   font-family: "Montagu Slab";
   font-weight: 600;
   padding: 20px;
-}
+} */

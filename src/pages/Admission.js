@@ -5,12 +5,16 @@ import AboutPage from '../components/About/AboutPage';
 import { motion } from "framer-motion";
 import Navbar2 from '../components/Navbar2/Navbar2';
 import VisitCard from '../components/Home/VisitCard';
+import EarlyYears from '../components/Admisssion/EarlyYears';
+import Download from '../components/Admisssion/Download';
 const Admission = () => {
   return (
     <motion.div className="academics" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
     <Navbar2/>
     <AboutPage/>
     <Admission1/>
+    <EarlyYears/>
+    <Download/>
     <VisitCard/>
     <Footer/>   </motion.div>
 

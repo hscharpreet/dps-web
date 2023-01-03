@@ -1,0 +1,38 @@
+.earlyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 6% 0;
+  font-family: "Roboto", serif;
+  
+}
+/* .earlyContainer .col {
+  padding-right: 5%;
+} */
+
+.early1 h1 {
+  font-size: 42px;
+  font-weight: 400;
+  /* font-weight: 500; */
+}
+.early1 p{
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    
+  line-height: 30px;
+}
+.early2 img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  margin-left: 15%;
+ 
+}
+.early3 p{
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    
+  line-height: 30px;
+}

@@ -8,7 +8,7 @@ const CMap = () => {
           <iframe
             style={{
               width: "100%",
-              height: "950px",
+              height: "550px",
             }}
             class="gmap_iframe"
             width="100%"

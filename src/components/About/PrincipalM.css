@@ -1,17 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 .messageContainer {
-  margin: auto;
+  /* margin: auto; */
   padding: 5rem;
-  width: 80%;
+
   display: flex;
   align-items: center;
-  justify-items: center;
+ justify-content: center;
   flex-wrap: wrap;
-  background-color: blue;
+ 
+  background-color: rgb(245, 245, 249);
+}
+.messageContainer .col{
+  flex: 3;
+}
+.headName{
+  position: relative;
+  right: -10%;
+  
 }
 
-.heading {
+.headName h1{
   font-size: 30px;
+  font-family: "Montagu Slab";
+  color: rgba(0, 0, 0, 0.62);
+}
+.headName p{
+  font-size: 16px;
+  font-family: "Montagu Slab";
+  color: rgba(0, 0, 0, 0.895);
+  text-decoration: underline;
+}
+.heading {
+  font-size: 20px;
   font-family: "Montagu Slab";
   color: rgba(0, 0, 0, 0.62);
 }
@@ -30,11 +50,11 @@
   font-size: 16px;
   line-height: 2;
   font-weight: 500;
-  background-color: #ffcb42;
+  /* background-color: #ffcb42; */
 }
 .principalImage img{
   /* margin-left: 10rem; */
-  width: 70%;
-  height: 50%;
-  background-color: bisque;
+  width: 80%;
+ 
+  /* background-color: bisque; */
 }

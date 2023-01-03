@@ -19,6 +19,7 @@
 
 .faculty .teacher-text {
   background-color: #ffcb42;
+  border-radius: 5px;
   width: 350px;
   height: 200px;
   text-align: center;

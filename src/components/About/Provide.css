@@ -1,0 +1,18 @@
+.provideContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1400px;
+    width: 70%;
+    margin: auto;
+}
+.provideContainer .col{
+width: 50%;
+flex: 50%;
+
+
+}
+
+.col img{
+    width: 100%;
+}

@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import Navbar2 from "../components/Navbar2/Navbar2";
 import VisitCard from "../components/Home/VisitCard";
 import Growth from "../components/About/Growth";
+import Provide from "../components/About/Provide";
 const About = () => {
   return (
     <motion.div
@@ -22,6 +23,7 @@ const About = () => {
       {/* <DivineWelcome /> */}
       <PrinciplalM />
       <Growth/>
+      <Provide/>
       <Faculty />
       <VisitCard/>
       <Footer />
