@@ -1,12 +1,7 @@
 .gallery {
-  background-color: rgb(161, 30, 30);
-  background-image: url("../../assets/Colored\ Shapes .svg");
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Montagu Slab";
   width: 100%;
-  height: 100%;
-  margin-bottom: 5rem;
+ margin: auto;
 
   
 }
@@ -19,7 +14,7 @@
   font-size: 48px;
   font-weight: 700;
 }
-.row {
+.gallery .row {
   display: flex;
   align-items: center;
   justify-content: center;

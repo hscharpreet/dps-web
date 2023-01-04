@@ -35,13 +35,13 @@
   box-shadow: 9px -16px 0px 0px rgba(235, 204, 42, 0.21),
     0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
-.row {
+.testimonial .row {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
 }
-.col {
+.testimonial .col {
   flex: 50%;
 }
 .col .voices {
