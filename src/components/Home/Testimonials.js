@@ -59,7 +59,7 @@ const Testimonials = () => {
                       onClick={nextSlide}
                     />
                     {/* <img src={shape2} alt="" className="shape-2" /> */}
-                    <img className="parents-img" src={data.image} alt="image" />
+                    <img className="parentsImg" src={data.image} alt="image" />
 
                     <div className="col voices">
                       <h3>{data.heading2}</h3>

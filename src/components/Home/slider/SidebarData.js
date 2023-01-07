@@ -9,23 +9,23 @@ export const SidebarData = [
         className:"navText"
     },
     {
-        title:'About',
-        path:'/about',
+        title:'Admisssion',
+        path:'/admission',
         className:"navText"
     },
     {
-        title:'About',
-        path:'/about',
+        title:'Academic',
+        path:'/academics',
         className:"navText"
     },
     {
-        title:'About',
-        path:'/about',
+        title:'Activities',
+        path:'/activitiest',
         className:"navText"
     },
     {
-        title:'About',
-        path:'/about',
+        title:'Contact',
+        path:'/contact',
         className:"navText"
     },
 ]

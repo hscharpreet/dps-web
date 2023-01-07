@@ -8,16 +8,16 @@ export const TestimonialData = [
     },
     {
       image: "https://img.freepik.com/premium-photo/smiling-portrait-blonde-young-businesswoman-standing-against-gray-background_23-2148029506.jpg?w=2000",
-      heading1: "Slide Two",
+      heading1: "TESTIMONIALS",
       heading2: "Our Voices",
       desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-      parentsName: "Rohan Kumar"
+      parentsName: "Monika Verma"
     },
     {
       image: "https://img.freepik.com/free-photo/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop_23-2148029483.jpg?w=2000",
-      heading1: "Slide Three",
+      heading1: "TESTIMONIALS",
       heading2: "Our Voices",
       desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-      parentsName: "Rohan Kumar"
+      parentsName: "Rohit Sharma"
     },
   ];

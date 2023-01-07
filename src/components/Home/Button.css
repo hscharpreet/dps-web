@@ -68,22 +68,22 @@
 }
 
 .navMenu {
-  background-color: rgb(18, 7, 75);
-  width: 30%;
+  background-color: #161052;
+  width: 300px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
-  right: -100%;
+ left: -100%;
   transition: 3s;
   padding-top: 2rem;
  
 }
 .navMenu.active {
-  right: 0;
+  left: 0;
   transition: 0.9s;
- 
+  overflow: hidden
 }
 .navText {
   display: flex;
@@ -119,7 +119,3 @@
   align-items: start;
   justify-content: cemter;
 }
-
-/* span{
-
-} */
