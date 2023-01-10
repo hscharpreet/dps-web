@@ -20,7 +20,7 @@ export const SidebarData = [
     },
     {
         title:'Activities',
-        path:'/activitiest',
+        path:'/activities',
         className:"navText"
     },
     {

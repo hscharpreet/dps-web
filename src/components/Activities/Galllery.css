@@ -1,57 +1,47 @@
-.gallery {
-  font-family: "Montagu Slab";
-  width: 100%;
- margin: auto;
-
-  
-}
 .gallery h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem ;
+  padding: 0 2rem;
   color: rgb(21, 24, 124);
   font-size: 48px;
   font-weight: 700;
 }
-.gallery .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
-  margin: auto;
-}
-.gallery .col {
-  flex: 25%;
-  margin: 20px;
-  position: relative;
-  cursor: pointer;
-  width: 220px;
-  height: 200px;
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
-}
-
-.column-heading h2 {
+/* 
+.heading {
   position: absolute;
-  top: 5rem;
-  left: 5.5rem;
+
+  height: 200px;
+  color: #1f1f1e;
+  background-color: #ffcb42;
+  bottom: 0%;
+}
+h2 {
   font-size: 16px;
   font-family: "Montagu Slab";
   font-weight: 500;
-  color: #ffcb42;
-  box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
-  0px 15px 12px 0px rgba(0,0,0,0.22);
+} */
+.gallery {
+  width: 100%;
+  position: relative;
 }
-
-.gallery .image{
+.galleryImage {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  transition: all 1s ease;
+}
+.galleryImage img {
   width: 100%;
   height: 100%;
-  object-fit:cover ;
-  border-radius: 15px;
- }
- .overlay{
+  object-fit: cover;
+  border-radius: 5px;
+  background-color: rgb(86, 86, 100);
+}
+.overlay {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -61,33 +51,32 @@
   backdrop-filter: blur(5px);
   border-radius: 15px;
   transition: 0.5s ease;
- }
- .col:hover .overlay{
+}
+.col:hover .overlay {
   right: 0;
- }
+}
 
- .overlay .btn {
+.overlay .btn {
   position: relative;
   top: 40%;
   left: 30%;
   width: 120px;
   height: 40px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: 16px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   background-color: #f8da8e;
 }
-.overlay .btn:hover{
+.overlay .btn:hover {
   background-color: #ffcb42;
-  box-shadow: 8px 8px 13px -8px rgba(0,0,0,0.3),
-  0px 15px 12px 0px rgba(0,0,0,0.22);
+  box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
 .overlay .btn a {
   text-decoration: none;
   color: #1b073a;
   font-size: 18px;
-  
- }
+}

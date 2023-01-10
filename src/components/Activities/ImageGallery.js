@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "./GalleryData";
+import { data } from "./ImageGalleryData";
 import "./ImageGallery.css";
 import Navbar2 from "../Navbar2/Navbar2";
 const ImageGallery = () => {
