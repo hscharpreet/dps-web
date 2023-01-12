@@ -15,9 +15,9 @@ justify-content: center;
 
 .provideContainer .col img{
     flex: 50%;
-    width: 100%;
+    width: 400px;
     height: 300px;
-    object-fit: none;
+    object-fit: cover;
     position: relative;
     right: -5%;
 }

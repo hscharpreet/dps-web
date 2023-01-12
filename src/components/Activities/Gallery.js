@@ -7,30 +7,30 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <h1>Activities</h1>
-      <div className="galleryImage">
+      <div className="galleryImage row">
         {data.map((item, index) => {
           return (
-            <div className="image" key={index}>
-              
-              <img src={item.imgSrc} alt="" />
+            <div className="column" key={index}>
               <div className="heading">
-              <h2>{item.title}</h2>
+                <h2>{item.title}</h2>
+              </div>
+
+              <img src={item.imgSrc} alt="" />
+              <div className="overlay">
+                <motion.button
+                  className="btn"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <Link to="/activities/images">
+                    <span class="noselect">See More</span>
+                  </Link>
+                </motion.button>
               </div>
             </div>
           );
         })}
       </div>
-      {/* <div className="overlay">
-        <motion.button
-          className="btn"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <Link to="/activities/images">
-            <span class="noselect">See More</span>
-          </Link>
-        </motion.button>
-      </div> */}
     </div>
   );
 };

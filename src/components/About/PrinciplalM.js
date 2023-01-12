@@ -13,7 +13,7 @@ const PrinciplalM = () => {
           <img src={principlephoto} alt="" />
         </div>
         <div className="parah col">
-          <h3 className="heading">
+          <h3 className="principaHeading">
             <span className="line1"></span> PRINCIPAL'S MESSAGE{" "}
           </h3>
           <p>
