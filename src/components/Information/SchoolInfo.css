@@ -1,0 +1,30 @@
+.schoolInfo h1{
+    font-family: 'Roboto';
+    font-size: 21px;
+    color: rgb(19, 19, 19);
+    text-align: center;
+    font-weight: 400;
+    padding:  5% 0;
+   
+}
+.schoolRow{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.schoolRow .infoCol{
+    flex: 25%;
+    background-color: rgb(227, 179, 46);
+    height: 250px;
+    text-align: center;
+    padding-top: 10rem;
+}
+.infoCol:nth-child(2n){
+    background-color: rgb(98, 36, 156);
+   
+}
+.infoText h2{
+   font-family: 'Roboto';
+   font-size: 32px;
+   font-weight: 400;
+}

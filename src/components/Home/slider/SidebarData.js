@@ -24,8 +24,14 @@ export const SidebarData = [
         className:"navText"
     },
     {
+        title:'School Information',
+        path:'/information',
+        className:"navText"
+    },
+    {
         title:'Contact',
         path:'/contact',
         className:"navText"
     },
+    
 ]

@@ -43,6 +43,9 @@ const Navbar2 = () => {
           <NavLink style={navLinkStyles} to="/activities" className="item">
           <h5>Activities</h5> 
           </NavLink>
+          <NavLink style={navLinkStyles} to="/information" className="item">
+          <h5>School Info</h5> 
+          </NavLink>
           <NavLink style={navLinkStyles} to="/contact" className="item">
           <h5>Contact</h5> 
           </NavLink>

@@ -2,7 +2,7 @@
 
 .menuContainer {
   background-color: #161052;
-opacity: 1;
+/* opacity: 1; */
 
 }
 .homeNavbar{
@@ -10,7 +10,7 @@ opacity: 1;
   position: sticky;
   top: 0;
   z-index: 3;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .homeNav {
