@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
-import { SidebarData } from "./slider/SidebarData";
+import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons/lib";
 
 const Button = () => {

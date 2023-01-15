@@ -7,6 +7,12 @@
     padding:  5% 0;
    
 }
+.infoText h2{
+    color: rgb(0, 0, 0);
+}
+.schoolInfo h2:nth-child(2n){
+    color: white;
+}
 .schoolRow{
     display: flex;
     align-items: center;
@@ -25,6 +31,14 @@
 }
 .infoText h2{
    font-family: 'Roboto';
-   font-size: 32px;
+   font-size: 28px;
    font-weight: 400;
 }
+.infoLink {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.infoLink:nth-child(2n){
+    color: rgb(255, 255, 255);
+}
+

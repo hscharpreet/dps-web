@@ -11,32 +11,32 @@ const SchoolInfo = () => {
           <div className="infoText">
             <h2>Staff and Governors</h2>
           </div>
-          <div className="infoLink">
-            <Link to="/activities">READ MORE -- </Link>
+          <div >
+            <Link to="/activities" className="infoLink">READ MORE -- </Link>
           </div>
         </div>
         <div className="infoCol">
         <div className="infoText">
-            <h2>Staff and Governors</h2>
+            <h2>Policies and Handbooks</h2>
           </div>
-          <div className="infoLink">
-            <Link to="/activities">READ MORE -- </Link>
-          </div>
-        </div>
-        <div className="infoCol">
-        <div className="infoText">
-            <h2>Staff and Governors</h2>
-          </div>
-          <div className="infoLink">
-            <Link to="/activities">READ MORE -- </Link>
+          <div >
+            <Link to="/activities" className="infoLink" >READ MORE -- </Link>
           </div>
         </div>
         <div className="infoCol">
         <div className="infoText">
-            <h2>Staff and Governors</h2>
+            <h2>Our Sponser</h2>
           </div>
-          <div className="infoLink">
-            <Link to="/activities">READ MORE -- </Link>
+          <div >
+            <Link to="/activities" className="infoLink">READ MORE -- </Link>
+          </div>
+        </div>
+        <div className="infoCol">
+        <div className="infoText">
+            <h2>Old Diviners</h2>
+          </div>
+          <div >
+            <Link to="/activities" className="infoLink">READ MORE -- </Link>
           </div>
         </div>
       </div>
