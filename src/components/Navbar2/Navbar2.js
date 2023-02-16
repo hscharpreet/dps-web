@@ -1,27 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar2.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/Ellipse 2.png";
 
 const Navbar2 = () => {
-  const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 100) {
-      setColorchange(true);
-    } else {
-      setColorchange(false);
-    }
-  };
-  window.addEventListener("scroll", changeNavbarColor);
-
+  const [isTop, setIsTop] = useState(true);
   const navLinkStyles = ({ isActive }) => {
-    return {
-      color: isActive ? "#e3d53e" : "white",
+      return {
+        color: isActive ? "#e3d53e" : "white",
+      };
     };
-  };
+  useEffect(() => {
+    document.addEventListener("scroll", () => {
+      const isTop = window.scrollY < 100;
+      setIsTop(isTop);
+    });
+  }, []);
   return (
     <>
-      <nav className={colorChange ? "navChange" : "navBar"}>
+      <nav className={`navbar2 ${!isTop ? "navbarScrolled" : ""}`}>
         <div className="leftNav">
           <NavLink to="/" className="link">
             <div class=" divineLogo">
@@ -56,3 +53,20 @@ const Navbar2 = () => {
 };
 
 export default Navbar2;
+
+
+// const [colorChange, setColorchange] = useState(false);
+// const changeNavbarColor = () => {
+//   if (window.scrollY <= 100) {
+//     setColorchange(true);
+//   } else {
+//     setColorchange(false);
+//   }
+// };
+// window.addEventListener("scroll", changeNavbarColor);
+
+// const navLinkStyles = ({ isActive }) => {
+//   return {
+//     color: isActive ? "#e3d53e" : "white",
+//   };
+// };

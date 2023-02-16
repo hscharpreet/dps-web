@@ -81,7 +81,7 @@ h2 {
   color: #1b073a;
   font-size: 18px;
 } */
- .activityGallery h1 {
+ /* .activityGallery h1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +110,7 @@ h2 {
   height: 400px;
  padding-top: 5rem;
   vertical-align: middle;
-  /* border-radius: 5px; */
+  border-radius: 5px;
 }
 .rowGallery h2 {
   font-size: 25px;
@@ -127,4 +127,24 @@ h2 {
   padding-top: 2rem;
   box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3),
 0px 15px 12px 0px rgba(0,0,0,0.22);
+} */
+.blogPost {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+ .gridContainer{
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.gridContainer img{
+  object-fit: cover;
+  width: 600px;
+  height: 400px;
+ padding-top: 5rem;
+  /* vertical-align: middle; */
+  border-radius: 5px;
+
 }

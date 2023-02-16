@@ -6,9 +6,10 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
   background-color: #d6d6d661;
   height: 600px;
-
+  width: 100%;
   position: relative;
   background-image: url("../../assets/Ellipse\ 4.png");
   background-position: left;
@@ -16,16 +17,9 @@
   overflow: hidden;
 }
 
-/* .shape-2{
-   position: absolute;
-   z-index: 1;
-   top: 0;
-   right: 5%;
-   
-} */
 .parentsImg {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 120%;
   border-radius: 50%;
   position: absolute;
   object-fit: cover;
@@ -36,19 +30,12 @@
     0px 15px 12px 0px rgba(0, 0, 0, 0.16);
 }
 
-.testimonial .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.row {
   position: absolute;
+  width: 1200px;
 }
-.testimonial .col {
-  flex: 50%;
-}
-.col .voices {
-  margin-left: 6rem;
-  width: 50%;
-}
+
+
 .voices h3 {
   color: rgb(121, 120, 120);
   font-size: 20px;
@@ -65,11 +52,9 @@
   color: black;
   font-size: 16px;
   font-family: "Montagu Slab", serif;
-  /* width: 50%; */
+  width: 50%;
 }
-.parents-name {
-  display: flex;
-}
+
 .parents-name .line {
   margin-left: 20px;
   height: 20px;
@@ -83,9 +68,70 @@
   cursor: pointer;
   height: 2rem;
   width: 2rem;
-  /* position: absolute; */
+  position: absolute;
 }
+
 .current {
   opacity: 1;
   transform: translateX(0);
+}
+@media screen and (max-width: 1440px) {
+  .testimonial .row {
+    width: 900px;
+  }
+  .parentsImg {
+    width: 30%;
+    height: 90%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .testimonial .row {
+    width: 650px;
+  }
+  .parentsImg {
+    width: 30%;
+    height: 70%;
+  }
+  .voices h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial {
+    height: 700px;
+    overflow: hidden;
+  }
+  .testimonial .row {
+    width: 900px;
+  }
+  .voices p{
+    font-size: 14px;
+  }
+  .parentsImg {
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+    width: 25%;
+    height: 90%;
+  }
+  .voices {
+    position: relative;
+    bottom: 12rem;
+    left: 15rem;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .voices .descr p{
+    font-size: 12px;
+    width: 40%;
+  }
+  .voices h1{
+    font-size: 30px;
+  }
+  .voices h3{
+    font-size:16px ;
+  }
+  
 }

@@ -17,10 +17,10 @@ const SchoolInfo = () => {
         </div>
         <div className="infoCol">
         <div className="infoText">
-            <h2>Policies and Handbooks</h2>
+            <h2 style={{color:'white'}}>Policies and Handbooks</h2>
           </div>
           <div >
-            <Link to="/activities" className="infoLink" >READ MORE -- </Link>
+            <Link to="/activities" className="infoLink" style={{color:'white'}}>READ MORE -- </Link>
           </div>
         </div>
         <div className="infoCol">
@@ -28,15 +28,15 @@ const SchoolInfo = () => {
             <h2>Our Sponser</h2>
           </div>
           <div >
-            <Link to="/activities" className="infoLink">READ MORE -- </Link>
+            <Link to="/activities" className="infoLink" >READ MORE -- </Link>
           </div>
         </div>
         <div className="infoCol">
         <div className="infoText">
-            <h2>Old Diviners</h2>
+            <h2 style={{color:'white'}}>Old Diviners</h2>
           </div>
           <div >
-            <Link to="/activities" className="infoLink">READ MORE -- </Link>
+            <Link to="/activities" className="infoLink" style={{color:'white'}}>READ MORE -- </Link>
           </div>
         </div>
       </div>

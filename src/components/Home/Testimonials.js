@@ -14,12 +14,10 @@ const Testimonials = () => {
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-    console.log("next");
   };
 
   const prevSlide = () => {
     setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-    console.log("prev");
   };
 
   function auto() {
@@ -40,46 +38,57 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonial">
-       
-          {TestimonialData.map((data, index) => {
-            return (
-              <div className="row">
-              <div
-                className={index === currentSlide ? "col current" : "col"}
-                key={index}
-              >
-                {index === currentSlide && (
-                  <div>
-                    <AiOutlineArrowLeft
-                      className="arrow prev"
-                      onClick={prevSlide}
-                    />
-                    <AiOutlineArrowRight
-                      className="arrow next"
-                      onClick={nextSlide}
-                    />
+        {TestimonialData.map((data, index) => {
+          return (
+            <div
+              className={index === currentSlide ? "row current" : "row"}
+              key={index}
+            >
+              {index === currentSlide && (
+                <div>
+               
+                  <div className="col image">
                     {/* <img src={shape2} alt="" className="shape-2" /> */}
                     <img className="parentsImg" src={data.image} alt="image" />
-
-                    <div className="col voices">
-                      <h3>{data.heading2}</h3>
-                      <h1>{data.heading1}</h1>
-                      <p>{data.desc}</p>
-                      <div className="parents-name">
-                        <p> {data.parentsName}</p>{" "}
-                        <span className="line"></span> <p> Parent</p>
-                      </div>
+                  </div>
+                  <div className="col voices">
+                    <h3>{data.heading2}</h3>
+                    <h1>{data.heading1}</h1>
+                    <div className="descr">
+                    <p>{data.desc}</p>
+                    </div>
+                    <div className="parents-name">
+                      <p>
+                        {" "}
+                        {data.parentsName} <span className="line"></span> Parent
+                      </p>
                     </div>
                   </div>
-                )}
-              </div>
-              </div>
-            );
-          })}
-        </div>
-      
+                </div>
+              )}
+            </div>
+          );
+        })}
+        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+      </div>
     </>
   );
 };
 
 export default Testimonials;
+{
+  /* <div className="col image">
+
+<img className="parentsImg" src={data.image} alt="image" />
+</div>
+<div className="col voices">
+<h3>{data.heading2}</h3>
+<h1>{data.heading1}</h1>
+<p>{data.desc}</p>
+<div className="parents-name">
+  <p> {data.parentsName} <span className="line"></span> Parent</p> 
+  
+</div>
+</div> */
+}

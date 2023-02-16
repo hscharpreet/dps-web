@@ -6,8 +6,8 @@ import Card from "./Card";
 import { motion } from "framer-motion";
 const responsive = {
   0: { items: 1 },
-  568: { items: 2 },
-  1024: { items: 3 },
+  768: { items: 2 },
+  1440: { items: 3 },
 };
 
 const items = [

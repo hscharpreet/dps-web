@@ -13,8 +13,8 @@ const Button = () => {
   const showSidebar = () => setSidebar(!sidebar);
   
   return (
-    <>
-    <IconContext.Provider value={{color:'#fff'}}>
+    <div className="sidebar">
+    <IconContext.Provider value={{color:'#d6d638'}}>
       <div className="sidebarIcon">
         <NavLink to="/" className="menuBars">
           <GiHamburgerMenu onClick={showSidebar}/>
@@ -39,7 +39,7 @@ const Button = () => {
         </ul>
       </nav>
       </IconContext.Provider>
-    </>
+      </div>
   );
 };
 

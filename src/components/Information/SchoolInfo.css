@@ -20,13 +20,13 @@
 }
 .schoolRow .infoCol{
     flex: 25%;
-    background-color: rgb(227, 179, 46);
+    background-color: rgba(227, 179, 46, 0.716);
     height: 250px;
     text-align: center;
     padding-top: 10rem;
 }
 .infoCol:nth-child(2n){
-    background-color: rgb(98, 36, 156);
+    background-color: rgba(98, 36, 156, 0.829);
    
 }
 .infoText h2{
@@ -38,7 +38,7 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.infoLink:nth-child(2n){
-    color: rgb(255, 255, 255);
-}
+/* .infoLink:nth-child(2n){
+    color: rgb(255, 255, 255) important!;
+} */
 

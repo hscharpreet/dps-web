@@ -69,12 +69,12 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     .content {
       width: 80%;
     }
-  }
-  
+  } */
+
   .content > * {
     color: #fff;
     margin-bottom: 1rem;
@@ -98,7 +98,7 @@
     z-index: 999;
   }
   .arrow:hover {
-    /* background-color: #fff; */
+   
     color: #777;
   }
   

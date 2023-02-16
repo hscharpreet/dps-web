@@ -1,42 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 
-
-.welcome{
-    background-color: white;
-position: relative;
-padding: 4rem 0;
-top: -2rem;
-
+.welcome {
+  background-color: white;
+  position: relative;
+  padding: 4rem 0;
+  top: -2rem;
 }
-.welcome .svg{
-    position: absolute;
+.welcome .svg {
+  position: absolute;
 
-    height: 100%;
-    width:100%;
-    /* background-color: beige; */
+  height: 100%;
+  width: 100%;
+  /* background-color: beige; */
 }
 
-.welcome-text{
-   margin:  0 10%;
-   text-align: center;
-   font-family: 'Montagu Slab';
- 
+.welcome-text {
+  margin: 0 10%;
+  text-align: center;
+  font-family: "Montagu Slab";
 }
 
-.welcome-text h1{
-    font-weight: 500;
-    font-size: 96px;
-    letter-spacing: 5px;
-    color: rgba(0, 0, 0, 0.823);
+.welcome-text h1 {
+  font-weight: 500;
+  font-size: 96px;
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.823);
 }
-.welcome-text p{
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.583);
-    line-height: 2;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+.welcome-text p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.583);
+  line-height: 2;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+@media screen and (max-width: 768px) {
+    .welcome-text h1{
+        font-size: 50px;
+        width: auto;
+    }
+    .welcome-text p{
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+    }
 }

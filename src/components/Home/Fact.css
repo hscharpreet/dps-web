@@ -4,30 +4,28 @@
   height: 100%;
   overflow: hidden;
   position: relative;
- 
   background-image: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- 
   object-fit: fill;
   width: 100%;
   height: 100%;
 }
-.factImg {
+/* .factImg {
   position: absolute;
   object-fit: fill;
   width: 100%;
   height: 100%;
-}
+} */
 .factOverlay {
   width: 100%;
   height: 1000px;
   position: relative;
   background-color: #2c3aff49;
-  backdrop-filter: blur(5px); 
-   z-index: 0;
+  backdrop-filter: blur(5px);
+  z-index: 0;
 }
 
 .facts .img-text img {
@@ -41,6 +39,7 @@
 .facts .img-text {
   position: relative;
   color: rgb(240, 240, 223);
+  width: auto;
 }
 .facts .img-text .everything {
   position: absolute;
@@ -48,7 +47,7 @@
   right: 19%;
   z-index: 1;
   color: #ffcb42;
-  font-size: 24px;
+  font-size: 2.5em;
   font-family: "Montagu Slab";
 }
 
@@ -58,7 +57,7 @@
   right: 15%;
   z-index: 1;
   color: #ffcb42;
-  font-size: 60px;
+  font-size: 5em;
   font-family: "Montagu Slab";
 }
 
@@ -70,61 +69,71 @@
   height: 30%;
   text-align: left;
   background-color: #131251;
-  padding: 3rem;
+  padding: 3em;
   font-family: "Montagu Slab";
+  font-size: 1.2em;
   line-height: 1.7;
   z-index: 1;
-
-
 }
+@media screen and (max-width: 1440px) {
+  .facts .img-text .lines {
+    font-size: 0.8rem;
+  }
+  .facts .img-text .want {
+    font-size: 3.5rem;
+    position: absolute;
+    top: 47%;
+    right: 15%;
+    z-index: 2;
+  }
+  .facts .img-text .everything {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 47%;
+    right: 25%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .facts .img-text .lines {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .factOverlay {
+   
+    height:860px;
+  }
+  .facts .img-text img {
+    width: 100%;
+    padding-top: 0%;
+  }
+  .facts .img-text .lines {
+    width: 70%;
+    position: absolute;
+    bottom: -20%;
+    right: 0%;
+    left: 5%;
+padding: 1rem ;
 
-
-
-
-/* .facts .content {
-  margin: 10rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* position: absolute;
-  z-index: 1; */
-/* }
-.facts-heading {
-  font-size: 48px;
-  font-family: "Montagu Slab";
-  color: #fffdf7;
-  text-orientation: upright;
-  writing-mode: vertical-rl;
+  }
+  
+   
 }
-.facts-heading {
- 
-  border-right: 2px solid #ffcb42;
-  height: 300px;
-  padding: 0 15px;
+@media screen and (max-width: 425px){
+  .facts .img-text .lines {
+    font-size: 0.7rem;
+  }
+  .facts .img-text .want {
+    font-size: 2rem;
+    position: absolute;
+  top: 60%;
+    right: 15%;
+    z-index: 2;
+  }
+  .facts .img-text .everything {
+    font-size: 1rem;
+    position: absolute;
+    top: 60%;
+    right: 25%;
+  }
 }
-.outer-circle {
-  border: 2px solid #ffcb42;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  position: relative;
-}
-.inner-circle {
-  position: absolute;
-  background-color: #19186a;
-  border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  top: 50%;
-  left: 50%;
-  margin: -35px 0px 0px -35px;
-}
-.inside-content {
-  position: absolute;
-  margin: 25px 0 0 25px;
-}
-.text {
-  font-size: 14px;
-  font-family: "Montagu Slab";
-  color: white;
-}  */

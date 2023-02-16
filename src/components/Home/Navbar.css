@@ -1,27 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
 
-.menuContainer {
-  background-color: #161052;
-/* opacity: 1; */
 
-}
-.homeNavbar{
-  background-color: rgba(44, 47, 136, 0.813);
-  position: sticky;
-  top: 0;
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+  padding: 10px;
+  /* position: sticky; */
   z-index: 3;
-  /* padding-top: 10px; */
+ 
 }
 
+.navbar-scrolled {
+  background-color:  #131251;
+
+}
 .homeNav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-img {
-  margin-right: 10%;
+  
 }
 
+@media screen and (max-width: 768px){
+  img{
+   width: 180px;
+   
+  }
+  .homeNav{
+    justify-content: space-between;
+    margin: 0 7%;
+  }
+
+}
 
 
 

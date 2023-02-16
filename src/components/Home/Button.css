@@ -55,8 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
- 
+
 }
 
 .menuBars {
@@ -117,4 +116,10 @@
   display: flex;
   align-items: start;
   justify-content: cemter;
+}
+@media screen and (max-width: 500px){
+  .navMenu{
+    width: 100%;
+  }
+
 }

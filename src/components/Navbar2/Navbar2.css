@@ -6,16 +6,16 @@ nav{
   top: 0;
   z-index: 2;
 }
- .navBar {
+ .navbar2 {
   background-color: #191860;
   transition: all 1s ease;
 }
-.navChange {
+.navbarScrolled {
   background-color: rgb(255, 255, 255);
   color: #e3d53e;
   border-bottom: 1px solid rgba(137, 135, 135, 0.652) ;
   }
-  .navChange h5{
+  .navbarScrolled h5{
     color: #252377;
   }
 
