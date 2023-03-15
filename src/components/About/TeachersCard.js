@@ -1,12 +1,12 @@
 import React from 'react'
-import teacher from "../../assets/Rectangle 1.png"
+
 import "./TeacherCard.css"
 const TeachersCard = () => {
   return (
     <div className="teachersCard">
-        <img src={teacher} alt="" />
-        <h1>Miss.Anita Singh</h1>
-        <h2> <span className='title'>Title:</span> English Teacher</h2>
+        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.webp" alt="" />
+        <h2>Miss.Anita Singh</h2>
+        <p> <span className='title'>Title:</span> English Teacher</p>
     </div>
   )
 }

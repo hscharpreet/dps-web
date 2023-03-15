@@ -1,23 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
-
 .divine-care {
   display: flex;
   align-items: center;
   position: relative;
-  flex-wrap: wrap;
-  background-image: url("../../assets/children1jpg.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FBanner.jpg?alt=media&token=1d6d4c62-6feb-449b-9abd-412b0ec34984");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 
 .rect {
   position: absolute;
   z-index: 1;
-  background-color: rgba(255, 190, 37, 0.633);
+  background-color: #1b0853d9;
   height: 100%;
   width: 100%;
   backdrop-filter: blur(5px);
@@ -25,58 +22,58 @@
 
 .divine-care .lines {
   position: relative;
-  top: -5rem;
-  margin: 0 auto;
+  text-align: center;
+  top: -7rem;
+  width: 100%;
   z-index: 1;
 }
-.lines h2 {
-  font-size: 1rem;
-  margin: 0 0.5rem;
+
+.divine-care .lines h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.2rem;
   font-weight: 600;
-  color: rgb(255, 255, 255);
-  font-family: "Montagu Slab", serif;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 2.5rem;
 }
-.lines h1 {
-  margin: 0;
-  font-size: 5rem;
-  font-weight: 540;
-  letter-spacing: 3px;
-  color: #101039ca;
-  font-family: "Open Sans";
+.divine-care .lines h2 {
+  color: var(--yellow);
+  font-size: 3.5rem;
+  font-family: "Vibur", cursive;
 }
-.lines .purpose {
-  margin: 1rem 0;
-  width: 700px;
-  text-align: left;
-  font-size: 20px;
-  line-height: 1.8;
+.divine-care .lines .purpose {
+  margin: 0 auto;
+  /* width: 100%; */
+  text-align: center;
+  width: 60%;
+  font-size: 1rem;
+  line-height: 2;
   font-weight: 400;
   color: rgb(255, 255, 255);
   font-family: "Roboto";
 }
 @media screen and (max-width: 768px) {
-  .lines{
+  .divine-care .lines {
     padding: 0 2rem;
- 
-    
+    position: relative;
+    top: 0;
+    bottom: 0;
   }
-  .lines h1{
-    font-size: 4rem;
-   
-  }
-  .lines .purpose{
-    font-size: 16px;
+
+  .divine-care .lines .purpose {
     width: auto;
-    
   }
 }
-@media screen and (max-width: 768px){
-.divine-care{
-  height: 500px;
-}
-}
-@media screen and (max-width: 550px){
+
+@media screen and (max-width: 550px) {
   .divine-care{
-    height: 600px;
+    height: 550px;
   }
+  .divine-care .lines h1 {
+    font-size: 2rem;
+    padding-bottom:1.5rem;
+
   }
+}

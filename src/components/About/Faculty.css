@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   justify-content: center;
   font-family: "Montagu Slab", serif;
-  background-image: url("https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisit3.avif?alt=media&token=71ca68e7-6781-4466-99fc-65408882aa6d");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,35 +20,43 @@
 .faculty .teacher-text {
   background-color: #ffcb42;
   border-radius: 5px;
-  width: 350px;
-  height: 200px;
+  width: 20%;
   text-align: center;
   position: relative;
   z-index: 1;
-  left: 6rem;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 5% 5% 1% 5%;
+padding: 2rem;
   box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
     0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
+.faculty .teacher-text p{
+  font-size: 1rem;
+}
 .teacher-text .know-more {
+font-size: .8rem;
   /* margin-top: 5rem; */
-  padding: 10px;
+  padding: 1rem;
   border: none;
   background-color: #000000;
-
   box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
     0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 .faculty .teacher-img img {
-  width: 754px;
-  height: 585px;
+  width: 80%;
+  height: 50%;
   border: 10px solid #00000096;
   position: relative;
   padding: 2rem;
-  /* z-index: 0; */
+  z-index: 0;
 }
 .know-more span {
   color: rgb(255, 255, 255);
 }
+@media only screen and (max-width:768px){
+  
+.faculty .teacher-text {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+.faculty .teacher-img img {
+ border: none;
+}}

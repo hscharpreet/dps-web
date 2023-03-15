@@ -1,0 +1,25 @@
+
+
+.readMore{
+    margin: 5rem auto;
+    width: 80%;
+    height: 700px;
+    max-height: 100%;
+  
+}
+.readMore p{
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+@media screen and (max-width: 1200px){
+    .readMore p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .readMore p{
+        font-size: .7rem;
+    }
+}

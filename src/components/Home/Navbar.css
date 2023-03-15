@@ -1,104 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 
 .navbar {
   background-color: transparent;
   transition: background-color 0.5s ease-in-out;
-  padding: 10px;
-  /* position: sticky; */
   z-index: 3;
- 
 }
 
 .navbar-scrolled {
-  background-color:  #131251;
-
+  background-color: var(--blue);
 }
 .homeNav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  margin: 0 5%;
+  height: 8rem;
 }
-
-@media screen and (max-width: 768px){
-  img{
-   width: 180px;
-   
+img {
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  img {
+    width: 50%;
   }
   .homeNav{
-    justify-content: space-between;
-    margin: 0 7%;
+    height: 5rem;
   }
-
 }
 
-
-
-
-
- /* .menu-icon {
-  display: flex;
-  align-items: center;
- 
-}
-.menu-icon p {
-  color: #0e1a4f;
-  padding: 5px 20px;
-  cursor: pointer;
-} 
- .underline {
-  display: inline-block;
-  position: relative;
-  color: #d6d638;
-}
-.underline::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #d2d743;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  cursor: pointer;
-}
-.underline:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-  cursor: pointer;
-} 
-.icon {
-  padding: 10px;
-}
-.icon:hover {
-  cursor: pointer;
-  color: #d2d743;
-} 
- .menu-dropdown{
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #d2d743;
-  min-width: 200px;
-  flex-wrap: wrap;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content li {
-  color: rgb(49, 36, 161);
-  padding: 12px 16px;
-  text-decoration: none;
-  font-family: 'Montagu Slab', serif;
-  display: block;
-}
-.dropdown-content li:hover {background-color: #e6e840}
-
-.menu-dropdown:hover .dropdown-content {
-  display: block;
-} */

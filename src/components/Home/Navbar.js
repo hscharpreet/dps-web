@@ -1,12 +1,11 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
-import { doc, onSnapshot } from "firebase/firestore";
-import { db } from "../../firebase.config";
-import logo from "../../assets/Group 25.png";
+// import { doc, onSnapshot } from "firebase/firestore";
+// import { db } from "../../firebase.config";
 import Button from "./Button";
 import { useEffect } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
 
   useEffect(() => {
@@ -16,17 +15,14 @@ const Navbar = () => {
     });
   }, []);
 
-  const storageRef = doc(db, "home", "banner");
-  onSnapshot(storageRef, (doc) => {
-    console.log(doc.data(), doc.id);
-  });
   return (
     <>
-      <div  className={`navbar ${!isTop ? "navbar-scrolled" : ""}`}>
+      <div className={`navbar ${!isTop ? "navbar-scrolled" : ""}`}>
         <nav className="homeNav">
           <a href="/" className="navbar-header logo">
-            <img src={logo} alt="Logo" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70" alt="Logo" />
           </a>
+          
           <Button />
         </nav>
       </div>
@@ -36,3 +32,7 @@ const Navbar = () => {
 
 export default Navbar;
 
+// const storageRef = doc(db, "/home/header/navbar/menu");
+// onSnapshot(storageRef, (doc) => {
+//   console.log(doc.data(), doc.id);
+// });

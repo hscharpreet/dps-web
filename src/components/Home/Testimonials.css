@@ -8,18 +8,18 @@
   flex-wrap: wrap;
   flex-direction: row;
   background-color: #d6d6d661;
-  height: 600px;
+  height: 700px;
   width: 100%;
   position: relative;
-  background-image: url("../../assets/Ellipse\ 4.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FEllipse%204.png?alt=media&token=0a3e430d-584f-4c4c-a253-53217122683f");
   background-position: left;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
 .parentsImg {
-  width: 30%;
-  height: 120%;
+  width: 20%;
+  height: 100%;
   border-radius: 50%;
   position: absolute;
   object-fit: cover;
@@ -30,41 +30,42 @@
     0px 15px 12px 0px rgba(0, 0, 0, 0.16);
 }
 
-.row {
+.testimonialRow {
   position: absolute;
-  width: 1200px;
+  width: 75%;
+  /* text-align: center; */
 }
 
-
 .voices h3 {
-  color: rgb(121, 120, 120);
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 1.4rem;
   font-weight: 500;
   font-family: "Montagu Slab", serif;
 }
 .voices h1 {
-  color: rgb(35, 29, 141);
-  font-size: 48px;
+  color: var(--blue);
+  font-size: 3rem;
   font-family: "Montagu Slab", serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 .voices p {
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Montagu Slab", serif;
-  width: 50%;
+  width: 60%;
+  line-height: 2;
 }
 
 .parents-name .line {
   margin-left: 20px;
-  height: 20px;
-  border-left: 1px solid #ffcb42;
+  height: 10px;
+  border-left: 2px solid var(--yellow);
 }
 .parents-name p {
-  color: rgb(175, 64, 56);
+  color: rgb(198, 51, 41);
 }
 .arrow {
-  color: grey;
+  color: var(--blue);
   cursor: pointer;
   height: 2rem;
   width: 2rem;
@@ -74,6 +75,13 @@
 .current {
   opacity: 1;
   transform: translateX(0);
+}
+@media screen and (max-width: 1800px) {
+
+  .parentsImg {
+    width: 25%;
+  
+  }
 }
 @media screen and (max-width: 1440px) {
   .testimonial .row {
@@ -102,36 +110,54 @@
     height: 700px;
     overflow: hidden;
   }
-  .testimonial .row {
+  .testimonial .testimonialRow {
     width: 900px;
   }
-  .voices p{
+  .voices p {
     font-size: 14px;
   }
   .parentsImg {
     position: absolute;
-    top: 10rem;
-    right: 20rem;
+    top: -7rem;
+    right: 9rem;
     width: 25%;
-    height: 90%;
+    height: 80%;
   }
   .voices {
     position: relative;
-    bottom: 12rem;
-    left: 15rem;
+    top: 5rem;
+    left: 10rem;
   }
 }
-@media screen and (max-width: 450px) {
-
-  .voices .descr p{
+@media screen and (max-width: 600px) {
+  .testimonial {
+    height: 800px;
+   
+  }
+  .voices .descr p {
     font-size: 12px;
     width: 40%;
   }
-  .voices h1{
+  .voices h1 {
     font-size: 30px;
   }
-  .voices h3{
-    font-size:16px ;
+  .voices h3 {
+    font-size: 16px;
   }
-  
+  .voices {
+    position: relative;
+    top: 8rem;
+    left: 17rem;
+  }
+  .parentsImg {
+    position: absolute;
+    top: -14rem;
+    right: 20rem;
+    width: 25%;
+    height: 100%;
+  }
+  .arrow {
+    height: 2rem;
+    width: 1.4rem;
+  }
 }

@@ -1,0 +1,50 @@
+.academics1 {
+  display: block;
+  align-items: center;
+  /* text-align: center; */
+  width: 80%;
+  margin: 15rem auto;
+}
+.academicLine {
+  width: 100%;
+  height: 2px;
+  border-width: 0;
+  color: rgb(77, 74, 74);
+  background-color: gray;
+}
+.academics1 h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.academics1 h2 {
+  color: rgb(26, 36, 89);
+  font-size: 3rem;
+}
+.academics1 p {
+  font-size: 2rem;
+}
+ol {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: rgb(82, 72, 59);
+ 
+}
+ol li{
+  list-style: circle;
+  color: rgb(98, 90, 68);
+}
+@media only screen and (max-width: 1440px) {
+  .academics1 h1 {
+    font-size: 3rem;
+  }
+  .academics1 h2 {
+    font-size: 2rem;
+  }
+  .academics1 p {
+    font-size: 1rem;
+  }
+  ol {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}

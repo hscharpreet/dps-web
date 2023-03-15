@@ -1,59 +1,78 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar2.css";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Ellipse 2.png";
+import { SidebarData } from "../Home/SidebarData";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IconContext } from "react-icons/lib";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar2 = () => {
   const [isTop, setIsTop] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar);
+  };
   const navLinkStyles = ({ isActive }) => {
-      return {
-        color: isActive ? "#e3d53e" : "white",
-      };
+    return {
+      color: isActive ? "#e3d53e" : "white",
     };
+  };
   useEffect(() => {
     document.addEventListener("scroll", () => {
       const isTop = window.scrollY < 100;
       setIsTop(isTop);
     });
   }, []);
+
   return (
     <>
-      <nav className={`navbar2 ${!isTop ? "navbarScrolled" : ""}`}>
-        <div className="leftNav">
-          <NavLink to="/" className="link">
-            <div class=" divineLogo">
-              <img src={logo} alt="Logo" />
+      <div className={`navbar2 ${!isTop ? "navbarScrolled1" : ""}`}>
+        <nav className="aboutNav">
+          <IconContext.Provider
+            value={{ color: "#d6d638", className: "icon1" }}
+          >
+            <div className="leftNav">
+              <NavLink to="/" className="link">
+                <div class=" divineLogo">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70" alt="Logo" />
+                </div>
+              </NavLink>
             </div>
-          </NavLink>
-        </div>
-
-        <div className="rightNav">
-          <NavLink style={navLinkStyles} to="/about" className="item">
-           <h5>About</h5> 
-          </NavLink>
-          <NavLink style={navLinkStyles} to="/admission" className="item">
-          <h5>Admission</h5> 
-          </NavLink>
-          <NavLink style={navLinkStyles} to="/academics" className="item">
-          <h5>Academics</h5> 
-          </NavLink>
-          <NavLink style={navLinkStyles} to="/activities" className="item">
-          <h5>Activities</h5> 
-          </NavLink>
-          <NavLink style={navLinkStyles} to="/information" className="item">
-          <h5>School Info</h5> 
-          </NavLink>
-          <NavLink style={navLinkStyles} to="/contact" className="item">
-          <h5>Contact</h5> 
-          </NavLink>
-        </div>
-      </nav>
+            <div className="menu-icon1" onClick={handleShowNavbar}>
+              <GiHamburgerMenu />
+            </div>
+            <div className={`nav-elements  ${showNavbar && "active"}`}>
+              <div className="menu-icon2" onClick={handleShowNavbar}>
+                <RxCross1 />
+              </div>
+              <ul>
+              {SidebarData.map((item, index) => {
+                return (
+                  <li key={index} className={item.className}>
+                    <NavLink
+                      style={navLinkStyles}
+                      to={item.path}
+                      data-text={item.text}
+                    >
+                      <span>{item.title}</span>
+                    </NavLink>
+                    <hr className="aboutLine"/>
+                  </li>
+                 
+                );
+              })}
+              </ul>
+            </div>
+          </IconContext.Provider>
+        </nav>
+      </div>
+      
     </>
   );
 };
-
+// };
 export default Navbar2;
-
 
 // const [colorChange, setColorchange] = useState(false);
 // const changeNavbarColor = () => {

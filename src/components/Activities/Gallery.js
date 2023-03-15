@@ -8,18 +8,49 @@ const Gallery = () => {
   return (
     <div className="activityGallery">
       <h1>Activities</h1>
+      <hr className="line1" />
+
       <div className="blogPost">
-        {data.map((item, index) => {
-          return (
-            <div className="gridContainer" key={index}>
-              <Link to="/activities/images">
-                <img src={item.imgSrc} />
-                <h2>{item.title}</h2>
-              </Link>
-            </div>
-          );
-        })}
-        ;
+        <div className="gridContainer">
+          <div className="column1">
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider3.jpg?alt=media&token=b3396ffe-784b-44bb-b0b2-354ac2d39b67" />
+              <h2>Math's Day</h2>
+            </Link>
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider3.jpg?alt=media&token=b3396ffe-784b-44bb-b0b2-354ac2d39b67"/>
+              <h2>Children Day</h2>
+            </Link>
+          </div>
+          <div className="column2">
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FBanner.jpg?alt=media&token=1d6d4c62-6feb-449b-9abd-412b0ec34984" />
+              <h2>26 January</h2>
+            </Link>
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FBanner.jpg?alt=media&token=1d6d4c62-6feb-449b-9abd-412b0ec34984" />
+              <h2>Holi</h2>
+            </Link>
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FBanner.jpg?alt=media&token=1d6d4c62-6feb-449b-9abd-412b0ec34984" />
+              <h2>Annual day</h2>
+            </Link>
+          </div>
+          <div className="column3">
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider.jpg?alt=media&token=0cbed583-bf6d-4b5c-ae1c-619d3e0f785b" />
+              <h2>DayOut</h2>
+            </Link>
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider.jpg?alt=media&token=0cbed583-bf6d-4b5c-ae1c-619d3e0f785b" />
+              <h2>Planting</h2>
+            </Link>
+            <Link to="/activities/images">
+              <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider.jpg?alt=media&token=0cbed583-bf6d-4b5c-ae1c-619d3e0f785b" />
+              <h2>Independence Day</h2>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

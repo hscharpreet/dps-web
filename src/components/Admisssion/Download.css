@@ -1,0 +1,88 @@
+.funding {
+  background-color: rgb(26, 26, 92);
+  color: white;
+  height: 700px;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.funding p {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+.usefulDownloads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50%; */
+  height: 800px;
+  max-height: 100%;
+  gap: 8rem;
+  /* background-color: rgb(209, 221, 221); */
+}
+.usefulImg {
+  /* background-color: rgb(38, 48, 48); */
+  flex: 50%;
+  text-align: right;
+}
+.usefulImg img {
+  width: 40%;
+  height: 30%;
+}
+.links {
+  flex: 50%;
+  letter-spacing: 5px;
+  /* background-color: aqua; */
+}
+.links h1 {
+  font-size: 2rem;
+}
+.links a, p {
+  font-size: 1.5rem;
+  
+}
+.links a{
+    color: rgb(94, 94, 197);
+  }
+
+@media only screen and (max-width: 1024px) {
+    .funding{
+        height: 100%;
+        padding:  2rem;
+    }
+    .funding p {
+        font-size:1.5rem;
+      }
+  .usefulDownloads {
+    display: block;
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+  .usefulImg {
+   text-align: center;
+   padding: 2rem;
+  }
+  .usefulImg img {
+    width: 100%;
+  }
+  .links {
+    flex: 100%;
+    text-align: center;
+  }
+  .links h1 {
+    font-size: 1rem;
+  }
+  .links a, p {
+    font-size: .7rem;
+  }
+  .links a{
+    color: rgb(27, 27, 39);
+  }
+}
+@media only screen and (max-width: 500px){
+  .funding p {
+    font-size:.8rem;
+  }
+}

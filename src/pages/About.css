@@ -1,9 +1,7 @@
-
-
-.about{
-    background-color: white;
-    padding: 0;
-    margin: auto;
-   max-width: 1920px;
-   overflow-x: hidden important!;
+.about {
+  background-color: white;
+  padding: 0;
+  /* margin: auto; */
+  /* width: 100%; */
+  /* overflow-x: hidden important!; */
 }

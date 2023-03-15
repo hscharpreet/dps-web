@@ -12,39 +12,14 @@
 .divineImg img{
     width: 70%;
     height: 70%;
-    /* box-shadow: 0px 28px 19px -60px rgba(0,0,0,0.3),
-0px 15px 12px -9px rgba(0,0,0,0.22); */
 }
-/* @media screen and (max-width: 800px){
-    .divineImg {
-        position: relative;
-        top: -8rem;
-      
-       
-}
-}
-@media screen and (max-width: 600px){
-    .divineImg {
-        position: relative;
-        top: -6rem;
 
-    }
-
-}
-@media screen and (max-width: 400px){
-    .divineImg {
-        position: relative;
-        top: -4rem;
-      
-    }
-
-} */
 
 @media screen and (max-width: 768px){
     .divineImg {
         position:relative;
         left: 0;
-        top: -10rem;
+        top: 0;
         width: 100%;
       
     }

@@ -1,14 +1,13 @@
 import React from "react";
 import "./Card.css";
 import { motion } from "framer-motion";
-import children from "../../assets/children1jpg.jpg";
 import { Link } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const Card = () => {
   return (
     <div className="cardItem">
       <motion.div className="cardImg" whileTap={{ scale: 0.9 }}>
-        <img src={children} alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider.jpg?alt=media&token=0cbed583-bf6d-4b5c-ae1c-619d3e0f785b" alt="" />
       </motion.div>
       <div className="cardText">
         <h1>Math's Day</h1>

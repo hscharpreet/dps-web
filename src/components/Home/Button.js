@@ -11,35 +11,36 @@ const Button = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
-  
+
   return (
     <div className="sidebar">
-    <IconContext.Provider value={{color:'#d6d638'}}>
-      <div className="sidebarIcon">
-        <NavLink to="/" className="menuBars">
-          <GiHamburgerMenu onClick={showSidebar}/>
-        </NavLink>
-      </div>
-      <nav className={sidebar ? "navMenu active" : "navMenu"}>
-        <ul className="navMenuItem" onClick={showSidebar} >
-          <li className="navbarToggle">
-            <NavLink to="/" className="menuBars">
-              <RxCross1 onClick={showSidebar}/>
-            </NavLink>
-          </li>
-          {SidebarData.map((item, index) => {
-            return (
-              <li key={index} className={item.className}>
-                <NavLink to={item.path}>
-                  <span>{item.title}</span>
-                </NavLink>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+      <IconContext.Provider value={{ color: "#d6d638", className: "icon1" }}>
+        <div className="sidebarIcon">
+          <NavLink to="/" className="menuBars">
+            <GiHamburgerMenu onClick={showSidebar} />
+          </NavLink>
+        </div>
+        <nav className={sidebar ? "navMenu active" : "navMenu"}>
+          <NavLink to="/" className="menuBars2">
+            <RxCross1 onClick={showSidebar} />
+          </NavLink>
+          <ul className="navMenuItem" onClick={showSidebar}>
+            <li className="navbarToggle"></li>
+            {SidebarData.map((item, index) => {
+              return (
+                <li key={index} className={item.className}>
+              
+                  <NavLink to={item.path} data-text={item.text}>
+                    <span>{item.title}</span>
+                  </NavLink>
+                  <hr className="line5"/>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
       </IconContext.Provider>
-      </div>
+    </div>
   );
 };
 

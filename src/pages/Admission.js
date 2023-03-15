@@ -7,6 +7,8 @@ import Navbar2 from '../components/Navbar2/Navbar2';
 import VisitCard from '../components/Home/VisitCard';
 import EarlyYears from '../components/Admisssion/EarlyYears';
 import Download from '../components/Admisssion/Download';
+import Growth2 from '../components/Admisssion/Growth2';
+import SlideUp from "../components/SlideUp";
 const Admission = () => {
   return (
     <motion.div className="academics" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
@@ -15,6 +17,8 @@ const Admission = () => {
     <Admission1/>
     <EarlyYears/>
     <Download/>
+    <Growth2/>
+    <SlideUp />
     <VisitCard/>
     <Footer/>   </motion.div>
 

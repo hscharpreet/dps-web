@@ -1,27 +1,33 @@
-.admissionContainer{
-    background-color: rgba(235, 234, 233, 0.41);
-    
+.admissionContainer {
+  background-color: rgba(235, 234, 233, 0.41);
 }
 
-.admissionContent{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding: 5% 0;
+.admissionContent {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 5% 0;
 }
-.admissionContent h1{
-    font-size:42px ;
-    font-family: "Roboto", serif;
-    font-weight: 500;
+.admissionContent h1 {
+  font-size: 2rem;
+  font-family: "Roboto", serif;
+  font-weight: 600;
 }
 
-.admissionContent h3{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
+.admissionContent h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
-.admissionContent p{
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 400;
+.admissionContent p {
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+  .admissionContent {
+    width: 80%;
+    padding: 5% ;
+  }
 }

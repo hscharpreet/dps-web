@@ -6,6 +6,7 @@ import AboutPage from "../components/About/AboutPage";
 import Gallery from "../components/Activities/Gallery";
 import Navbar2 from "../components/Navbar2/Navbar2";
 import VisitCard from "../components/Home/VisitCard";
+import SlideUp from "../components/SlideUp";
 const Activities = () => {
   return (
     <motion.div
@@ -17,6 +18,7 @@ const Activities = () => {
       <Navbar2 />
       <AboutPage />
       <Gallery />
+      <SlideUp />
       <VisitCard />
       <Footer />{" "}
     </motion.div>

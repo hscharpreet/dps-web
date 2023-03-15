@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./Testimonials.css";
-import shape2 from "../../assets/Ellipse 7.png";
 import { TestimonialData } from "./TestimonialData";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
@@ -41,12 +40,11 @@ const Testimonials = () => {
         {TestimonialData.map((data, index) => {
           return (
             <div
-              className={index === currentSlide ? "row current" : "row"}
+              className={index === currentSlide ? "testimonialRow current" : "testimonialRow"}
               key={index}
             >
               {index === currentSlide && (
                 <div>
-               
                   <div className="col image">
                     {/* <img src={shape2} alt="" className="shape-2" /> */}
                     <img className="parentsImg" src={data.image} alt="image" />
@@ -55,7 +53,7 @@ const Testimonials = () => {
                     <h3>{data.heading2}</h3>
                     <h1>{data.heading1}</h1>
                     <div className="descr">
-                    <p>{data.desc}</p>
+                      <p>{data.desc}</p>
                     </div>
                     <div className="parents-name">
                       <p>

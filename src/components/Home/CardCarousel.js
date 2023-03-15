@@ -45,9 +45,9 @@ const CardCarousel = () => (
   <div className="square" >
     <span></span>
   </div>
-  <div className="littleSquare">
+  {/* <div className="littleSquare">
   <span></span>
-  </div>
+  </div> */}
   <div className="carouselCard">
     <AliceCarousel
       mouseTracking

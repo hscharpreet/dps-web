@@ -1,6 +1,6 @@
 import React from "react";
 import "./EarlyYears.css";
-import  kids  from "../../assets/children.png";
+
 const EarlyYears = () => {
   return (
     <div className="earlyContainer">
@@ -14,7 +14,7 @@ const EarlyYears = () => {
         </p>
       </div>
       <div className="early2 col">
-        <img src={kids} alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FPXL_20221022_060034724%20(1).jpg?alt=media&token=22a8f669-f34e-4435-b522-a4bfc1bb1963" alt="" />
       </div>
       <div className="early3 col">
         <p>

@@ -3,20 +3,22 @@
     align-items: center;
     justify-content: center;
 /* margin: 10% 0; */
+gap: 1rem;
 }
 .growthCard .growth{
     flex: 33.33%;
-    height: 900px;
+    height: 1000px;
     width: 100%;
     background-color: rgb(233, 194, 88);
-    margin:0 1px;
-    
+    /* border-radius: 2%; */
+    /* margin:0 1px; */
+   
 }
-
 .growth img{
     height: 500px;
     width: 100%;
     object-fit: cover;
+    /* border-radius: 2%; */
 }
 .growthContent{
     color: black;
@@ -25,9 +27,24 @@
 }
 .growthContent h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
 }
 .growthContent p{
-    line-height: 30px;
+    line-height: 1.5;
+    font-size: 1.5rem;
 }
+.growthContent a{
+    color: #534f7d;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1900px) {
+    .growthCard{
+      display: block;
+      flex: 100%;
+      gap: 2rem;
+    }
+  
+  }

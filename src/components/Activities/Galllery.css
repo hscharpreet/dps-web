@@ -1,150 +1,69 @@
-/* .gallery h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 2rem;
-  color: rgb(21, 24, 124);
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.heading {
-  position: absolute;
-  color: #1f1f1e;
-  z-index: 1;
-}
-h2 {
-  font-size: 16px;
-  font-family: "Montagu Slab";
-  font-weight: 500;
-}
-.gallery {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.gallery .row {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 1s ease;
-}
-.gallery .column {
-  flex: 50%;
-}
-.gallery img {
- 
-  width: 300px;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: -100%;
-  background-color: #ffc94225;
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  transition: 0.5s ease;
-}
-.col:hover .overlay {
-  right: 0;
-}
-
-.overlay .btn {
-  position: relative;
-  top: 40%;
-  left: 30%;
-  width: 120px;
-  height: 40px;
-  font-family: "Cinzel", serif;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: #f8da8e;
-}
-.overlay .btn:hover {
-  background-color: #ffcb42;
-  box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
-    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
-}
-
-.overlay .btn a {
-  text-decoration: none;
-  color: #1b073a;
-  font-size: 18px;
-} */
- /* .activityGallery h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 2rem;
-  color: rgb(21, 24, 124);
-  font-size: 48px;
-  font-weight: 700;
-}
-
-
-.rowGallery{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  position: relative;
-}
-.rowGallery > li{
-  flex-basis: 350px;
- 
-}
-.rowGallery li img{
-  object-fit: cover;
-  width: 600px;
-  height: 400px;
- padding-top: 5rem;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-.rowGallery h2 {
-  font-size: 25px;
-  font-family: "Montagu Slab";
-  font-weight: 700;
-  color: black;
-  position: absolute;
-  bottom: -16%;
-  right: 23.8%;
-  background-color: rgb(221, 163, 82);
-  width: 600px;
-  height: 100px;
+.activityGallery h1 {
+  font-size: 3rem;
   text-align: center;
-  padding-top: 2rem;
-  box-shadow: 0px 19px 38px 0px rgba(0,0,0,0.3),
-0px 15px 12px 0px rgba(0,0,0,0.22);
-} */
-.blogPost {
-  display: flex;
-  flex-wrap: wrap;
- 
+  color: rgba(30, 11, 96, 0.673);
+  letter-spacing: 10px;
+}
+.line1 {
+  width: 100%;
 }
 
- .gridContainer{
-  width: 33.33%;
-  padding: 10px;
-  box-sizing: border-box;
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 2rem;
+  /* width: 40%; */
+  margin: 0 auto;
+  padding: 12rem 0;
 }
-.gridContainer img{
-  object-fit: cover;
+
+.gridContainer img {
   width: 600px;
-  height: 400px;
- padding-top: 5rem;
-  /* vertical-align: middle; */
-  border-radius: 5px;
+  height: 40%;
+  object-fit: cover;
+}
 
+.column2 img,
+.column3 img {
+  width: 600px;
+  height: 500px;
+
+  /* margin-bottom: 10px; */
+}
+
+.gridContainer a {
+  text-decoration: none;
+  color: rgba(58, 50, 130, 0.908);
+  letter-spacing: 10px;
+}
+@media only screen and (max-width: 1900px){
+  .gridContainer {
+    grid-template-columns: 2fr 2fr ;
+    text-align: center;
+  }
+   
+}
+@media only screen and (max-width: 1300px){
+  .gridContainer {
+    grid-template-columns: 2fr 2fr ;
+    text-align: center;
+  }
+  .gridContainer img {
+    width: 300px;
+    height: 30%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 700px){
+  .gridContainer {
+    grid-template-columns: 2fr  ;
+    text-align: center;
+    grid-gap: 2rem;
+  }
+  .gridContainer img {
+    width: 300px;
+    height: 30%;
+    object-fit: cover;
+  }
 }

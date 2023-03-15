@@ -1,51 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 
 #footer {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}
+.footerOverlay {
+  position: relative;
+  width: 100%;
+  height: 25em;
+}
+.footerOverlay .overlayImg  {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(../../assets//Group\ 28.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #04042a;
-  font-family: "Montagu Slab", serif;
+  object-fit: contain;
 }
 .footer-container {
   padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #1b0853e5;
 }
 .footer-container .address {
-  flex: 30%;
+flex: 40%;
+position: relative;
+
 }
-.address img {
-  display: block;
-  margin: auto;
+.footer-container .address .addressImg {
+display: block;
+margin: 0 auto;
+width:20%;
+height: 30%;
 }
-.address .addressText {
+.footer-container .address .addressText{
   color: white;
   text-align: center;
-
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 2;
+  letter-spacing: 2px;
+  /* padding-left: 5rem; */
 
-  /* margin-bottom: 5%; */
 }
 .line {
   border-left: 0.6px solid #8aa1d6;
-  height: 250px;
-
+  height: 19rem;
   position: static;
   padding: 10px;
 }
 
-.column {
+.footer-container .column {
   flex: 15%;
+  
 }
 .column h1 {
   line-height: 3;
-  font-size: 12px;
+  font-size: 1rem;
   color: white;
   font-weight: 500;
 
@@ -53,6 +67,8 @@
 }
 .link {
   text-decoration: none;
+  letter-spacing: 3px;
+
 }
 .link h1:hover {
   color: #ffc524;
@@ -67,4 +83,47 @@
   font-family: initial;
   color: rgb(23, 22, 22);
   flex-wrap: wrap;
+}
+.footerp {
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .footer-container .address .addressImg{
+    width: 40%;
+    height: 30%;
+  }
+  .footer-container .address .addressText{
+    font-size: .8rem;
+    letter-spacing: normal;
+  }
+  .column h1 {
+    font-size: .8rem;
+    letter-spacing: normal;
+  }
+  .line {
+    visibility: hidden;
+  }
+  .copyright {
+    padding: 0 2rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-container .address .addressImg{
+    width: 40%;
+    height: 20%;
+  }.footer-container .address .addressText{
+    font-size: .5rem;
+    letter-spacing: normal;
+  }
+  .column h1 {
+    font-size: .5rem;
+    letter-spacing: normal;
+  }
+  .footerp {
+    font-size: 0.5rem;
+  }
+  .copyright{
+    font-size: 0.5rem;
+
+  }
 }

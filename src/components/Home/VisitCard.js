@@ -8,7 +8,7 @@ const VisitCard = () => {
       <div className="visitRow">
         <div className="visitCol">
           <img
-            src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGVudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisitcard.avif?alt=media&token=a913a421-8677-43de-9624-51ac883423a0"
             alt=""
           />
           <div className="visitOverlay">
@@ -27,7 +27,7 @@ const VisitCard = () => {
         </div>
         <div className="visitCol">
           <img
-            src="https://plus.unsplash.com/premium_photo-1670884522503-0e0f10fae520?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3R1ZGVudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisit1.avif?alt=media&token=a3408cc0-6757-4063-9a09-00e9f9fb8cdb"
             alt=""
           />
           <div className="visitOverlay">
@@ -46,7 +46,7 @@ const VisitCard = () => {
         </div>
         <div className="visitCol">
           <img
-            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisit3.avif?alt=media&token=71ca68e7-6781-4466-99fc-65408882aa6d"
             alt=""
           />
           <div className="visitOverlay">

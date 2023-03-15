@@ -1,125 +1,105 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 
-/* 
 
-.sidebarIcon .menuBars{
-    display: flex;
-    height: 40px;
-    width: 150px;
-    border: 2px solid #141d7a;
-    margin: 20px 20px 20px 20px;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0px 19px 0px -21px rgba(0,0,0,0.3),
-0px 15px 12px 0px rgba(0,0,0,0.22);
-  }
-  
-  .link {
-    color: #ffffff;
-    text-decoration: none;
-    letter-spacing: 1px;
-  }
-  #button-1 {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  #button-1 a {
-    position: relative;
-    transition: all .35s ease-Out;
-  }
-  
-  #slide {
-    width: 100%;
-    height: 100%;
-    
-    left: 0;
-    background: #141d7a;
-    position: absolute;
-    transition: all .35s ease-Out;
-    bottom: 0;
-  }
-  
-  #button-1:hover #slide {
-   
-    left: -200px;
-    
-  } */
+.icon1 {
+  font-size: 2rem;
+}
 
 .sidebarIcon {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: relative;
+  height: 3rem;
 }
 
-.menuBars {
-  margin-left: 2rem;
+.menuBars2 {
   font-size: 2rem;
-  background: none;
-  
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+.navmenu ul {
+  position: relative;
 }
 
 .navMenu {
-  background-color: #161052;
-  width: 300px;
+  background-color: var(--blue);
+  /* background-image: url("/src/assets/Banner.jpg"); */
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
-  top: 0;
- left: -100%;
-  transition: 3s;
-  padding-top: 2rem;
- 
+  right: 0;
+  top: -100%;
+  transition: 0.3s ease-in;
+  text-align: center;
+  list-style: none;
+  text-align: center;
 }
+
 .navMenu.active {
-  left: 0;
-  transition: 0.9s;
-  overflow: hidden
+  top: 0;
+  transition: 0.3s ease-in;
+  overflow: hidden;
 }
-.navText {
+li {
+  list-style: none;
+}
+.navMenu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 30px 20px;
+  display: inline-flex;
+  transition: 0.5s;
+  letter-spacing: 5px;
+}
+.line5{
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-width: 0;
+  background-color: var(--yellow);
+}
+.navMenu:hover li a {
+  color: rgb(245, 191, 14);
+}
+.navMenu li:hover a {
+  color: aliceblue;
+}
+.navMenu ul li a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 0px 8px 16px;
-  list-style: none;
-  height: 60px;
+  font-size: 3em;
+  font-weight: 900;
+  color: rgba(229, 172, 29, 0.605);
+  z-index: -1;
+  opacity: 0;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+  transition: letter-spacing 0.7s, left 0.7s;
 }
-.navText a{
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  width: 95%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  border-radius: 4px;
-}
-.navText a:hover{
-  color: rgb(245, 191, 14);
-}
-.navMenuItem{
-  width: 100%;
-  height: 100%;
+.navMenu ul li a:hover::before {
+  content: attr(data-text);
+  opacity: 1;
+  letter-spacing: 10px;
+  width: 1000px;
+  height: 10px;
 }
 
-.navbarToggle{
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: start;
-  justify-content: cemter;
-}
-@media screen and (max-width: 500px){
-  .navMenu{
-    width: 100%;
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 1rem;
   }
-
+  .navMenu li a {
+    font-size: 1rem;
+  }
 }

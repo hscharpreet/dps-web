@@ -1,0 +1,88 @@
+.additional {
+  background-image: url("http://www.nicdarkthemes.com/themes/children/wp/demo/education/wp-content/uploads/sites/2/2021/09/06-paral.jpeg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.additional h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgba(18, 11, 62, 0.887);
+}
+
+.addon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+.addon p {
+  font-size: 2rem;
+}
+.icon4 {
+  font-size: 5rem;
+}
+.additionalGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 2rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.additionalGrid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column-two img,
+.column-three img {
+  width: 100%;
+  height: auto;
+  /* margin-bottom: 10px; */
+}
+
+@media only screen and (max-width: 1440px) {
+  .addon p {
+    font-size: 1rem;
+  }
+  .icon4 {
+    font-size: 2rem;
+  }
+
+}
+@media only screen and (max-width: 1024px) {
+  .addon {
+    gap: 5rem;
+  }
+  .additional h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .addon {
+    display: block;
+    text-align: center;
+  }
+  .addon p {
+    font-size: 1.2rem;
+  }
+
+
+  .additional h1 {
+    font-size: 2rem;
+  }
+  .icon4 {
+    font-size: 2.5rem;
+  }
+  .additionalGrid {
+    display: block;
+    width: 80%;
+  }
+  .additionalGrid img {
+    padding-bottom: 1rem;
+  }
+}
