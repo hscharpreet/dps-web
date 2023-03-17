@@ -22,6 +22,7 @@ const App = () => {
     <AnimatePresence>
       <Routes location = {location} key ={ location.pathname}>
       <Route path="/" element={<Home/>}/>
+      <Route path="/dps-web" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/about/teachers" element={<Teachers/>}/>
       <Route path="/about/principal-message" element={<Readmore/>}/>
