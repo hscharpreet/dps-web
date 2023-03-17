@@ -1,4 +1,6 @@
 name: Deploy Website
+env:
+  CI: false
 
 on:
   push:
