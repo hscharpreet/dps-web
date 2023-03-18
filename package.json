@@ -1,7 +1,7 @@
 {
   "name": "dps-web",
   "version": "0.1.0",
-  "homepage": "https://Parul-Thakur.github.io",
+  "homepage": "https://Parul-Thakur.github.io/dps-web",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
