@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar2 from "../Navbar2/Navbar2";
-import VisitCard from "../Home/VisitCard";
+// import VisitCard from "../Home/VisitCard";
 import Footer from "../Home/Footer";
 import "./Fees.css";
 const Fees = () => {

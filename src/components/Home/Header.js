@@ -3,24 +3,27 @@ import React from "react";
 import "./Header.css";
 import Slider from "./slider/Slider";
 
-
 const Header = () => {
   return (
     <>
-      <div className="header">
-        <div className="header1">
-          <h1>
-            BE <br /> UNDEFINABLE
-          </h1>
-        </div>
-        <div className="header2">
-          <span className="slider">
-            <Slider />
-          </span>
-       
-        </div>
+     
 
-      </div>
+        <div className="header">
+        <div className="rect2"></div>
+          <div className="header1">
+            <h1>
+              BE <br /> UNDEFINABLE
+            </h1>
+          </div>
+          <div className="header2">
+      
+            <span className="slider">
+          
+              <Slider />
+            </span>
+          </div>
+        </div>
+    
     </>
   );
 };

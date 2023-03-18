@@ -34,8 +34,11 @@ const Navbar2 = () => {
           >
             <div className="leftNav">
               <NavLink to="/" className="link">
-                <div class=" divineLogo">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70" alt="Logo" />
+                <div className=" divineLogo">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70"
+                    alt="Logo"
+                  />
                 </div>
               </NavLink>
             </div>
@@ -47,27 +50,25 @@ const Navbar2 = () => {
                 <RxCross1 />
               </div>
               <ul>
-              {SidebarData.map((item, index) => {
-                return (
-                  <li key={index} className={item.className}>
-                    <NavLink
-                      style={navLinkStyles}
-                      to={item.path}
-                      data-text={item.text}
-                    >
-                      <span>{item.title}</span>
-                    </NavLink>
-                    <hr className="aboutLine"/>
-                  </li>
-                 
-                );
-              })}
+                {SidebarData.map((item, index) => {
+                  return (
+                    <li key={index} className={item.className}>
+                      <NavLink
+                        style={navLinkStyles}
+                        to={item.path}
+                        data-text={item.text}
+                      >
+                        <span>{item.title}</span>
+                      </NavLink>
+                      <hr className="aboutLine" />
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </IconContext.Provider>
         </nav>
       </div>
-      
     </>
   );
 };

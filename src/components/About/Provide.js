@@ -1,6 +1,6 @@
 import React from "react";
 import "./Provide.css";
-import { data } from "./ProvideData";
+// import { data } from "./ProvideData";
 
 const Provide = () => {
   return (

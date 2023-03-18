@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap");
 
 .navbar2 {
-  background-color: #161052;
+  background-color: var(--blue);
   transition: background-color 0.5s ease-in-out;
   z-index: 3;
 }
@@ -25,7 +25,7 @@
 }
 
 .leftNav img {
-  width: 130%;
+  width: 100%;
 }
 
 .nav-elements ul {
@@ -59,7 +59,7 @@
     right: 8%;
   }
   .nav-elements {
-    background-color: #161052;
+    background-color: var(--blue);
     /* background-image: url("/src/assets/Banner.jpg"); */
     width: 40%;
     height: 100vh;
@@ -68,7 +68,6 @@
     top: 0;
     right: -100%;
     transition: 0.5s;
-    padding-top: 5rem;
     text-align: center;
     list-style: none;
     text-align: center;
@@ -81,20 +80,20 @@
     overflow: hidden;
   }
   .nav-elements ul {
-    margin-top: 10rem;
+    margin-top: 7rem;
     display: block;
   }
   .nav-elements li a {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     transition: 0.5s;
     line-height: 5;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
   }
   .nav-elements li a:hover {
-    color: rgb(158, 127, 27);
+    color: var(--yellow);
   }
   .aboutLine {
     display: block;
@@ -102,16 +101,13 @@
     height: 2px;
     border-width: 0;
     color: rgb(77, 74, 74);
-    background-color: gray;
+    background-color: var(--yellow);
   }
-  .leftNav img {
-    width: 100%;
-  }
+
 }
 
 @media only screen and (max-width: 768px) {
   .nav-elements {
-   
     width: 100%;
   }
   .nav-elements li a {

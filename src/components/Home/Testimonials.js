@@ -47,7 +47,7 @@ const Testimonials = () => {
                 <div>
                   <div className="col image">
                     {/* <img src={shape2} alt="" className="shape-2" /> */}
-                    <img className="parentsImg" src={data.image} alt="image" />
+                    <img className="parentsImg" src={data.image} alt="parents" />
                   </div>
                   <div className="col voices">
                     <h3>{data.heading2}</h3>

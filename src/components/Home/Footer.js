@@ -7,11 +7,12 @@ const Footer = () => {
     <>
       <section id="footer">
         <div className="footerOverlay">
-          <img  className="overlayImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisit2.avif?alt=media&token=be980740-d601-420b-ac67-51548ab0ff84" alt="" />
+          <img  className="overlayImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Ffooter%20(1).jpg?alt=media&token=c7bbe774-bc0f-4e29-b253-80ade7a03b26" alt="" />
 
           <div className="footer-container">
             <div className="address ">
-              <img className="addressImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FGroup%2029.png?alt=media&token=261a2627-af31-4f44-9d39-79299254e702" alt="" />
+              <img className="addressImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FLogo.png?alt=media&token=07a78930-2cbb-4c2f-a33d-275fd3251423" alt="" />
+              <h1 className="addressHead">Divine Public School</h1>
               <p className="addressText">
                 Robert Robertson, <br />
                 1234 NW Bobcat Lane, <br />
@@ -20,7 +21,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="line "></div>
-            <div class="column col-1">
+            <div className="column col-1">
               <Link to="/" className="link">
                 <h1>Home</h1>
               </Link>
@@ -37,7 +38,7 @@ const Footer = () => {
                 <h1>Map</h1>
               </Link>
             </div>
-            <div class="column col-2">
+            <div className="column col-2">
               <Link to="/about" className="link">
                 <h1>About</h1>
               </Link>

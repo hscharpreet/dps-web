@@ -10,8 +10,9 @@ const CMap = () => {
               width: "100%",
               height: "550px",
             }}
-            class="gmap_iframe"
+            className="gmap_iframe"
             width="100%"
+            title="map"
             frameborder="0"
             scrolling="no"
             marginheight="0"

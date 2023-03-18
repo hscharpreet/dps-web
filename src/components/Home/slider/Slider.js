@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import Navbar from "../Navbar";
+// import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+// import Navbar from "../Navbar";
 import { SliderData } from "./SliderData";
 import "./Slider.css";
 

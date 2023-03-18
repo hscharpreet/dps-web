@@ -3,7 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import "./CardCarousel.css";
 import Card from "./Card";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 const responsive = {
   0: { items: 1 },
   768: { items: 2 },
