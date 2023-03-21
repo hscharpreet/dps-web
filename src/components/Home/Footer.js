@@ -14,10 +14,10 @@ const Footer = () => {
               <img className="addressImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FLogo.png?alt=media&token=07a78930-2cbb-4c2f-a33d-275fd3251423" alt="" />
               <h1 className="addressHead">Divine Public School</h1>
               <p className="addressText">
-                Robert Robertson, <br />
-                1234 NW Bobcat Lane, <br />
-                St. Robert, <br />
-                MO 65584-5678
+                Satyanganj, Ahraura, <br />
+                Mirzapur, <br />
+               Uttar Pradesh, <br />
+                MO 8318909165
               </p>
             </div>
             <div className="line "></div>
@@ -62,7 +62,7 @@ const Footer = () => {
       <div className="copyright">
         <div className="left">
           <p className="footerp">
-            &#169; 2022 DivinePublic School. Developed by Parul Thakur - Web
+            &#169; 2023 Divine Public School. Developed by Parul Thakur - Web
             Developer
           </p>
         </div>

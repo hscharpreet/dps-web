@@ -5,7 +5,7 @@ import { SidebarData } from "../Home/SidebarData";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import { RxCross1 } from "react-icons/rx";
-
+import logo from "../../assets/Group 1.png";
 const Navbar2 = () => {
   const [isTop, setIsTop] = useState(true);
   const [showNavbar, setShowNavbar] = useState(false);
@@ -27,24 +27,22 @@ const Navbar2 = () => {
 
   return (
     <>
-      <div className={`navbar2 ${!isTop ? "navbarScrolled1" : ""}`}>
+      <div className="navbar2">
         <nav className="aboutNav">
           <IconContext.Provider
-            value={{ color: "#d6d638", className: "icon1" }}
+            value={{ color: "#daab2b", className: "icon1" }}
           >
             <div className="leftNav">
               <NavLink to="/" className="link">
-                <div className=" divineLogo">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70"
-                    alt="Logo"
-                  />
+                <div>
+                  <img src={logo} alt="Logo" />
                 </div>
               </NavLink>
             </div>
             <div className="menu-icon1" onClick={handleShowNavbar}>
               <GiHamburgerMenu />
             </div>
+
             <div className={`nav-elements  ${showNavbar && "active"}`}>
               <div className="menu-icon2" onClick={handleShowNavbar}>
                 <RxCross1 />

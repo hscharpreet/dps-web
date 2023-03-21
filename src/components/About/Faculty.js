@@ -7,7 +7,9 @@ const Faculty = () => {
   return (
     <div className="faculty">
       <div className="teacher-text">
-        <p>“A caring atmosphere with an exceptionally dedicated staff team.</p>
+      <h1>HELPING CHILDREN REACH THEIR FULL POTENTIAL</h1>
+        <p>“A caring atmosphere with an exceptionally dedicated staff team. <br />
+         They are committed to helping their students achieve their goals and are constantly striving to improve their teaching skills and methods.</p>
         <motion.button
           className="know-more"
           whileHover={{ scale: 1.1 }}
@@ -19,7 +21,9 @@ const Faculty = () => {
         </motion.button>
       </div>
       <div className="teacher-img">
-        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fteacher.jpeg?alt=media&token=b012dbce-93aa-4885-a860-0ad6c3b726cd" alt="" />
+      <div className="imageDiv">
+        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fteachers.webp?alt=media&token=5cd7688b-2d58-40a5-b3e6-00a807cca6f7" alt="" />
+        </div>
       </div>
     </div>
   );

@@ -1,16 +1,25 @@
+
+
+
+
+
 export const SliderData = [
     {
-      image: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider3.jpg?alt=media&token=b3396ffe-784b-44bb-b0b2-354ac2d39b67",
+      id:1,
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fslider3.jpg?alt=media&token=c70445d7-57e1-4e6c-bf31-bb5ea835ba61",
       
     },
     {
-      image: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider.jpg?alt=media&token=0cbed583-bf6d-4b5c-ae1c-619d3e0f785b",
+      id:2,
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fdrawingkids.webp?alt=media&token=6679fcc4-7247-4219-8562-57c28df7ece9",
      
     },
     {
-      image: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fslider2.jpg?alt=media&token=3bcc857b-6e5c-4822-93c7-94d3f3caeda0",
+      id:3,
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Flittlekids2.webp?alt=media&token=8037459c-38f7-47a9-b921-3ff79c81fb88",
      
     },
+
   ];
 
 

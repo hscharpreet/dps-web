@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Navbar2 from "../Navbar2/Navbar2";
 import Footer from "../Home/Footer";
 import VisitCard from "../Home/VisitCard";
-import AboutPage from "../About/AboutPage";
 import './Readmore.css'
 const Readmore = () => {
   return (
@@ -14,8 +13,9 @@ const Readmore = () => {
       exit={{ opacity: 0 }}
     >
       <Navbar2 />
-      <AboutPage />
-
+<div className="readmoreBanner">
+  <img src="https://alimacademy.org/wp-content/uploads/2020/07/Principals-Message-895x430-1.jpg" alt="" />
+</div>
       <div className="readMore">
         <p>
           Dear Students, Parents, and Guardians, <br /> <br />

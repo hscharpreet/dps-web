@@ -14,8 +14,8 @@
 
 .early1 h1 {
   font-size: 2rem;
-  font-weight: 400;
-  font-weight: 800;
+  font-family: "Cinzel", serif;
+  color: var(--blue);
 }
 .early1 p {
   font-size: 1rem;
@@ -37,17 +37,23 @@
 .early3 p {
   font-size: 1rem;
   font-family: "Roboto", serif;
-  
   line-height: 2;
 }
 
 @media only screen and (max-width: 1024px){
   .earlyContainer {
     display: block;
-
-    
   }
-  /* .early1, .early2, .early3{
-    flex: 100%;
-  } */
+  .early2 img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 500px){
+  .early1 h1 {
+    font-size: 1.5rem;
+  }
+  .early3 p, .early1 p {
+    font-size: .7rem;
+  }
 }

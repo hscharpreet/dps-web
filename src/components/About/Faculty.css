@@ -2,61 +2,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap");
 
 .faculty {
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-color: var(--yellow);
+  position: relative;
+  justify-content: space-around;
   font-family: "Montagu Slab", serif;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fvisit3.avif?alt=media&token=71ca68e7-6781-4466-99fc-65408882aa6d");
+  /* background-image: url("https://img.freepik.com/free-vector/education-pattern-background-doodle-style_53876-115365.jpg?w=740&t=st=1679333389~exp=1679333989~hmac=85e0f0cb6ea8f82505db0db86e273a9cc0f1733cad26aece321d8008889225f9");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: 10% 0;
+  background-size: cover; */
+  /* padding: 5% 0; */
 }
-
-.faculty .teacher-text {
-  background-color: #ffcb42;
-  border-radius: 5px;
-  width: 20%;
+.faculty .teacher-img {
+  flex: 40%;
+  height: auto;
+  max-height: 100%;
   text-align: center;
-  position: relative;
-  z-index: 1;
-padding: 2rem;
-  box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
-    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
-.faculty .teacher-text p{
+
+.imageDiv img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.faculty .teacher-text {
+  border-radius: 5px;
+  flex: 70%;
+  text-align: center;
+  height: auto;
+  max-height: 100%;
+}
+.faculty .teacher-text h1{
+  
+  font-size: 2.5rem;
+  font-family: "Cinzel", serif;
+  width: 40%;
+  margin: 0 auto;
+  color: var(--blue);
+} 
+.faculty .teacher-text p {
+  padding: 1.5rem;
   font-size: 1rem;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2;
+  letter-spacing: 1px;
 }
 .teacher-text .know-more {
-font-size: .8rem;
-  /* margin-top: 5rem; */
-  padding: 1rem;
+  font-size: 0.8rem;
+  padding: 1rem 2rem;
   border: none;
   background-color: #000000;
   box-shadow: 8px 8px 13px -8px rgba(0, 0, 0, 0.3),
     0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
-.faculty .teacher-img img {
-  width: 80%;
-  height: 50%;
-  border: 10px solid #00000096;
-  position: relative;
-  padding: 2rem;
-  z-index: 0;
-}
+
 .know-more span {
   color: rgb(255, 255, 255);
 }
-@media only screen and (max-width:768px){
-  
-.faculty .teacher-text {
-  width: 60%;
-  margin-bottom: 2rem;
+
+@media only screen and (max-width: 1440px) {
+ 
+  .faculty .teacher-text p {
+    font-size: 0.7rem;
+  }
+  .faculty .teacher-text h1{
+    font-size: 2rem;
+    padding-top: 1rem;
+  width: 60%;}
 }
-.faculty .teacher-img img {
- border: none;
-}}
+@media only screen and (max-width: 768px) {
+  .faculty .teacher-text  {
+   padding: 4rem 0;
+  }
+  .faculty {
+    display: block;
+  }
+ 
+}

@@ -4,35 +4,40 @@ import "./Navbar.css";
 // import { db } from "../../firebase.config";
 import Button from "./Button";
 import { useEffect } from "react";
-
-const Navbar = (props) => {
-  const [isTop, setIsTop] = useState(true);
+import logo from "../../assets/Group 1.png";
+const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 200) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
 
   useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      setIsTop(isTop);
-    });
-  }, []);
+    window.addEventListener("scroll", handleScroll);
+  });
 
   return (
     <>
-      <div className={`navbar ${!isTop ? "navbar-scrolled" : ""}`}>
-        <nav className="homeNav">
-          <a href="/" className="navbar-header logo">
-            <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2FdivineLogo.png?alt=media&token=866b1568-ba61-44b7-8706-f61fe44b8c70" alt="Logo" />
-          </a>
-          
-          <Button />
-        </nav>
-      </div>
+      <header className="navbar">
+        <div className="homeNav">
+          <div className={scrolled ? 'navLogo scrolled' : 'navLogo'} >
+            <a href="/">
+              <img src={logo} alt="Logo" />
+            </a>
+          </div>
+          <nav className={scrolled ? 'navigation1' : 'navigation'}>
+            <Button />
+          </nav>
+        </div>
+      </header>
+
+      {/* {scrolled ? 'navigation scrolled' : 'navigation'} */}
     </>
   );
 };
 
 export default Navbar;
-
-// const storageRef = doc(db, "/home/header/navbar/menu");
-// onSnapshot(storageRef, (doc) => {
-//   console.log(doc.data(), doc.id);
-// });

@@ -1,17 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
 .messageContainer {
   margin: auto;
-  /* padding: 5rem; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: rgb(235, 235, 241); */
   height: 1000px;
   max-height: 100%;
   gap: 10rem;
   width: 80%;
 }
+.aboutBanner{
+  width: 100%;
+  height: 700px;
 
+}
+.aboutBanner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .headName {
   flex: 20%;
 }
@@ -25,20 +32,20 @@
 
 .headName h1 {
   font-size: 3rem;
-  font-family: "Montagu Slab";
-  color: rgb(0, 0, 0);
+  font-family: "Cinzel", serif;
+  color: var(--blue);
   font-weight: bold;
   padding-right: 2rem;
 }
 .headName p {
   font-size: 1.5rem;
   font-family: "Montagu Slab";
-  color: rgb(0, 0, 0);
+  color:  rgb(164, 61, 61);
 }
 .principaHeading {
   font-size: 1.5rem;
-  font-family: "Montagu Slab";
-  color: rgb(0, 0, 0);
+  font-family: "Cinzel", serif;
+  color: var(--blue);
 }
 
 .parah {
@@ -76,9 +83,21 @@
     display: block;
     flex: 100%;
     gap: 2rem;
+    padding-top: 5rem;
   }
 }
 @media only screen and (max-width: 1200px) {
+  .message{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .parah{
+    width: 100%;
+  }
+  .principalImage{
+    width: 100%;
+  }
   .headName h1 {
     font-size: 2.5rem;
   }
@@ -88,16 +107,24 @@
   .principaHeading {
     font-size: 1.5rem;
   }
-  .parah {
+  .parah{
+    text-align: center;
+  }
+  .parah p{
     font-size: 1rem;
     width: 100%;
+   
   }
   .principalImage img {
-    width: 500px;
-    height: 350px;
+    width: 50%;
+    height: 50%;
   }
 }
 @media only screen and (max-width: 800px) {
+  .messageContainer{
+    height: 900px;
+   
+  }
   .message {
     display: block;
     flex: 100%;
@@ -109,8 +136,35 @@
   }
 
   .icon2 {
-    font-size: 2rem;
+    font-size: 1rem;
     position: absolute;
-    bottom: -5px;
+    bottom: -2px;
+  }
+  .aboutBanner{
+    width: 100%;
+    height: auto;
+  
+  }
+  .headName h1 {
+    font-size: 2rem;
+  }
+  .headName p {
+    font-size: 1rem;
+  }
+  .principaHeading {
+    font-size: 1rem;
+  }
+  .parah p{
+    font-size: .7rem;
+    
+  }
+  .parah a{
+    font-size: .7rem;
+  }
+}
+@media only screen and (max-width: 500px){
+  .messageContainer{
+    height: 700px;
+   
   }
 }

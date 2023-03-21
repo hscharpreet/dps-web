@@ -4,14 +4,14 @@
   height: 100%;
   overflow: hidden;
   position: relative;
-  
+  font-family: "Cinzel", serif;
 }
 .footerOverlay {
   position: relative;
   width: 100%;
   height: 25em;
 }
-.footerOverlay .overlayImg  {
+.footerOverlay .overlayImg {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -27,31 +27,29 @@
   background-color: #1b0853e5;
 }
 .footer-container .address {
-flex: 40%;
-position: relative;
-
+  flex: 40%;
+  position: relative;
 }
 .footer-container .address .addressImg {
-display: block;
-margin: 0 auto;
-width:15%;
-height: 35%;
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  height: auto;
 }
-.footer-container .address .addressHead{
-    color: white;
-    letter-spacing: 5px;
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: 800px;
+.footer-container .address .addressHead {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800px;
 }
-.footer-container .address .addressText{
+.footer-container .address .addressText {
   color: white;
   text-align: center;
   font-size: 1rem;
   line-height: 2;
   letter-spacing: 2px;
   /* padding-left: 5rem; */
-
 }
 .line {
   border-left: 0.6px solid #8aa1d6;
@@ -62,7 +60,6 @@ height: 35%;
 
 .footer-container .column {
   flex: 15%;
-  
 }
 .column h1 {
   line-height: 3;
@@ -75,7 +72,6 @@ height: 35%;
 .link {
   text-decoration: none;
   letter-spacing: 3px;
-
 }
 .link h1:hover {
   color: #ffc524;
@@ -94,17 +90,27 @@ height: 35%;
 .footerp {
   font-size: 0.8rem;
 }
+@media screen and (max-width: 1900px) {
+  .footer-container .address .addressImg {
+    width: 15%;
+    /* height: 30%; */
+  }}
+  @media screen and (max-width: 1024px) {
+    .footer-container .address .addressImg {
+      width: 20%;
+      /* height: 30%; */
+    }}
 @media screen and (max-width: 768px) {
-  .footer-container .address .addressImg{
-    width: 40%;
-    height: 30%;
+  .footer-container .address .addressImg {
+    width: 25%;
+    /* height: 30%; */
   }
-  .footer-container .address .addressText{
-    font-size: .8rem;
+  .footer-container .address .addressText {
+    font-size: 0.8rem;
     letter-spacing: normal;
   }
   .column h1 {
-    font-size: .8rem;
+    font-size: 0.8rem;
     letter-spacing: normal;
   }
   .line {
@@ -113,32 +119,37 @@ height: 35%;
   .copyright {
     padding: 0 2rem 2rem;
   }
-  .footer-container .address .addressHead{
+  .footer-container .address .addressHead {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 500px) {
-  .footer-container .address .addressImg{
-    width: 40%;
-    height: 20%;
+  .footerOverlay {
+    position: relative;
+    width: 100%;
+    height: 17em;
   }
-  .footer-container .address .addressHead{
+  .footer-container .address .addressImg {
+    width: 30%;
+    /* height: 20%; */
+  }
+  .footer-container .address .addressHead {
     letter-spacing: normal;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
-  .footer-container .address .addressText{
-    font-size: .5rem;
+  .footer-container .address .addressText {
+    font-size: 0.5rem;
     letter-spacing: normal;
   }
   .column h1 {
-    font-size: .5rem;
+    font-size: 0.5rem;
     letter-spacing: normal;
   }
   .footerp {
     font-size: 0.5rem;
   }
-  .copyright{
+  .copyright {
     font-size: 0.5rem;
-
+    /* padding-bottom: -5px; */
   }
 }

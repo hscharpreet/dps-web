@@ -1,7 +1,15 @@
 .admissionContainer {
   background-color: rgba(235, 234, 233, 0.41);
 }
-
+.admissionBanner{
+  width: 100%;
+  height: 700px;
+}
+.admissionBanner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .admissionContent {
   width: 50%;
   margin: auto;
@@ -10,24 +18,37 @@
 }
 .admissionContent h1 {
   font-size: 2rem;
-  font-family: "Roboto", serif;
-  font-weight: 600;
+  font-family: "Cinzel", serif;
+
 }
 
 .admissionContent h3 {
   font-size: 1.5rem;
-  font-weight: 500;
   line-height: 1.5;
+  font-family: "Cinzel", serif;
 }
 .admissionContent p {
   font-size: 1rem;
   line-height: 2;
-  font-weight: 400;
 }
 
 @media only screen and (max-width: 1024px) {
   .admissionContent {
     width: 80%;
     padding: 5% ;
+  }
+  .admissionBanner {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .admissionContent h1{
+    font-size: 1.5rem;
+  }
+  .admissionContent h3{
+    font-size: 1rem;
+  }
+  .admissionContent p {
+    font-size: .7rem;
   }
 }

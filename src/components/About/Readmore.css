@@ -11,7 +11,15 @@
     font-size: 1.3rem;
     line-height: 2;
 }
-
+.readmoreBanner{
+    width: 100%;
+    height:500px;
+}
+.readmoreBanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
 @media screen and (max-width: 1200px){
     .readMore p{
         font-size: 1rem;
@@ -21,5 +29,8 @@
 @media screen and (max-width: 768px){
     .readMore p{
         font-size: .7rem;
+    }
+    .readmoreBanner{
+        height:100%;
     }
 }

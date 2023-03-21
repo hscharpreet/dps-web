@@ -27,6 +27,7 @@
 }
 
 .provideContent h1 {
+  font-family: "Cinzel", serif;
   font-size: 2rem;
   letter-spacing: 5px;
   font-weight: bolder;
@@ -36,11 +37,21 @@
   width: 80%;
   line-height: 2;
 }
-@media only screen and (max-width:1000px){
-
-  .provide{
+@media only screen and (max-width: 1000px) {
+  .provide .provideContent {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .provideContent p {
+    font-size: 1rem;
+  }
+  .provideContent h1 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  .provide {
     display: block;
-   width: 90%;
+    width: 90%;
   }
   .provide .im img {
     width: 100%;
@@ -50,12 +61,12 @@
     width: 100%;
   }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width: 500px) {
   .provideContent p {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .provideContent h1 {
-    font-size: 1.5rem;
-   
+    font-size: 1rem;
+    letter-spacing: 2px;
   }
 }

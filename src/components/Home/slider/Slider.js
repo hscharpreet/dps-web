@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
-// import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-// import Navbar from "../Navbar";
 import { SliderData } from "./SliderData";
 import "./Slider.css";
 
-
+// const Loader = () => {
+//   return <div>Loading...</div>;
+// };
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isLoaded, setIsLoaded] = useState(false);
+
   const slideLength = SliderData.length;
 
   const autoScroll = true;
@@ -17,9 +19,9 @@ const Slider = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
   };
 
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-  };
+  // const prevSlide = () => {
+  //   setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+  // };
 
   function auto() {
     slideInterval = setInterval(nextSlide, intervalTime);
@@ -34,7 +36,7 @@ const Slider = () => {
       auto();
     }
     return () => clearInterval(slideInterval);
-  }, [currentSlide]);
+  }, [currentSlide, auto, autoScroll, slideInterval]);
 
   return (
     <div className="slider">
@@ -46,13 +48,16 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div>
-                <img src={slide.image} alt="slide" className="image" />
-
-                {/* <div className="content">
-                  <h2>{slide.heading}</h2>
-                  <p>{slide.desc}</p>
-                  <hr />
-                </div> */}
+                {/* {isLoaded ? ( */}
+                  <img
+                    src={slide.imgSrc}
+                    alt="slideShow"
+                    className="image"
+                    onLoad={() => setIsLoaded(true)}
+                  />
+                {/* ) : (
+                  <Loader />
+                )} */}
               </div>
             )}
           </div>

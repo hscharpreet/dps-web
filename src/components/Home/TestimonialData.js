@@ -1,6 +1,6 @@
 export const TestimonialData = [
     {
-      image: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532",
+      image: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fparents.jpeg?alt=media&token=de88bcad-ad4f-4f9c-beac-ac2086ecab3b",
       heading1: "TESTIMONIALS",
       heading2: "Our Voices",
       desc: "This is the description of slide one Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",

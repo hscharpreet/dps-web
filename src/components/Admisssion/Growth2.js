@@ -40,7 +40,7 @@ const Growth2 = () => {
           build their confidence and prepare them for future challenges.
         </p>
         <p>
-        <NavLink to="/admission/fees" className="link"> Unifrom <AiOutlineArrowRight/></NavLink></p>
+        <NavLink to="/admission/fees" className="link"> Uniform <AiOutlineArrowRight/></NavLink></p>
       </div>
       </div>
       </IconContext.Provider>

@@ -14,7 +14,7 @@ const EarlyYears = () => {
         </p>
       </div>
       <div className="early2 col">
-        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FPXL_20221022_060034724%20(1).jpg?alt=media&token=22a8f669-f34e-4435-b522-a4bfc1bb1963" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Factivity.webp?alt=media&token=62ac87f5-3c1d-487d-bb75-e1eb3cb00e0a" alt="" />
       </div>
       <div className="early3 col">
         <p>

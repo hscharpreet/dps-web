@@ -12,6 +12,7 @@ import SlideUp from "../components/SlideUp";
 import VisitCard from "../components/Home/VisitCard";
 import DivineWelcome from "../components/Home/DivineWelcome";
 import DivineImg from "../components/Home/DivineImg";
+import Slider from "../components/Home/slider/Slider";
 // import {
 //   collection,
 //   doc,
@@ -60,6 +61,7 @@ const Home = () => {
       >
         <Navbar  />
         <Header />
+        {/* <Slider/> */}
         <DivineWelcome />
         <DivineCare />
         <DivineImg />

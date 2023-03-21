@@ -1,63 +1,58 @@
-.growthCard{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-/* margin: 10% 0; */
-gap: 1rem;
+.growthCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
 }
-.growthCard .growth{
-    flex: 33.33%;
-    height: 1000px;
-    width: 100%;
-    background-color: rgb(233, 194, 88);
-    /* border-radius: 2%; */
-    /* margin:0 1px; */
-   
+.growthCard .growth {
+  flex: 33.33%;
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(233, 194, 88);
 }
-.growth img{
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-    /* border-radius: 2%; */
+.growth img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
 }
-.growthContent{
-    color: black;
-    text-align: center;
-    padding: 10% ;
+.growthContent {
+  color: var(--blue);
+  text-align: center;
+  padding: 10%;
 }
-.growthContent h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: 2px;
+.growthContent h1 {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
-.growthContent p{
-    line-height: 1.5;
-    font-size: 1.5rem;
+.growthContent p {
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
-.growthContent a{
-    color: #534f7d;
-    font-weight: 600;
-    text-decoration: underline;
+.growthContent a {
+  color: #534f7d;
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 1px;
 }
 
-@media only screen and (max-width:1900px) {
-    .growthCard{
-      display: block;
-      flex: 100%;
-      gap: 2rem;
-    }
+@media only screen and (max-width: 1900px) {
+  .growthCard {
+    display: block;
+    flex: 100%;
+    gap: 2rem;
+  }
 }
-    @media only screen and (max-width:768px){
-        .growthContent h1{
-            font-size: 1.5rem;
-        }
-        .growthContent p{
-            font-size: 1rem;
-        }
-        .growthCard .growth{
-            height: 800px;
-        }
-
-    }
-  
+@media only screen and (max-width: 768px) {
+  .growthContent h1 {
+    font-size: 1.2rem;
+  }
+  .growthContent p {
+    font-size: 0.8rem;
+  }
+  .growthCard .growth {
+    height: 800px;
+  }
+}

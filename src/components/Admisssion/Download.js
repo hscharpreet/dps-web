@@ -7,12 +7,12 @@ const Download = () => {
   return (
     <div className="download">
         <IconContext.Provider
-            value={{ color: "#d6d638", className: "icon3" }}
+            value={{ color: "#daab2b", className: "icon3" }}
           >
       <div className="funding">
         <p>
           Please check eligibility of the Free Early Education Entitlement  <br /> on
-          the Nursery Government Funding page for Early Years places.
+          the Nursery <span> Government Funding</span> page for Early Years places.
         </p>{" "}
        
         <p>

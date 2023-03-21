@@ -6,6 +6,9 @@ import { IconContext } from "react-icons/lib";
 const PrinciplalM = () => {
   return (
     <>
+    <div className="aboutBanner">
+      <img src="https://cdn-gpodp.nitrocdn.com/CSsCpSeQhHUngfvhnGrLHfGuscVvfbli/assets/images/optimized/rev-8982a5d/wp-content/uploads/2022/10/10-Inspiring-Leadership-Quotes-for-21st-Century-School-Principals.jpg" alt="" />
+    </div>
       <div className="messageContainer">
         <IconContext.Provider value={{ className: "icon2" }}>
           <div className="headName ">

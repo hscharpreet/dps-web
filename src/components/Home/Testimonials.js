@@ -7,9 +7,9 @@ const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = TestimonialData.length;
 
-  const autoScroll = true;
-  let slideInterval;
-  let intervalTime = 5000;
+  // const autoScroll = true;
+  // let slideInterval;
+  // let intervalTime = 5000;
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -19,20 +19,20 @@ const Testimonials = () => {
     setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
   };
 
-  function auto() {
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
+  // function auto() {
+  //   slideInterval = setInterval(nextSlide, intervalTime);
+  // }
 
   useEffect(() => {
     setCurrentSlide(0);
   }, []);
 
-  useEffect(() => {
-    if (autoScroll) {
-      auto();
-    }
-    return () => clearInterval(slideInterval);
-  }, [currentSlide]);
+  // useEffect(() => {
+  //   if (autoScroll) {
+  //     auto();
+  //   }
+  //   return () => clearInterval(slideInterval);
+  // }, [currentSlide]);
 
   return (
     <>
@@ -46,7 +46,6 @@ const Testimonials = () => {
               {index === currentSlide && (
                 <div>
                   <div className="col image">
-                    {/* <img src={shape2} alt="" className="shape-2" /> */}
                     <img className="parentsImg" src={data.image} alt="parents" />
                   </div>
                   <div className="col voices">
@@ -75,18 +74,5 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-{
-  /* <div className="col image">
 
-<img className="parentsImg" src={data.image} alt="image" />
-</div>
-<div className="col voices">
-<h3>{data.heading2}</h3>
-<h1>{data.heading1}</h1>
-<p>{data.desc}</p>
-<div className="parents-name">
-  <p> {data.parentsName} <span className="line"></span> Parent</p> 
-  
-</div>
-</div> */
-}
+

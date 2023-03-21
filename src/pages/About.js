@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import Footer from "../components/Home/Footer";
-import AboutPage from "../components/About/AboutPage";
 import PrinciplalM from "../components/About/PrinciplalM";
 import Faculty from "../components/About/Faculty";
 import { motion } from "framer-motion";
@@ -19,7 +18,6 @@ const About = () => {
       exit={{ opacity: 0 }}
     >
       <Navbar2 />
-      <AboutPage />
       <PrinciplalM />
       <Growth/>
       <Provide/>

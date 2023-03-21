@@ -45,7 +45,7 @@
 .voices h1 {
   color: var(--blue);
   font-size: 3rem;
-  font-family: "Montagu Slab", serif;
+  font-family: "Cinzel", serif;
   font-weight: 600;
 }
 .voices p {
@@ -76,11 +76,30 @@
   opacity: 1;
   transform: translateX(0);
 }
+.arrow {
+  background-color: transparent;
+  color: var(--blue);
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+}
+.arrow:hover {
+  color: #777;
+}
+.next {
+  top: 35%;
+  right: 1.5rem;
+}
+.prev {
+  top: 35%;
+  left: 1.5rem;
+}
 @media screen and (max-width: 1800px) {
-
   .parentsImg {
     width: 25%;
-  
   }
 }
 @media screen and (max-width: 1440px) {
@@ -89,7 +108,7 @@
   }
   .parentsImg {
     width: 30%;
-    height: 90%;
+    height: 80%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -132,7 +151,6 @@
 @media screen and (max-width: 600px) {
   .testimonial {
     height: 800px;
-   
   }
   .voices .descr p {
     font-size: 12px;
@@ -159,5 +177,29 @@
   .arrow {
     height: 2rem;
     width: 1.4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .testimonial {
+    padding: 0 10px;
+  }
+  .voices h1 {
+    font-size: 25px;
+  }
+  .voices h3 {
+    font-size: 12px;
+  }
+  .voices .descr p {
+    width: 35%;
+  }
+  .parentsImg {
+    width: 20%;
+    height:70%;
+    top: -12rem;
+    right: 22rem;
+  }
+  .parents-name p {
+    font-size: 12px;
+   
   }
 }

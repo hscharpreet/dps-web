@@ -73,7 +73,6 @@ td {
 }
 .uniformList{
     width: 50%;
- 
     margin:0 auto;
     text-align: left;
     background-color: #b37c0d1e;
@@ -101,6 +100,11 @@ td {
   }
 }
 @media only screen and (max-width: 768px) {
+  .uniform {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
   .fees img {
     width: 100%;
     height: 400px;
@@ -111,8 +115,16 @@ td {
   }
 }
 @media only screen and (max-width: 600px) {
+
     .uniformList{
-        padding: 3rem 2rem;
+        padding: 1rem 0rem;
+        
+    }
+    .uniform h1{
+      font-size: 2rem;
+    }
+    .uniform h2{
+      font-size: 1.5rem;
     }
     .uniformList h2{
         font-size: 1rem;
