@@ -1,4 +1,4 @@
-.fess {
+.fees {
   width: 100%;
 }
 .fees img {
@@ -89,7 +89,38 @@ td {
     color: #0e0728;
 }
 
-
+/* @media screen and (max-width: 600px) {  
+   thead {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    
+  }
+  
+   tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+ td {
+    border: 1px solid;
+    border-bottom: none;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+   td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+   td:last-child {
+    border-bottom: 1px solid;
+  }
+} */
 
 
 
@@ -100,10 +131,11 @@ td {
   }
 }
 @media only screen and (max-width: 768px) {
+ 
   .uniform {
     width: 100%;
     padding: 0 1rem;
-    margin: 0 auto;
+    margin: 3rem auto;
   }
   .fees img {
     width: 100%;
@@ -111,15 +143,12 @@ td {
     object-fit: cover;
   }
   .uniformList{
-    width: 100%;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 600px) {
 
-    .uniformList{
-        padding: 1rem 0rem;
-        
-    }
+ 
     .uniform h1{
       font-size: 2rem;
     }
