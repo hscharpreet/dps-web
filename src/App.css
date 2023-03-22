@@ -1,9 +1,9 @@
-*{
+/* *{ */
    /* outline: 1px solid limegreen; */
- }
+ /* } */
 
  @import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
- @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
+ /* @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap"); */
 
  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:ital,wght@0,300;1,300&display=swap");
 

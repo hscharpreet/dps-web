@@ -12,7 +12,7 @@ const DivineCare = () => {
           <p className="purpose">
             The purpose of Divine Public School is to provide a quality
             education that prepares all of our students for success in college,
-            career and life.We will produce scholarswho are high achieving
+            career and life. We will produce scholars who are high achieving
             critical thinkers, prepared to succeed in a constantly changing
             world and engaged in the improvement of their communities.
           </p>

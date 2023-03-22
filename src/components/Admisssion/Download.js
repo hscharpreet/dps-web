@@ -27,7 +27,7 @@ const Download = () => {
         </div>
         <div className="links">
         <h1>Useful Links</h1>
-          <p> <BsFillArrowRightSquareFill/>  <NavLink to="/admission/fees" className="link">Aplication form</NavLink></p>
+          <p> <BsFillArrowRightSquareFill/>  <a href="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fadmission%2FAdmission%20Form.pdf?alt=media&token=79ccc509-6bf6-43e0-aaa5-87239dea789c" download="FileName.pdf" className="link">Aplication form</a></p>
          
           <p> <BsFillArrowRightSquareFill/>  <NavLink to="/admission/fees" className="link">Fees</NavLink></p>
         </div>

@@ -1,4 +1,4 @@
-.carouselCard {
+/* .carouselCard {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -28,8 +28,8 @@
   left: 15%;
   top: 5%;
   /* z-index: 1; */
-}
-
+/* } */
+/* 
 .littleSquare {
   position: absolute;
   bottom: 23%;
@@ -47,5 +47,87 @@
 @media screen and (max-width: 768px) {
   .littleSquare {
     visibility: hidden;
+  }
+} */
+
+.cardGrid {
+  height: 100%;
+  padding: 5rem 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Cinzel", serif;
+  color: var(--blue);
+}
+.cardGrid a{
+  text-decoration: none;
+}
+.cardGrid h1{
+  font-size: 3rem;
+
+  letter-spacing: 2px;
+}
+.cardUpdates {
+  font-size: .7rem;
+  letter-spacing: 2px;
+  font-weight: 800;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.cardUpdates:hover{
+  color: var(--yellow);
+}
+.cardRow {
+  display: flex;
+  align-items: center;
+  /* justify-content:space-around; */
+
+}
+.cardcol {
+  width: 60%;
+ 
+}
+.cardCol .cardImg {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  box-shadow: 0px -11px 43px -8px rgba(0,0,0,0.3),
+  0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+ .cardImg img{
+  width: 100%;
+  height:100% ;
+  object-fit: contain;
+}
+.cardCol h2{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  
+}
+
+.cardCol h2:hover{
+  color: var(--yellow);
+}
+
+.cardCol p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+  .cardGrid h1{
+    font-size: 1.5rem;
+  }
+  .cardCol h2{
+    font-size: 1rem;
+  }
+  .cardCol p{
+    font-size: .6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardRow{
+    display: block;
   }
 }

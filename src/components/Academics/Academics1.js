@@ -2,6 +2,10 @@ import React from "react";
 import "./Academics1.css";
 const Academics1 = () => {
   return (
+    <>
+    <div className="academicsBanner">
+      <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fteaching.webp?alt=media&token=a0130282-1be1-451d-9a23-b88ad9ffc72a" alt="" />
+    </div>
     <div className="academics1">
       <h1>Academics</h1>
       <hr className="academicLine"/>
@@ -21,6 +25,7 @@ const Academics1 = () => {
         </ol>
       
     </div>
+    </>
   );
 };
 

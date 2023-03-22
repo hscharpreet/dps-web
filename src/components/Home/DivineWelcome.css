@@ -58,14 +58,14 @@
   font-weight: bold;
   font-size: 2.5rem;
   letter-spacing: 5px;
-  color: rgba(0, 0, 0, 0.823);
+  color: var(--blue);
   font-family: "Cinzel", serif;
   width: 60%;
 }
 .welcome-text p {
   font-size: 1.5rem;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.583);
+  font-weight: 600;
+  color: black;
   line-height: 1.8;
   text-align: left;
   font-family: "Raleway", sans-serif;

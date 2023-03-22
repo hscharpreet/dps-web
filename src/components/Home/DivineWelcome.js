@@ -18,10 +18,8 @@ const DivineWelcome = () => {
           <p>
             Divine public School was founded in 2008 as an independent, non
             sectarian, co-educational kindergarten-through eigth-grade
-            institutiom. located in uttarpradesh, divine was designed to provide
-            an exceptional education for students in thr western suburbsof thr
-            twin. highcroft’s current building was constructed in 1960 on land
-            donated to the school,
+            institution, located in UttarPradesh. Divine was designed to provide
+            an exceptional education for students in the rural area of Mirzapur. Its mission is to “prepare each of its students for college and for life in a global environment.”
           </p>
         </div>
       </div>

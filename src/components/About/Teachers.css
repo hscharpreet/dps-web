@@ -1,0 +1,49 @@
+.faculty1 {
+  width: 80%;
+ 
+  margin: 0 auto;
+  text-align: center;
+}
+.teacherBackground {
+  width: 100%;
+  object-fit: cover;
+}
+.teacherBackground img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.teacherContainer {
+  width: 100%;
+  
+  margin: 0 auto;
+  font-family: "Montagu Slab";
+}
+.teacherContainer h1 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-family: "Cinzel", serif;
+  color: rgb(27, 22, 127);
+}
+.teacherContainer .underline {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 100%;
+}
+
+.teacherData {
+ padding: 5rem 0;
+}
+.facultyHeading {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .teacherBackground img {
+    height:auto;
+  }
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&family=Open-Sans:wght@300&display=swap"); */
 
 .facts {
   height: 100%;
@@ -64,10 +64,12 @@
   .factData h1 {
     font-size: 2rem;
     line-height: 2;
+    text-align: center;
   }
   .factData h2 {
     font-size: 1.5rem;
     line-height: 2;
+    text-align: center;
   }
   .factData {
     padding: 1rem 2rem;

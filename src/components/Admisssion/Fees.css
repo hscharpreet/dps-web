@@ -17,6 +17,7 @@
   letter-spacing: 5px;
 }
 table {
+  overflow: hidden;
   border-collapse: collapse;
   width: 70%;
   margin: 0 auto;

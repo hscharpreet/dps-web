@@ -1,14 +1,21 @@
-import React from 'react'
-
-import "./TeacherCard.css"
+import React from "react";
+import { TeacherData } from "./TeacherData";
+import "./TeacherCard.css";
 const TeachersCard = () => {
   return (
-    <div className="teachersCard">
-        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.webp" alt="" />
-        <h2>Miss.Anita Singh</h2>
-        <p> <span className='title'>Title:</span> English Teacher</p>
+    <div className="teachersCard" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '3rem' }}>
+      {TeacherData.map((item, index) => (
+        <div className="tCard" key={index} style={{ backgroundColor: '#f0f0f0', padding: '20px', borderRadius: '5px' }}>
+          <img src={item.imgSrc} alt="teacherphoto" />
+          <h2>{item.name}</h2>
+          <p>
+            {" "}
+            <span className="title">Title:</span> {item.qualification}
+          </p>
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default TeachersCard
+export default TeachersCard;

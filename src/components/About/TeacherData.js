@@ -1,41 +1,50 @@
-import React from "react";
-import "./TeacherData.css";
-import TeachersCard from "./TeachersCard";
-const TeacherData = () => {
-  return (
-    <>
-      <div className="teacherContainer">
-        <div className="teacherBackground">
-          <img
-            src="https://t4.ftcdn.net/jpg/05/18/65/75/240_F_518657595_keQdDMCfv8SgYvjOgPMe8BCx7hkuplIf.jpg"
-            alt=""
-          />
-        </div>
-        <div className="faculty1">
-          <h1 className="facultyHeading">Faculty and Staff </h1>
-          <hr className="underline" />
-          <div className="teacherData">
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-            <TeachersCard />
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default TeacherData;
+export const TeacherData = [
+  {
+    id:1,
+    name:"Manisha Jaiswal",
+    qualification:"M.A.",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:2,
+    name:"Aayesha",
+    qualification:"null",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:3,
+    name:"Sakina Bano",
+    qualification:"null",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:4,
+    name:"Akanksha Agrahri",
+    qualification:"B.com + D.F.A(Diploma in Financial Accounting)",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:5,
+    name:"Nidhi Vishwakarma",
+    qualification:"B.sc (Biology)",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:6,
+    name:"Pooja Maurya",
+    qualification:"M.A. + ADCFA",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  {
+    id:7,
+    name:"Rani",
+    qualification:"B.A (English Lit.)+ M.A. + ADCA",
+    imgSrc:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fparents1.jpeg?alt=media&token=65b65e29-f059-433b-9e0d-74c307752532"
+  },
+  // {
+  //   id:8,
+  //   name:"",
+  //   qualification:"",
+  //   imgSrc:""
+  // },
+]
