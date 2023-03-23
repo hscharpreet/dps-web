@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Navbar2 from "../Navbar2/Navbar2";
 import Footer from "../Home/Footer";
 import VisitCard from "../Home/VisitCard";
-import './Readmore.css'
+import "./Readmore.css";
 const Readmore = () => {
   return (
     <motion.div
@@ -13,9 +13,12 @@ const Readmore = () => {
       exit={{ opacity: 0 }}
     >
       <Navbar2 />
-<div className="readmoreBanner">
-  <img src="https://alimacademy.org/wp-content/uploads/2020/07/Principals-Message-895x430-1.jpg" alt="" />
-</div>
+      <div className="readmoreBanner">
+        <img
+          src="https://alimacademy.org/wp-content/uploads/2020/07/Principals-Message-895x430-1.jpg"
+          alt=""
+        />
+      </div>
       <div className="readMore">
         <p>
           Dear Students, Parents, and Guardians, <br /> <br />
@@ -38,7 +41,7 @@ const Readmore = () => {
           your child's education. <br />
           Thank you for choosing our school. Together, we can make a difference
           in the lives of our students. <br /> <br />
-          Sincerely, <br /> 
+          Sincerely, <br />
           Pinki Gupta
         </p>
       </div>

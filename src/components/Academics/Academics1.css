@@ -26,8 +26,10 @@ height: 700px;
 .academics1 h1 {
   text-align: center;
   font-size: 4rem;
+  font-family: "Cinzel", serif;
 }
 .academics1 h2 {
+  font-family: "Cinzel", serif;
   color: rgb(26, 36, 89);
   font-size: 3rem;
 }

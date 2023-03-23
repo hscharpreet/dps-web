@@ -32,12 +32,16 @@
   font-size: 1.5rem;
 }
 .growthContent a {
-  color: #534f7d;
+  font-size: 1rem;
+  color: #000000;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
   letter-spacing: 1px;
 }
-
+.growthContent .icon3{
+  position: relative;
+  top: 2px;
+}
 @media only screen and (max-width: 1900px) {
   .growthCard {
     display: block;
@@ -50,9 +54,12 @@
     font-size: 1.2rem;
   }
   .growthContent p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .growthCard .growth {
     height: 800px;
+  }
+  .growthContent a {
+    font-size: .7rem;
   }
 }

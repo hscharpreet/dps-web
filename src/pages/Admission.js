@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Admission.css"
 import Admission1 from '../components/Admisssion/Admission1';
 import Footer from '../components/Home/Footer'
 import { motion } from "framer-motion";
@@ -10,7 +11,7 @@ import Growth2 from '../components/Admisssion/Growth2';
 import SlideUp from "../components/SlideUp";
 const Admission = () => {
   return (
-    <motion.div className="academics" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
+    <motion.div className="admission" initial={{ opacity: 0 }}  animate={{ opacity: 1 }}  exit={{opacity:0 }}>
     <Navbar2/>
     <Admission1/>
     <EarlyYears/>

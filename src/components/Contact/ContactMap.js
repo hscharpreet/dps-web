@@ -9,9 +9,13 @@ const Contact = () => {
           <h1>Get in touch with Divine School</h1>
           <h2>You can contact us via any of the methods below:</h2>
           <h3>Address:</h3>
-          <p>Divine School, Foxhill Drive, Weetwood Lane, Leeds LS16 5PF</p>
+          <p>
+            {" "}
+            Satyanganj, Ahraura, Mirzapur, <br />
+            Uttar Pradesh <br />
+          </p>
           <h3>Phone:</h3>
-          <p>36239756298</p>
+          <p>8318909165</p>
           <h3>Email:</h3> <p>divineschool@gmail.com</p>
           <p>
             The Headteacher can be contacted by email at:

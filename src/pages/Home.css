@@ -4,5 +4,5 @@
    /* overflow-x: hidden important!; */
    scroll-snap-type: y mandatory;
    overflow-y: scroll;
-   
+   background-color: #ebeaea61;
 }

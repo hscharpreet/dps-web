@@ -25,7 +25,7 @@ const Navbar = () => {
       <header className="navbar">
         <div className="homeNav">
           <div className={scrolled ? 'navLogo scrolled' : 'navLogo'} >
-            <a href="/">
+            <a href="/dps-web">
               <img src={logo} alt="Logo" />
             </a>
           </div>

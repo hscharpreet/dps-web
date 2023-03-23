@@ -7,7 +7,7 @@ const Growth2 = () => {
   return (
     <div className="growthCard">
      <IconContext.Provider
-            value={{ color: "#564bce", className: "icon3" }}
+            value={{ color: "black", className: "icon3" }}
           >
       <div className="growth g1">
         <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FPXL_20221022_060034724%20(1).jpg?alt=media&token=22a8f669-f34e-4435-b522-a4bfc1bb1963" alt="" />

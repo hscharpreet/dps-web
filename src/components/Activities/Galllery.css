@@ -1,69 +1,77 @@
+.activityBanner{
+ width: 100%;
+ height: 700px;
+}
+.activityBanner img{ 
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
 .activityGallery h1 {
   font-size: 3rem;
   text-align: center;
   color: rgba(30, 11, 96, 0.673);
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  font-family: "Cinzel", serif;
+}
+.activityGallery {
+  width: 100%;
+  margin:7rem auto;
 }
 .line1 {
   width: 100%;
 }
 
-
 .gridContainer {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 2rem;
   width: 60%;
   margin: 0 auto;
-  padding: 12rem 0;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(autofill, 100vw);
+  grid-gap: 1.5rem;
 }
+.grid-item {
+  margin: 0;
+  padding: 0;
+  height: 500px;
 
+}
 .gridContainer img {
-  width: 400px;
-  height: 30%;
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-}
+  box-shadow: 87px -52px 0px -255px rgba(0,0,0,0.3),
+  -2px 5px 18px -14px rgba(0,0,0,0.22);
 
-.column2 img,
-.column3 img {
-  width: 400px;
-  height: 400px;
-
-  /* margin-bottom: 10px; */
 }
 
 .gridContainer a {
   text-decoration: none;
   color: rgba(58, 50, 130, 0.908);
-  letter-spacing: 10px;
+  letter-spacing: 4px;
+  font-family: "Cinzel", serif;
+  text-align: center;
+
 }
-/* @media only screen and (max-width: 1900px){
-  .gridContainer {
-    grid-template-columns: 2fr 2fr ;
-    text-align: center;
-  } */
-   
-/* } */
-@media only screen and (max-width: 1600px){
-  .gridContainer {
-    grid-template-columns: 2fr 2fr ;
-    text-align: center;
-  }
-  .gridContainer img {
-    width: 400px;
-    height: 30%;
-    object-fit: cover;
+@media only screen and (max-width: 1024px) {
+  .activityBanner{
+    height: auto;
   }
 }
-@media only screen and (max-width: 1000px){
-  .gridContainer {
-    grid-template-columns: 2fr  ;
-    text-align: center;
-    grid-gap: 2rem;
+@media only screen and (max-width: 768px) {
+  .activityGallery h1 {
+    font-size: 1.5rem;
   }
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .gridContainer img {
-    width: 300px;
-    height: 30%;
-    object-fit: cover;
+    height: 500px;
+  }
+  .grid-item {
+    height: 700px;
   }
 }

@@ -24,7 +24,7 @@ const PrinciplalM = () => {
             </div>
             <div className="parah ">
               <h3 className="principaHeading">
-                <span className="line1"></span> PRINCIPAL'S MESSAGE{" "}
+                <span className="line1"></span> A FEW WORDS OF WELCOME FROM OUR HEAD
               </h3>
               <p>
                 " My leadership role will focus on providing an enabling

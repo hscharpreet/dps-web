@@ -33,7 +33,7 @@ const Navbar2 = () => {
             value={{ color: "#daab2b", className: "icon1" }}
           >
             <div className="leftNav">
-              <NavLink to="/" className="link">
+              <NavLink to="/dps-web" className="link">
                 <div>
                   <img src={logo} alt="Logo" />
                 </div>
