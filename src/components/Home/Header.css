@@ -4,10 +4,10 @@ body {
 }
 
 .header {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fslider3.jpg?alt=media&token=c70445d7-57e1-4e6c-bf31-bb5ea835ba61");
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fslider3.jpg?alt=media&token=c70445d7-57e1-4e6c-bf31-bb5ea835ba61");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   position: relative;
   /* inset: 0; */
   width: 100%;

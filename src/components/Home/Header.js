@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className="header">
-{/* <Navbar/> */}
+<Navbar/>
         <h1 className="animate-charcter">
           WELCOME TO <br />
           <span> DIVINE</span> <br /> PUBLIC SCHOOL
