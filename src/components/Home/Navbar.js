@@ -23,16 +23,16 @@ const Navbar = () => {
   return (
     <>
       <header className="navbar">
-        <div className="homeNav">
+        <nav className="homeNav">
           <div className={scrolled ? 'navLogo scrolled' : 'navLogo'} >
             <a href="/dps-web">
               <img src={logo} alt="Logo" />
             </a>
           </div>
-          <nav className={scrolled ? 'navigation1' : 'navigation'}>
+          <div className={scrolled ? 'navigation1' : 'navigation'}>
             <Button />
-          </nav>
-        </div>
+          </div>
+        </nav>
       </header>
 
       {/* {scrolled ? 'navigation scrolled' : 'navigation'} */}
