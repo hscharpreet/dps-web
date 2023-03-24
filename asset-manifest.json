@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dps-web/static/css/main.6e836e73.css",
-    "main.js": "/dps-web/static/js/main.81057f19.js",
+    "main.css": "/dps-web/static/css/main.b701c4de.css",
+    "main.js": "/dps-web/static/js/main.0a90b08f.js",
     "static/media/Group 1.png": "/dps-web/static/media/Group 1.265dac2d527860437a64.png",
     "index.html": "/dps-web/index.html",
-    "main.6e836e73.css.map": "/dps-web/static/css/main.6e836e73.css.map",
-    "main.81057f19.js.map": "/dps-web/static/js/main.81057f19.js.map"
+    "main.b701c4de.css.map": "/dps-web/static/css/main.b701c4de.css.map",
+    "main.0a90b08f.js.map": "/dps-web/static/js/main.0a90b08f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e836e73.css",
-    "static/js/main.81057f19.js"
+    "static/css/main.b701c4de.css",
+    "static/js/main.0a90b08f.js"
   ]
 }
