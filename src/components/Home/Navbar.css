@@ -2,8 +2,8 @@
 
 .navbar {
   background-color: transparent;
-  position: fixed;
-  top: 0;
+  /* position: fixed;
+  top: 0; */
   width: 100%;
   z-index: 3;
 }
@@ -13,7 +13,7 @@
   justify-content: space-between;
   padding: 2% 5%;
   height: 12rem;
-  /* position: relative; */
+  position: relative;
 }
 
 .scrolled {
@@ -22,7 +22,7 @@
 }
 .navigation1 {
   position: absolute;
-  right: 0;
+  right: 5%;
 }
 .navLogo img {
   width: 40%;

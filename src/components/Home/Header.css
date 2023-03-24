@@ -46,8 +46,6 @@ body {
   letter-spacing: 1rem;
 }
 
-
-
 @media screen and (max-width: 1440px) {
   .header h1 {
     left: 30%;
@@ -55,10 +53,9 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .header h1 {
-  
     font-size: 1.5rem;
   }
-  .header span{
+  .header span {
     font-size: 5rem;
   }
 }
@@ -66,12 +63,11 @@ body {
   .header {
     height: 1000px;
   }
- 
+
   .header span {
     font-size: 4rem;
-    
   }
-  
+
   .header2 .slider {
     padding: 0rem 1rem;
     width: 100%;
@@ -82,15 +78,14 @@ body {
 @media screen and (max-width: 500px) {
   .header span {
     font-size: 3rem;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
   }
-  .header h1{
+  .header h1 {
     font-size: 1rem;
   }
-  
 }
-@media screen and (max-width: 425px){
-.header h1{
-  left: 20%;
-}
+@media screen and (max-width: 425px) {
+  .header h1 {
+    left: 20%;
+  }
 }

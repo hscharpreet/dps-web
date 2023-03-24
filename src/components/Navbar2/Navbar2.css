@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap");
 
 .navbar2 {
   background-color: var(--blue);
@@ -27,6 +27,7 @@ height: 100%;
 }
 
 .nav-elements ul {
+
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -129,4 +130,4 @@ height: 100%;
   .icon1 {
     font-size: 1.5rem;
   }
-} */
+}

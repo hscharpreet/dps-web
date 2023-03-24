@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-// import { doc, onSnapshot } from "firebase/firestore";
-// import { db } from "../../firebase.config";
 import Button from "./Button";
 import { useEffect } from "react";
 import logo from "../../assets/Group 1.png";
+
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 200) {
@@ -34,8 +35,6 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-
-      {/* {scrolled ? 'navigation scrolled' : 'navigation'} */}
     </>
   );
 };
