@@ -22,8 +22,8 @@ const Home = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        {/* <Navbar />
-        <Header /> */}
+        {/* <Navbar /> */}
+        <Header />
         <DivineWelcome />
         <DivineCare />
         <DivineImg />

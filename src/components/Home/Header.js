@@ -12,7 +12,7 @@ const Header = () => {
           <span> DIVINE</span> <br /> PUBLIC SCHOOL
         </h1>
 
-        <Slider />
+        {/* <Slider /> */}
       </div>
     </>
   );
