@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className={scrolled ? 'navigation1' : 'navigation'}>
-            <Button />
+            {/* <Button /> */}
           </div>
         </nav>
       </header>
