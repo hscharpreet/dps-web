@@ -7,7 +7,7 @@ import { IconContext } from "react-icons/lib";
 import { RxCross1 } from "react-icons/rx";
 import logo from "../../assets/Group 1.png";
 const Navbar2 = () => {
-  const [isTop, setIsTop] = useState(true);
+  // const [isTop, setIsTop] = useState(true);
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
@@ -18,12 +18,12 @@ const Navbar2 = () => {
       color: isActive ? "#e3d53e" : "white",
     };
   };
-  useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      setIsTop(isTop);
-    });
-  }, []);
+  // useEffect(() => {
+  //   document.addEventListener("scroll", () => {
+  //     const isTop = window.scrollY < 100;
+  //     setIsTop(isTop);
+  //   });
+  // }, []);
 
   return (
     <>

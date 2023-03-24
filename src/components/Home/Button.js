@@ -16,24 +16,23 @@ const Button = () => {
     <div className="sidebar">
       <IconContext.Provider value={{ color: "#daab2b", className: "icon1" }}>
         <div className="sidebarIcon">
-          <NavLink to="/" className="menuBars">
-            <GiHamburgerMenu onClick={showSidebar} />
-          </NavLink>
+          <GiHamburgerMenu
+            onClick={showSidebar}
+            className="menuBars"
+          ></GiHamburgerMenu>
         </div>
         <nav className={sidebar ? "navMenu active" : "navMenu"}>
-          <NavLink to="/" className="menuBars2">
-            <RxCross1 onClick={showSidebar} />
-          </NavLink>
+          <RxCross1 onClick={showSidebar} className="menuBars2"></RxCross1>
+
           <ul className="navMenuItem" onClick={showSidebar}>
             <li className="navbarToggle"></li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.className}>
-              
                   <NavLink to={item.path} data-text={item.text}>
                     <span>{item.title}</span>
                   </NavLink>
-                  <hr className="line5"/>
+                  <hr className="line5" />
                 </li>
               );
             })}
