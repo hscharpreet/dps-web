@@ -29,8 +29,8 @@ const Button = () => {
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.className}>
-                  <NavLink to={item.path} data-text={item.text}>
-                    <span>{item.title}</span>
+                  <NavLink to={item.path} >
+                    <span className="navItem">{item.title}</span>
                   </NavLink>
                   <hr className="line5" />
                 </li>
