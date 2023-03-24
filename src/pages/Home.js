@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import DivineCare from "../components/Home/DivineCare";
-import Header from "../components/Home/Header";
+// import Header from "../components/Home/Header";
 import Footer from "../components/Home/Footer";
 import Testimonials from "../components/Home/Testimonials";
 import Facts from "../components/Home/Facts";
@@ -24,7 +24,7 @@ const Home = () => {
         exit={{ opacity: 0 }}
       >
         <Navbar  />
-        <Header />
+        {/* <Header /> */}
         <DivineWelcome />
         <DivineCare />
         <DivineImg />
