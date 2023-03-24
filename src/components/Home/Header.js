@@ -1,7 +1,7 @@
 import React from "react";
 // import Navbar from "./Navbar";
 import "./Header.css";
-import Slider from "./slider/Slider";
+// import Slider from "./slider/Slider";
 
 const Header = () => {
   return (
@@ -14,8 +14,8 @@ const Header = () => {
           </h1>
      
    
-          <Slider />
-      
+          {/* <Slider />
+       */}
       </div>
     </>
   );
