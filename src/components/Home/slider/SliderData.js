@@ -6,12 +6,12 @@
 export const SliderData = [
     {
       id:1,
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fslider3.jpg?alt=media&token=c70445d7-57e1-4e6c-bf31-bb5ea835ba61",
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fchildrenback.webp?alt=media&token=84e7b013-1c16-4b9b-b80b-ab534e35124a",
       
     },
     {
       id:2,
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fdrawingkids.webp?alt=media&token=6679fcc4-7247-4219-8562-57c28df7ece9",
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fmaingate.webp?alt=media&token=17a5ec4b-8ebd-4bf4-a4b1-0705066a0be4",
      
     },
     {

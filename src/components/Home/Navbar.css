@@ -1,8 +1,8 @@
 .navbar {
   background-color: transparent;
   position: fixed;
- top: 0;
- left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 3;
 }
@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4% 5% 0;
+  padding: 1% 5% 0;
   height: 12rem;
   position: relative;
 }
@@ -31,6 +31,7 @@
 @media screen and (max-width: 768px) {
   .homeNav {
     height: 7rem;
+    padding-top: 3%;
   }
   .navLogo img {
     width: 30%;
