@@ -1,23 +1,21 @@
-// import React from "react";
+import React from "react";
+// import Navbar from "./Navbar";
+import "./Header.css";
+import Slider from "./slider/Slider";
 
-// import "./Header.css";
+const Header = () => {
+  return (
+    <>
+      <div className="header">
+        <h1 className="animate-charcter">
+          WELCOME TO <br />
+          <span> DIVINE</span> <br /> PUBLIC SCHOOL
+        </h1>
 
+        <Slider />
+      </div>
+    </>
+  );
+};
 
-// const Header = () => {
-//   return (
-//     <>
-//       <div className="header">
-       
-//           <h1 className="animate-charcter">
-//             WELCOME TO <br />
-//             <span> DIVINE</span> <br /> PUBLIC SCHOOL
-//           </h1>
-     
-   
-       
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Header;
+export default Header;

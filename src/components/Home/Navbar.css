@@ -1,17 +1,7 @@
-.header{
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fslider3.jpg?alt=media&token=c70445d7-57e1-4e6c-bf31-bb5ea835ba61");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1080px;
-  margin: 0 auto;
-  font-family: "Cinzel", serif;
-}
-
 .navbar {
   background-color: transparent;
   position: fixed;
- inset: 0;
+  inset: 0;
   width: 100%;
   z-index: 3;
 }
@@ -19,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2% 5% 0;
+  padding: 4% 5% 0;
   height: 12rem;
   position: relative;
 }
@@ -37,86 +27,11 @@
   opacity: 1;
   transition: 0.2s ease-in-out;
 }
-
-.header h1 {
-  color: rgb(255, 255, 255);
-  position: absolute;
-  top: 40%;
-  left: 35%;
-  text-align: center;
-  z-index: 2;
-  animation: 5s anim-lineUp ease-out;
-}
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0;
-    transform: translateY(80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-
-.header h1 {
-  font-size: 2rem;
-}
-.header span {
-  font-size: 8rem;
-  letter-spacing: 1rem;
-}
-
-@media screen and (max-width: 1440px) {
-  .header h1 {
-    left: 30%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .header h1 {
-    font-size: 1.5rem;
-  }
-  .header span {
-    font-size: 5rem;
-  }
-}
 @media screen and (max-width: 768px) {
-  .header {
-    height: 1000px;
-  }
-
-  .header span {
-    font-size: 4rem;
-  }
-
-
-}
-@media screen and (max-width: 500px) {
-  .header span {
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-  }
-  .header h1 {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 425px) {
-  .header h1 {
-    left: 20%;
-  }
-}
-
-@media screen and (max-width: 768px){
   .homeNav {
-    height: 10rem;
+    height: 7rem;
   }
-  .navLogo img{
+  .navLogo img {
     width: 30%;
   }
 }

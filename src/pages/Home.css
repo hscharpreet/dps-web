@@ -1,8 +1,7 @@
-.home{
+.home {
   margin: auto;
   width: 100%;
-   /* overflow-x: hidden important!; */
-   scroll-snap-type: y mandatory;
-   overflow-y: scroll;
-   background-color: #ebeaea61;
+  overflow: hidden important!;
+  overflow-y: scroll;
+  background-color: #ebeaea61;
 }

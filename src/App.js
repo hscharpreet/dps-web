@@ -20,7 +20,7 @@ const App = () => {
   return (
     <>
     <div className="app">
-    <AnimatePresence >
+    <AnimatePresence>
     <ScrollToTop/>
       <Routes location = {location} key ={ location.pathname}>
       <Route path="/" element={<Home/>}/>

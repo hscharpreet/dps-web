@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import DivineCare from "../components/Home/DivineCare";
-// import Header from "../components/Home/Header";
+import Header from "../components/Home/Header";
 import Footer from "../components/Home/Footer";
 import Testimonials from "../components/Home/Testimonials";
 import Facts from "../components/Home/Facts";
@@ -14,7 +14,6 @@ import DivineWelcome from "../components/Home/DivineWelcome";
 import DivineImg from "../components/Home/DivineImg";
 
 const Home = () => {
-
   return (
     <>
       <motion.div
@@ -23,8 +22,8 @@ const Home = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        <Navbar  />
-        {/* <Header /> */}
+        {/* <Navbar />
+        <Header /> */}
         <DivineWelcome />
         <DivineCare />
         <DivineImg />
@@ -40,13 +39,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// const q = collection(db, "/home/header/navbar/menu");
-
-// const [docs, loading, error] = useCollectionData(q);
-// console.log(docs);
-
-//   const q = collection(db, "/home/header/navbar/menu");
-//   const querySnapshot = await getDocs(q);
-//   querySnapshot.forEach((doc) => {
-//     console.log(doc.id, " => ", doc.data());
