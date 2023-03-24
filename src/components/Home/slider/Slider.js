@@ -72,7 +72,7 @@ const properties = {
   duration: 3000,
   transitionDuration: 500,
   pauseOnHover: false,
-  // cssClass:"slide",
+  arrows:false,
 };
 const Slider = () => {
   return (
