@@ -14,12 +14,14 @@ import ImageGallery from './components/Activities/ImageGallery';
 import {AnimatePresence} from 'framer-motion'
 import Teachers from './components/About/Teachers';
 import Readmore from './components/About/Readmore';
+import ScrollToTop from './components/ScrollToTop';
 const App = () => {
   const location = useLocation();
   return (
     <>
     <div className="app">
-    <AnimatePresence>
+    <AnimatePresence >
+    <ScrollToTop/>
       <Routes location = {location} key ={ location.pathname}>
       <Route path="/" element={<Home/>}/>
       <Route path="/dps-web" element={<Home/>}/>
