@@ -12,44 +12,8 @@ import SlideUp from "../components/SlideUp";
 import VisitCard from "../components/Home/VisitCard";
 import DivineWelcome from "../components/Home/DivineWelcome";
 import DivineImg from "../components/Home/DivineImg";
-import Slider from "../components/Home/slider/Slider";
-// import {
-//   collection,
-//   doc,
-//   getDocs,
-//   onSnapshot,
-//   query,
-// } from "firebase/firestore";
-// import { useCollectionData } from "react-firebase-hooks/firestore";
-// import { db } from "../firebase.config";
 
 const Home = () => {
-  // const [home, setHome] = useState([]);
-  // const fetchPost = async () => {
-  //   const storageRef = doc(db, "/home/header/navbar/menu");
-  //   onSnapshot(storageRef, (doc) => {
-  //     // console.log(doc.data(), doc.id);
-  //     const home = doc.data().name;
-  //     console.log(home);
-  //   });
-  // };
-  // useEffect(() => {
-  //   fetchPost();
-  // }, []);
-
-  // useEffect(() => {
-  //   window.addEventListener('beforeunload', showPopupNotification);
-  //   return () => {
-  //     window.removeEventListener('beforeunload', showPopupNotification);
-  //   };
-  // }, []);
-
-  // function showPopupNotification(e) {
-  //   e.preventDefault();
-  //   e.returnValue = '';
-  //   alert('Are you sure you want to leave?');
-  // menu={home}
-  // }
 
   return (
     <>
@@ -61,7 +25,6 @@ const Home = () => {
       >
         <Navbar  />
         <Header />
-        {/* <Slider/> */}
         <DivineWelcome />
         <DivineCare />
         <DivineImg />

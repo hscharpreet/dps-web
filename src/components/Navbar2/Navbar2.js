@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Navbar2.css";
 import { NavLink } from "react-router-dom";
 import { SidebarData } from "../Home/SidebarData";
@@ -7,7 +7,6 @@ import { IconContext } from "react-icons/lib";
 import { RxCross1 } from "react-icons/rx";
 import logo from "../../assets/Group 1.png";
 const Navbar2 = () => {
-  // const [isTop, setIsTop] = useState(true);
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
@@ -18,12 +17,6 @@ const Navbar2 = () => {
       color: isActive ? "#e3d53e" : "white",
     };
   };
-  // useEffect(() => {
-  //   document.addEventListener("scroll", () => {
-  //     const isTop = window.scrollY < 100;
-  //     setIsTop(isTop);
-  //   });
-  // }, []);
 
   return (
     <>
