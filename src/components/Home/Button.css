@@ -33,8 +33,8 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  /* position: fixed; */
-  position: absolute;
+  position: fixed;
+  /* position: absolute; */
   top: 0;
   right: -1000%;
   transition: 0.1s ease-in;
@@ -51,7 +51,7 @@
 li {
   list-style: none;
 }
-.navMenu ul li .navItem {
+.navMenu ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.6rem;
@@ -74,7 +74,7 @@ li {
   .icon {
     font-size: 1rem;
   }
-  .navMenu li span {
+  .navMenu li a {
     font-size: 1rem;
     padding: 20px 50px;
   }

@@ -55,6 +55,9 @@
   text-align: center;
 
 }
+.gridContainer a:hover{
+  color: var(--yellow);
+}
 @media only screen and (max-width: 1024px) {
   .activityBanner{
     height: auto;

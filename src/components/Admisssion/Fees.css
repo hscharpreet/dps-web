@@ -1,6 +1,7 @@
 .fees {
   width: 100%;
   background-color: #ebeaea61;
+  overflow: hidden;
 }
 .fees img {
   width: 100%;
@@ -47,7 +48,43 @@ td {
 .head {
   font-weight: bold;
 }
+@media screen and (max-width: 600px) { 
 
+  .responsive thead {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    
+  }
+  .head {
+    background-color: #dcd483;
+  }
+  .responsive tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .responsive td {
+    border: 1px solid;
+    border-bottom: none;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .responsive td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .responsive td:last-child {
+    border-bottom: 1px solid;
+  }
+}
+
+/* uniform========================================================== */
 .uniform {
     width: 70%;
     text-align: center;
@@ -69,7 +106,7 @@ td {
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    width: 100%;
+    width: 50%;
 
 }
 .uniformList{
@@ -90,38 +127,6 @@ td {
     color: #0e0728;
 }
 
-/* @media screen and (max-width: 600px) {  
-   thead {
-    visibility: hidden;
-    height: 0;
-    position: absolute;
-    
-  }
-  
-   tr {
-    display: block;
-    margin-bottom: .625em;
-  }
-  
- td {
-    border: 1px solid;
-    border-bottom: none;
-    display: block;
-    font-size: .8em;
-    text-align: right;
-  }
-  
-   td::before {
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-   td:last-child {
-    border-bottom: 1px solid;
-  }
-} */
 
 
 
@@ -134,7 +139,7 @@ td {
 @media only screen and (max-width: 768px) {
  
   .uniform {
-    width: 100%;
+    width: 80%;
     padding: 0 1rem;
     margin: 3rem auto;
   }

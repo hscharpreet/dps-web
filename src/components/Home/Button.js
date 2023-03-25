@@ -30,7 +30,7 @@ const Button = () => {
               return (
                 <li key={index} className={item.className}>
                   <NavLink to={item.path} >
-                    <span className="navItem">{item.title}</span>
+                   {item.title}
                   </NavLink>
                   <hr className="line5" />
                 </li>
