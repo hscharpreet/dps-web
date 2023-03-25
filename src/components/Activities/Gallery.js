@@ -17,8 +17,8 @@ const Gallery = () => {
         <hr className="line1" />
         <div className="gridContainer">
           {data.map((item, index) => (
-            <div className="grid-item">
-              <img src={item.imgSrc} alt="galleryimage" key={index} />
+            <div className="grid-item" key={index}>
+              <img src={item.imgSrc} alt="galleryimage"  />
               <Link
                 to={`${item.title.toLowerCase().replace(/ /g, "-")}`}
               >

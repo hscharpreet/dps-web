@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const CardCarousel = () => {
   return (
-    <div class="cardGrid">
+    <div className="cardGrid">
       <h1>
         THE LATEST FROM <br />
         DIVINE
       </h1>
       <div className="cardRow row1">
-        <div class="cardCol col1">
+        <div className="cardCol col1">
           <div className="cardImg">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fadmission%2Fchildrenday.webp?alt=media&token=6703e3ed-4cfe-4491-b91c-bff3af97b5ea"
@@ -23,7 +23,7 @@ const CardCarousel = () => {
           </Link>
           <p>14 NOVEMEBER 2022</p>
         </div>
-        <div class="cardCol col1">
+        <div className="cardCol col1">
           <div className="cardImg">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fadmission%2Findependence.webp?alt=media&token=0b3c8226-43fe-46dc-a325-cd8c0ddb73f5"
@@ -38,7 +38,7 @@ const CardCarousel = () => {
         </div>
       </div>
       <div className="cardRow  row2">
-        <div class="cardCol col1">
+        <div className="cardCol col1">
           <div className="cardImg">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fadmission%2Fplanting.webp?alt=media&token=ffe46a70-13fe-4405-979f-3b497552ebdb"
@@ -51,7 +51,7 @@ const CardCarousel = () => {
           </Link>
           <p>12 OCTOBER 2022</p>
         </div>
-        <div class="cardCol col2">
+        <div className="cardCol col2">
           <div className="cardImg">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fadmission%2Fsummer%20camp.webp?alt=media&token=cbe6dc2c-8781-4c50-b3ac-a6ebd9ee6592"
