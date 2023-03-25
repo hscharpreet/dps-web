@@ -23,9 +23,7 @@
   transform: translateY(4px);
   cursor: pointer;
 }
-.navmenuItem {
-  padding-top: 12rem;
-}
+
 
 .navMenu {
   background-color: var(--blue);
@@ -33,34 +31,66 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
-  /* position: absolute; */
   top: 0;
   right: -1000%;
-  transition: 0.1s ease-in;
+  transition: 0.3s ease-in;
   text-align: center;
   list-style: none;
 }
 
 .navMenu.active {
   right: 0;
-  transition: 0.1s ease-in;
+  transition: 0.3s ease-in;
   overflow: hidden;
-  padding-top: 17rem;
+  /* padding-top: 10rem; */
+}
+
+.menuImage{
+  width: 100%;
+  height: 100%;
+  flex: 6;
+}
+.menuImage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  overflow: hidden;
+  animation: zoomin 5s ease-in ;
+  transition: all 10s ease-in-out infinite;
+}
+@keyframes zoomin {
+  0% {transform: scale(0);}
+  100% {transform: scale(1);}
+} 
+.menuImage img:hover{
+  transition: all .6s ease ;
+  filter: grayscale(0%);
+}
+
+.navMenuItem {
+  flex: 4;
 }
 li {
   list-style: none;
+  text-align: center;
+
 }
 .navMenu ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1.6rem;
+  font-size: 4rem;
   font-weight: 700;
   padding: 3% 2%;
   display: inline-flex;
   transition: 0.5s;
   letter-spacing: 5px;
   font-family: "Cinzel", serif;
+}
+.navMenu ul li a:hover{
+color: var(--yellow);
 }
 .line5 {
   display: block;
