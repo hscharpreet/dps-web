@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <section id="footer">
+      <div className="footer">
         <div className="footerOverlay">
           <img  className="overlayImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Ffooter%20(1).jpg?alt=media&token=c7bbe774-bc0f-4e29-b253-80ade7a03b26" alt="" />
 
@@ -55,19 +55,24 @@ const Footer = () => {
                 <h1>Alumni</h1>
               </Link>
             </div>
-         
+            <hr className="footerLine"/>
           </div>
-        </div>
-      </section>
-      <div className="copyright">
+ 
+          <div className="copyright">
         <div className="left">
-          <p className="footerp">
+          <p >
             &#169; 2023 Divine Public School. Developed by Parul Thakur - Web
             Developer
           </p>
         </div>
-        <div className="right">Term and condition | Privacy Policy</div>
+        <div className="right">
+        <p>Term and condition | Privacy Policy</p>
+        </div>
       </div>
+        </div>
+     
+      </div>
+
     </>
   );
 };

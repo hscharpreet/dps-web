@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import { RxCross1 } from "react-icons/rx";
 import logo from "../../assets/Group 1.png";
+
 const Navbar2 = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 

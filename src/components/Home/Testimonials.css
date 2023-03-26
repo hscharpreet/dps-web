@@ -1,26 +1,29 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap"); */
 
+
+
 .testimonial {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  /* background-color: #ebeaea61; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  background-color: var(--blue);
   height: 700px;
   width: 100%;
+  margin: 0 auto;
   position: relative;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FEllipse%204.png?alt=media&token=0a3e430d-584f-4c4c-a253-53217122683f");
-  background-position: left;
-  background-repeat: no-repeat;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+
   overflow: hidden;
 }
 
 .parentsImg {
   width: 20%;
   height: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   position: absolute;
   object-fit: cover;
   top: 5%;
@@ -28,41 +31,45 @@
   right: 1%;
   box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
     0px 15px 12px 0px rgba(0, 0, 0, 0.16);
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FEllipse%204.png?alt=media&token=0a3e430d-584f-4c4c-a253-53217122683f");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .testimonialRow {
   position: absolute;
   width: 75%;
-  /* text-align: center; */
+
 }
 
 .voices h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 1.4rem;
   font-weight: 500;
-  font-family: "Montagu Slab", serif;
+  font-family: "Cinzel", serif;
 }
 .voices h1 {
-  color: var(--blue);
+  color: rgb(238, 215, 151);
   font-size: 3rem;
   font-family: "Cinzel", serif;
   font-weight: 600;
 }
 .voices p {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   font-family: "Montagu Slab", serif;
   width: 60%;
   line-height: 2;
 }
 
-.parents-name .line {
-  margin-left: 20px;
-  height: 10px;
+.parents-name .testimonialLine {
+  margin: 0 20px;
+  height: 1rem;
   border-left: 2px solid var(--yellow);
 }
 .parents-name p {
-  color: rgb(198, 51, 41);
+  color: rgb(236, 143, 136);
+  font-family: "Cinzel", serif;
 }
 .arrow {
   color: var(--blue);
@@ -77,24 +84,20 @@
   transform: translateX(0);
 }
 .arrow {
-  background-color: transparent;
-  color: var(--blue);
+  color: #777;
   cursor: pointer;
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
   position: absolute;
-  z-index: 999;
+  
 }
 .arrow:hover {
-  color: #777;
+  color: var(--yellow);
 }
 .next {
-  top: 35%;
+  top: 40%;
   right: 1.5rem;
 }
 .prev {
-  top: 35%;
+  top: 40%;
   left: 1.5rem;
 }
 @media screen and (max-width: 1800px) {

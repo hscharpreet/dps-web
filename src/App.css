@@ -1,7 +1,7 @@
-/* *{ 
-   outline: 1px solid limegreen;
-
-  } */
+*{ 
+   /* outline: 1px solid limegreen; */
+/* overscroll-behavior: none */
+  }
 
 
   @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');

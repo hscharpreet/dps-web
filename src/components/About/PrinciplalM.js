@@ -33,7 +33,7 @@ const PrinciplalM = () => {
                 great nation. Pursuing excellence by students in their chosen
                 fields; academics, sports, or extracurricular activities shall
                 be encouraged at every step." 
-                <NavLink to="/about/principal-message">
+                <NavLink to="/dps-web/about/principal-message">
                   <span className="readMore">  read more</span>{" "}
                   <HiOutlineArrowLongRight />
                 </NavLink>

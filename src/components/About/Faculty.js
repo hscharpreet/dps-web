@@ -15,7 +15,7 @@ const Faculty = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
-          <Link to="/about/teachers" style={{ textDecoration: "none" }}>
+          <Link to="/dps-web/about/teachers" style={{ textDecoration: "none" }}>
             <span>Know More</span>
           </Link>
         </motion.button>

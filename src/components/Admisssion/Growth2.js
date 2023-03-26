@@ -17,7 +17,7 @@ const Growth2 = () => {
           Open Mornings are a great opportunity to see the school and to get an idea of what it is like to be a Divine pupil.
           </p>
           <p>
-        <NavLink to="/about" className="link"> About <AiOutlineArrowRight/></NavLink></p>
+        <NavLink to="/dps-web/about" className="link"> About <AiOutlineArrowRight/></NavLink></p>
         </div>
       </div>
       <div className="growth g2">
@@ -28,7 +28,7 @@ const Growth2 = () => {
         Divine Public School is excited to enroll students who are curious, driven, and ready to look beyond the day-to-day to ask what’s next.  We can’t wait to learn more about you!
         </p>
         <p>
-        <NavLink to="/admission/fees" className="link"> Admission Process <AiOutlineArrowRight/></NavLink></p>
+        <NavLink to="/dps-web/admission/fees" className="link"> Admission Process <AiOutlineArrowRight/></NavLink></p>
       </div>
       </div>
       <div className="growth g3">
@@ -40,7 +40,7 @@ const Growth2 = () => {
           build their confidence and prepare them for future challenges.
         </p>
         <p>
-        <NavLink to="/admission/fees" className="link"> Uniform <AiOutlineArrowRight/></NavLink></p>
+        <NavLink to="/dps-web/admission/fees" className="link"> Uniform <AiOutlineArrowRight/></NavLink></p>
       </div>
       </div>
       </IconContext.Provider>

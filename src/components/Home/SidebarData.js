@@ -3,25 +3,25 @@
 export const SidebarData = [
     {
         title:'About',
-        path:'/about',
+        path:'/dps-web/about',
         className:"navText",
         text:"About"
     },
     {
         title:'Admisssion',
-        path:'/admission',
+        path:'/dps-web/admission',
         className:"navText",
         text:"Admission"
     },
     {
         title:'Academic',
-        path:'/academics',
+        path:'/dps-web/academics',
         className:"navText",
         text:"Academic"
     },
     {
         title:'Activities',
-        path:'/activities',
+        path:'/dps-web/activities',
         className:"navText",
         text:"Activities"
     },
@@ -33,7 +33,7 @@ export const SidebarData = [
     // },
     {
         title:'Contact',
-        path:'/contact',
+        path:'/dps-web/contact',
         className:"navText",
         text:"Contact"
     },

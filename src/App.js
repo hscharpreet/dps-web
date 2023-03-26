@@ -23,18 +23,17 @@ const App = () => {
     <AnimatePresence>
     <ScrollToTop/>
       <Routes location = {location} key ={ location.pathname}>
-      <Route path="/" element={<Home/>}/>
       <Route path="/dps-web" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/about/teachers" element={<Teachers/>}/>
-      <Route path="/about/principal-message" element={<Readmore/>}/>
+      <Route path="/dps-web/about" element={<About/>}/>
+      <Route path="/dps-web/about/teachers" element={<Teachers/>}/>
+      <Route path="/dps-web/about/principal-message" element={<Readmore/>}/>
       {/* <Route path="/information" element={<Information/>}/> */}
-      <Route path="/admission" element={<Admission/>}/>
-      <Route path="/admission/fees" element={<Fees/>}/>
-      <Route path="/academics" element={<Academics/>}/>
-      <Route path="/activities" element={<Activities/>}/>
-      <Route path="/activities/:category" element={<ImageGallery/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/dps-web/admission" element={<Admission/>}/>
+      <Route path="/dps-web/admission/fees" element={<Fees/>}/>
+      <Route path="/dps-web/academics" element={<Academics/>}/>
+      <Route path="/dps-web/activities" element={<Activities/>}/>
+      <Route path="/dps-web/activities/:category" element={<ImageGallery/>}/>
+      <Route path="/dps-web/contact" element={<Contact/>}/>
    </Routes>
    </AnimatePresence>
    </div>

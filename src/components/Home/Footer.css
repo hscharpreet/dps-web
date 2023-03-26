@@ -1,5 +1,5 @@
-
-#footer {
+.footer {
+  display: flex;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -8,7 +8,7 @@
 .footerOverlay {
   position: relative;
   width: 100%;
-  height: 25em;
+  height: 35em;
 }
 .footerOverlay .overlayImg {
   position: absolute;
@@ -48,7 +48,6 @@
   font-size: 1rem;
   line-height: 2;
   letter-spacing: 2px;
-  /* padding-left: 5rem; */
 }
 .line {
   border-left: 0.6px solid #8aa1d6;
@@ -56,7 +55,15 @@
   position: static;
   padding: 10px;
 }
+.footerLine {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #333, #ccc, #333);
+  width: 100%;
+  margin: 0 auto;
 
+}
 .footer-container .column {
   flex: 15%;
 }
@@ -65,7 +72,6 @@
   font-size: 1rem;
   color: white;
   font-weight: 500;
-
   margin-left: 10px;
 }
 .link {
@@ -77,32 +83,36 @@
 }
 
 .copyright {
-  background-color: #8aa1d6;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 0.8rem;
-  font-family: initial;
-  color: rgb(23, 22, 22);
   flex-wrap: wrap;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
 }
-.footerp {
-  font-size: 0.8rem;
+.copyright p{
+  font-size: 0.7rem;
+  color: #fff;
 }
+
+
+/* responsive======================================= */
+
 @media screen and (max-width: 1900px) {
   .footer-container .address .addressImg {
     width: 15%;
-    /* height: 30%; */
-  }}
-  @media screen and (max-width: 1024px) {
-    .footer-container .address .addressImg {
-      width: 20%;
-      /* height: 30%; */
-    }}
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-container .address .addressImg {
+    width: 20%;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer-container .address .addressImg {
     width: 25%;
-    /* height: 30%; */
   }
   .footer-container .address .addressText {
     font-size: 0.8rem;
@@ -115,8 +125,8 @@
   .line {
     visibility: hidden;
   }
-  .copyright {
-    padding: 0 2rem 2rem;
+  .copyright p{
+    font-size: 0.5rem;
   }
   .footer-container .address .addressHead {
     font-size: 1rem;
@@ -130,7 +140,6 @@
   }
   .footer-container .address .addressImg {
     width: 30%;
-    /* height: 20%; */
   }
   .footer-container .address .addressHead {
     letter-spacing: normal;
@@ -144,11 +153,5 @@
     font-size: 0.5rem;
     letter-spacing: normal;
   }
-  .footerp {
-    font-size: 0.5rem;
-  }
-  .copyright {
-    font-size: 0.5rem;
-    /* padding-bottom: -5px; */
-  }
+ 
 }
