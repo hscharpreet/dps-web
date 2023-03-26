@@ -57,16 +57,16 @@
   position: absolute;
   left: 5rem;
   bottom: 1rem;
-  width: 7rem;
-  height: 2.5rem;
+  width: 6rem;
+  height: 2rem;
   border: 1.5px solid rgb(255, 255, 255);
   background-color: transparent;
   padding: 1%;
 }
-.visitBtn .visitLink {
+.visitBtn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 1rem;
+  font-size: .7rem;
   font-family: "Cinzel", serif;
   text-transform: uppercase;
 }
@@ -74,7 +74,7 @@
   background-color: var(--blue);
   border: none;
 }
-.visitBtn .visitLink:hover {
+.visitBtn a:hover {
   color: white;
 }
 
@@ -91,10 +91,10 @@
     font-size: 1rem;
   }
   .visitBtn {
-    height: 2rem;
+    width: 4rem;
   }
   .visitBtn .visitLink {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .visitCol .visitLine {
     width: 100%;

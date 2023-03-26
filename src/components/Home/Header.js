@@ -8,12 +8,13 @@ const Header = () => {
     <>
       <div className="header">
         <Navbar />
+        <Slider className="slide" />
         <h1 className="animate-charcter">
           WELCOME TO <br />
           <span> DIVINE</span> <br /> PUBLIC SCHOOL
         </h1>
 
-        <Slider />
+     
       </div>
     </>
   );

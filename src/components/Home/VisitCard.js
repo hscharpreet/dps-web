@@ -19,7 +19,7 @@ const VisitCard = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Link to="/admission" className="visitLink">
+              <Link to="/dps-web/admission" className="visitLink">
                 See More
               </Link>
             </motion.button>
@@ -38,7 +38,7 @@ const VisitCard = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Link to="/admission" className="visitLink">
+              <Link to="/dps-web/admission" className="visitLink">
                 See More
               </Link>
             </motion.button>
@@ -57,7 +57,7 @@ const VisitCard = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Link to="/admission" className="visitLink">
+              <Link to="/dps-web/admission" className="visitLink">
                 See More
               </Link>
             </motion.button>

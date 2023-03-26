@@ -7,7 +7,7 @@ const PrinciplalM = () => {
   return (
     <>
     <div className="aboutBanner">
-      <img src="https://cdn-gpodp.nitrocdn.com/CSsCpSeQhHUngfvhnGrLHfGuscVvfbli/assets/images/optimized/rev-8982a5d/wp-content/uploads/2022/10/10-Inspiring-Leadership-Quotes-for-21st-Century-School-Principals.jpg" alt="" />
+      <img src="https://cdn-gpodp.nitrocdn.com/CSsCpSeQhHUngfvhnGrLHfGuscVvfbli/assets/images/optimized/rev-8982a5d/wp-content/uploads/2022/10/10-Inspiring-Leadership-Quotes-for-21st-Century-School-Principals.jpg" alt="aboutBanner" />
     </div>
       <div className="messageContainer">
         <IconContext.Provider value={{ className: "icon2" }}>
@@ -18,8 +18,8 @@ const PrinciplalM = () => {
           <div className="message ">
             <div className="principalImage ">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FRectangle%203.png?alt=media&token=4e013192-9fdf-416e-a977-b9d9c07d61bd"
-                alt=""
+                src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fprincipal.webp?alt=media&token=9220c5f8-b000-4e16-8dfd-a9d0d3f9af60"
+                alt="principalImage"
               />
             </div>
             <div className="parah ">

@@ -1,21 +1,15 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;1,400;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400;16..144,600;16..144,700&display=swap"); */
-
-
 
 .testimonial {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
   background-color: var(--blue);
   height: 700px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3),
-0px 15px 12px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 
   overflow: hidden;
 }
@@ -23,7 +17,6 @@
 .parentsImg {
   width: 20%;
   height: 100%;
-  /* border-radius: 50%; */
   position: absolute;
   object-fit: cover;
   top: 5%;
@@ -31,15 +24,11 @@
   right: 1%;
   box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
     0px 15px 12px 0px rgba(0, 0, 0, 0.16);
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FEllipse%204.png?alt=media&token=0a3e430d-584f-4c4c-a253-53217122683f");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .testimonialRow {
   position: absolute;
   width: 75%;
-
 }
 
 .voices h3 {
@@ -87,7 +76,6 @@
   color: #777;
   cursor: pointer;
   position: absolute;
-  
 }
 .arrow:hover {
   color: var(--yellow);
@@ -197,12 +185,11 @@
   }
   .parentsImg {
     width: 18%;
-    height:70%;
+    height: 70%;
     top: -12rem;
     right: 23rem;
   }
   .parents-name p {
     font-size: 12px;
-   
   }
 }

@@ -17,7 +17,7 @@ const CardCarousel = () => {
               alt=""
             />
           </div>
-          <Link to="/activities/images">
+          <Link to="/dps-web/activities">
             {" "}
             <h2>CHILDREN DAY</h2>
           </Link>
@@ -30,7 +30,7 @@ const CardCarousel = () => {
               alt=""
             />{" "}
           </div>
-          <Link to="/activities/images">
+          <Link to="/dps-web/activities">
             {" "}
             <h2>INDEPENDENCE DAY</h2>
           </Link>
@@ -45,7 +45,7 @@ const CardCarousel = () => {
               alt=""
             />{" "}
           </div>
-          <Link to="/activities/images">
+          <Link to="/dps-web/activities">
             {" "}
             <h2>TREE PLANTATION</h2>
           </Link>
@@ -58,14 +58,14 @@ const CardCarousel = () => {
               alt=""
             />{" "}
           </div>
-          <Link to="/activities/images">
+          <Link to="/dps-web/activities">
             {" "}
             <h2>SUMMER CAMP</h2>
           </Link>
           <p>1-10 MAY 2022</p>
         </div>
       </div>
-      <Link to="/activities">
+      <Link to="/dps-web/activities">
         {" "}
         <p className="cardUpdates">SEE ALL OUR UPDATES</p>
       </Link>

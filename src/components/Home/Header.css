@@ -12,9 +12,9 @@ body {
 }
 
 .header h1 {
-  color: rgb(255, 255, 255);
+  color: var(--blue);
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 35%;
   text-align: center;
   z-index: 2;
@@ -45,13 +45,18 @@ body {
   font-size: 8rem;
   letter-spacing: 1rem;
 }
+.header .slide{
+  backdrop-filter: blur(5px);
+}
 
 @media screen and (max-width: 1440px) {
+  
   .header h1 {
     left: 30%;
   }
 }
 @media screen and (max-width: 1024px) {
+
   .header h1 {
     font-size: 1.5rem;
   }
@@ -61,11 +66,11 @@ body {
 }
 @media screen and (max-width: 768px) {
   .header {
-    height: 1000px;
+    height: 500px;
   }
 
   .header span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .header2 .slider {
@@ -76,6 +81,7 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
+  
   .header span {
     font-size: 3rem;
     letter-spacing: 0.5rem;
@@ -85,6 +91,7 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
+ 
   .header h1 {
     left: 20%;
   }

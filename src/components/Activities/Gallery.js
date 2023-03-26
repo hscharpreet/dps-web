@@ -13,16 +13,16 @@ const Gallery = () => {
         />
       </div>
       <div className="activityGallery">
-        <h1>Activities</h1>
+        <p>MUCH MORE THAN JUST AN EDUCATION</p>
+        <h1>EXTRA CURRICULAR ACTIVITIES</h1>
         <hr className="line1" />
         <div className="gridContainer">
           {data.map((item, index) => (
             <div className="grid-item" key={index}>
-              <img src={item.imgSrc} alt="galleryimage"  />
-              <Link
-                to={`${item.title.toLowerCase().replace(/ /g, "-")}`}
-              >
+              <img src={item.imgSrc} alt="galleryimage" />
+              <Link to={`${item.title.toLowerCase().replace(/ /g, "-")}`}>
                 <h2>{item.title}</h2>
+                <p>{item.date}</p>
               </Link>
             </div>
           ))}
