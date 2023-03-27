@@ -1,14 +1,15 @@
 .funding {
   background-color: rgb(26, 26, 92);
   color: white;
-  height: 700px;
+  height: auto;
   text-align: center;
   padding: 5% 0;
+  font-family: "Cinzel", serif;
 }
 
 .funding p {
   font-size: 2rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 2;
 }
 .funding span {
@@ -18,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 800px;
-  max-height: 100%;
+  height: auto;
+  padding: 5% 0;
   gap: 8rem;
 }
 .usefulImg {
@@ -27,16 +28,17 @@
   text-align: right;
 }
 .usefulImg img {
-  width: 40%;
+  width: 60%;
   height: 30%;
 }
 .links {
   flex: 50%;
   letter-spacing: 3px;
+  font-family: "Cinzel", serif;
 }
 .links h1 {
   font-size: 2rem;
-  font-family: "Cinzel", serif;
+  color: var(--blue);
 }
 .links a,
 p {
@@ -45,18 +47,24 @@ p {
 .links a {
   color: rgb(94, 94, 197);
 }
-
+.links a:hover {
+  color: var(--yellow);
+}
+.icon3{
+  cursor: pointer;
+}
+.icon3:hover{
+  background-color: var(--blue);
+}
 @media only screen and (max-width: 1024px) {
   .funding {
-    height: 100%;
-    padding: 2rem;
+    padding:  3rem;
   }
   .funding p {
     font-size: 1.5rem;
   }
   .usefulDownloads {
     display: block;
-    height: 100%;
     margin-bottom: 2rem;
   }
   .usefulImg {
@@ -64,22 +72,21 @@ p {
     padding: 2rem;
   }
   .usefulImg img {
-    width: 100%;
+    width: 60%;
   }
   .links {
     flex: 100%;
-    text-align: center;
+   text-align: center;
   }
   .links h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .links a,
   p {
-    font-size: 0.7rem;
+    font-size: 1rem;
+    
   }
-  .links a {
-    color: rgb(27, 27, 39);
-  }
+
 }
 @media only screen and (max-width: 500px) {
   .funding p {

@@ -10,8 +10,15 @@
   overflow: hidden;
   cursor: pointer;
 }
+
+/* .menuBars{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: .5rem;
+} */
 .menuBars:active {
   transform: translateY(7px);
+ 
 }
 .menuBars2 {
   font-size: 2rem;

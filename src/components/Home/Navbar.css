@@ -19,6 +19,14 @@
   opacity: 0;
   transition: 0.2s ease-in-out;
 }
+.navigation{
+  background-color: rgb(30, 25, 107);
+  padding: .8rem;
+  border-radius: 50%;
+}
+.navigation:hover{
+  background-color: white;
+}
 .navigation1 {
   position: absolute;
   right: 5%;
