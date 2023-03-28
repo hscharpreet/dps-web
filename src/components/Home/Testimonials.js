@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import "./Testimonials.css";
+import Loading from "../../Loading";
 import { TestimonialData } from "./TestimonialData";
+import React, { Suspense}  from "react";
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 const Testimonials = () => {
@@ -37,27 +39,20 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonialContainer">
-        <div className="testimonial">
+     <div className="testi">
           {TestimonialData.map((data, index) => {
             return (
               <div
                 className={
                   index === currentSlide
-                    ? "testimonialRow current"
-                    : "testimonialRow"
+                    ? "testimonial current"
+                    : "testimonial"
                 }
                 key={index}
               >
                 {index === currentSlide && (
-                  <div>
-                    <div className="col image">
-                      <img
-                        className="parentsImg"
-                        src={data.image}
-                        alt="parents"
-                      />
-                    </div>
-                    <div className="col voices">
+                  <div className="testimonialRow">
+                  <div className="col voices">
                       <h3>{data.heading2}</h3>
                       <h1>{data.heading1}</h1>
                       <div className="descr">
@@ -71,17 +66,32 @@ const Testimonials = () => {
                         </p>
                       </div>
                     </div>
+                    <div className="col testimonialImage">
+                    <Suspense fallback={<Loading />}>
+                      <img
+                        src={data.image}
+                        alt="parents"
+                      />
+                      </Suspense>
+                    </div>
+                  
                   </div>
                 )}
+
+                
               </div>
             );
           })}
           <KeyboardDoubleArrowLeftIcon className="arrow prev" fontSize="large" onClick={prevSlide} />
           <KeyboardDoubleArrowRightIcon className="arrow next" fontSize="large" onClick={nextSlide} />
-        </div>
-      </div>
+          </div>
+              </div>
+         
+     
     </>
   );
 };
 
 export default Testimonials;
+
+
