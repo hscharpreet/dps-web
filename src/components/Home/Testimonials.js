@@ -82,8 +82,8 @@ const Testimonials = () => {
               </div>
             );
           })}
-          <KeyboardDoubleArrowLeftIcon className="arrow prev" fontSize="large" onClick={prevSlide} />
-          <KeyboardDoubleArrowRightIcon className="arrow next" fontSize="large" onClick={nextSlide} />
+          <KeyboardDoubleArrowLeftIcon className="arrow prev"  onClick={prevSlide} />
+          <KeyboardDoubleArrowRightIcon className="arrow next"  onClick={nextSlide} />
           </div>
               </div>
          

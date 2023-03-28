@@ -44,4 +44,9 @@
   .navLogo img {
     width: 30%;
   }
+  .navigation{
+    padding: .5rem;
+
+  }
+
 }

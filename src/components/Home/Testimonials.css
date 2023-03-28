@@ -4,7 +4,7 @@
     0px 15px 12px 0px rgba(0, 0, 0, 0.22);
   width: 100%;
   position: relative;
-  height: 100%;
+  height: 400px;
   padding: 10% 0;
 }
 
@@ -39,7 +39,7 @@ text-align: center;
 
 .testimonialImage img {
 
-  border-radius: 40%;
+  border-radius: 50%;
   width: 70%;
   height: 20%;
   object-fit: cover;
@@ -68,7 +68,6 @@ text-align: center;
   color: rgb(255, 255, 255);
   font-size: 1rem;
   font-family: "Montagu Slab", serif;
-  width: 60%;
   line-height: 2;
 }
 
@@ -109,108 +108,53 @@ text-align: center;
   top: 40%;
  left: 10%;
 }
-@media screen and (max-width: 1800px) {
-  .parentsImg {
-    width: 25%;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .testimonial .row {
-    width: 900px;
-  }
-  .parentsImg {
-    width: 30%;
-    height: 80%;
-  }
-}
+
+
 @media screen and (max-width: 1024px) {
-  .testimonial .row {
-    width: 650px;
+  .testimonialContainer{
+    height: 700px;
+   
   }
-  .parentsImg {
-    width: 30%;
-    height: 70%;
+  .testimonialRow{
+   flex-wrap: wrap;
+   gap: 5rem;
   }
-  .voices h1 {
-    font-size: 40px;
+  .testimonialImage img {
+    width: 40%;
+    height: 20%;
+  }
+  .next {
+    top: 50%;
+    right: 10%;
+  }
+  .prev {
+    top: 50%;
+   left: 10%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .testimonial {
-    height: 700px;
-    overflow: hidden;
+  .testimonialContainer{
+    height: 600px;
+   
   }
-  .testimonial .testimonialRow {
-    width: 900px;
+  .testimonial{
+    width: 80%;
+  }
+  
+  .voices h1 {
+    font-size: 2rem;
+  }
+  .voices h3 {
+    font-size: 1rem;
   }
   .voices p {
-    font-size: 14px;
+    font-size: .8rem;
   }
-  .parentsImg {
-    position: absolute;
-    top: -7rem;
-    right: 9rem;
-    width: 25%;
-    height: 80%;
-  }
-  .voices {
-    position: relative;
-    top: 5rem;
-    left: 10rem;
-  }
+ 
+  
 }
-@media screen and (max-width: 600px) {
-  .testimonial {
-    height: 800px;
-  }
-  .voices .descr p {
-    font-size: 12px;
-    width: 40%;
-  }
-  .voices h1 {
-    font-size: 30px;
-  }
-  .voices h3 {
-    font-size: 16px;
-  }
-  .voices {
-    position: relative;
-    top: 8rem;
-    left: 17rem;
-  }
-  .parentsImg {
-    position: absolute;
-    top: -14rem;
-    right: 20rem;
-    width: 25%;
-    height: 100%;
-  }
-  .arrow {
-    height: 2rem;
-    width: 1.4rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .testimonial {
-    padding: 0 10px;
-  }
-  .voices h1 {
-    font-size: 25px;
-  }
-  .voices h3 {
-    font-size: 12px;
-  }
-  .voices .descr p {
-    width: 35%;
-  }
-  .parentsImg {
-    width: 18%;
-    height: 70%;
-    top: -12rem;
-    right: 23rem;
-  }
-  .parents-name p {
-    font-size: 12px;
-  }
+
+@media screen and (max-width: 500px) {
+
 }
