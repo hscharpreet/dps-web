@@ -11,6 +11,8 @@
   position: relative;
   filter:  blur(3px);
 }
+
+
 @media screen and (max-width: 1400px) {
   .slide img {
     height: 900px;

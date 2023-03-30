@@ -9,7 +9,7 @@
 }
 
 .testimonial {
-/* background-color: aliceblue; */
+  /* background-color: aliceblue; */
   /* height: 700px; */
   width: 60%;
   margin: 0 auto;
@@ -27,27 +27,25 @@
 .testimonialImage {
   /* background-color: rgb(99, 89, 89); */
   flex: 30%;
-text-align: center;
+  text-align: center;
   /* position: absolute;
   top: 5%;
   z-index: 1;
   right: 1%; */
   /* width: 70%;
   height: 80%; */
- 
 }
-
+/* testimonial parents image width: 1600 and height:2100======== */
 .testimonialImage img {
-
   border-radius: 50%;
-  width: 70%;
-  height: 20%;
+  width: 50%;
+  height: 10%;
   object-fit: cover;
   border-radius: 50%;
-   box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
+  box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
     0px 15px 12px 0px rgba(0, 0, 0, 0.16);
 }
-.voices{
+.voices {
   flex: 70%;
   /* background-color: rgb(220, 45, 45); */
 }
@@ -92,32 +90,33 @@ text-align: center;
   opacity: 1;
   transform: translateX(0);
 }
-.arrow {
+.testimonialArrow {
   color: #777;
-  cursor: pointer;
   position: absolute;
+  
+  height: 3rem;
+  width: 2.5rem;
 }
-.arrow:hover {
+.testimonialArrow:hover {
   color: var(--yellow);
 }
 .next {
   top: 40%;
   right: 10%;
+
 }
 .prev {
   top: 40%;
- left: 10%;
+  left: 10%;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .testimonialContainer{
+  .testimonialContainer {
     height: 700px;
-   
   }
-  .testimonialRow{
-   flex-wrap: wrap;
-   gap: 5rem;
+  .testimonialRow {
+    flex-wrap: wrap;
+    gap: 5rem;
   }
   .testimonialImage img {
     width: 40%;
@@ -129,19 +128,18 @@ text-align: center;
   }
   .prev {
     top: 50%;
-   left: 10%;
+    left: 10%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .testimonialContainer{
+  .testimonialContainer {
     height: 600px;
-   
   }
-  .testimonial{
+  .testimonial {
     width: 80%;
   }
-  
+
   .voices h1 {
     font-size: 2rem;
   }
@@ -149,12 +147,9 @@ text-align: center;
     font-size: 1rem;
   }
   .voices p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
- 
-  
 }
 
 @media screen and (max-width: 500px) {
-
 }

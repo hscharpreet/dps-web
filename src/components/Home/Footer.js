@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="footerOverlay">
-          <img  className="overlayImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Ffooter%20(1).jpg?alt=media&token=c7bbe774-bc0f-4e29-b253-80ade7a03b26" alt="" />
+          <img  className="overlayImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Ffooter.webp?alt=media&token=d9bb367d-672b-4a11-ada5-c4e4eb5e84d8" alt="" />
 
           <div className="footer-container">
             <div className="address ">

@@ -5,7 +5,7 @@ import { SidebarData } from "../Home/SidebarData";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import { RxCross1 } from "react-icons/rx";
-import logo from "../../assets/Group 1.png";
+// import logo from "../../assets/Group 1.png";
 
 const Navbar2 = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -29,7 +29,7 @@ const Navbar2 = () => {
             <div className="leftNav">
               <NavLink to="/dps-web" className="link">
                 <div>
-                  <img src={logo} alt="Logo" />
+                  <img src="" alt="Logo" />
                 </div>
               </NavLink>
             </div>

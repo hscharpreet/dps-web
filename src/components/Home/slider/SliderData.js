@@ -6,18 +6,24 @@
 export const SliderData = [
     {
       id:1,
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fchildrenback.webp?alt=media&token=84e7b013-1c16-4b9b-b80b-ab534e35124a",
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fchildrenback_11zon%20(1).webp?alt=media&token=e7684118-402d-4ada-af5f-8b796f3f1031",
+      blurhash:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fchildrenback_11zon%20(1).webp?alt=media&token=e7684118-402d-4ada-af5f-8b796f3f1031",
       
     },
     {
       id:2,
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fmaingate.webp?alt=media&token=17a5ec4b-8ebd-4bf4-a4b1-0705066a0be4",
-     
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fkid.jpg?alt=media&token=753a13b9-3e7d-438a-ba8e-15852053d487",
+      blurhash:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fkid.jpg?alt=media&token=753a13b9-3e7d-438a-ba8e-15852053d487",
     },
     {
       id:3,
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Flittlekids2.webp?alt=media&token=8037459c-38f7-47a9-b921-3ff79c81fb88",
-     
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fmaingate_11zon.webp?alt=media&token=7981cd2f-e925-445b-9432-8462ca9a1f54",
+      blurhash:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fmaingate_11zon.webp?alt=media&token=7981cd2f-e925-445b-9432-8462ca9a1f54",
+    },
+    {
+      id:4,
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Findependence_11zon.webp?alt=media&token=a0c0d5e5-91a8-492a-b401-aab80e9ad2aa",
+      blurhash:"https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Findependence_11zon.webp?alt=media&token=a0c0d5e5-91a8-492a-b401-aab80e9ad2aa",
     },
 
   ];

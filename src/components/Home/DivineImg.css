@@ -12,6 +12,7 @@
 .divineImg img{
     width: 70%;
     height: 70%;
+    /* filter: grayscale(); */
 }
 
 
