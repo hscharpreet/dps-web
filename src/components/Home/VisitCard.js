@@ -8,7 +8,7 @@ const VisitCard = () => {
       <div className="visitRow">
         <div className="visitCol">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fprospectus.jpg?alt=media&token=08fd401a-b938-4cbc-b647-c234038f47ae"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fheader.webp?alt=media&token=1e9145af-7da4-4dbc-9f70-ab0222331efb"
             alt=""
           />
           <div className="visitOverlay">
@@ -27,7 +27,7 @@ const VisitCard = () => {
         </div>
         <div className="visitCol">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fform.jpg?alt=media&token=04dccf5e-4e98-4b90-930c-0bf0e7658859"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fform.jpg?alt=media&token=7c04e0ef-98ef-471b-ba07-6f2ae4437766"
             alt=""
           />
           <div className="visitOverlay">
@@ -46,7 +46,7 @@ const VisitCard = () => {
         </div>
         <div className="visitCol">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fabout.jpg?alt=media&token=cf482c18-4985-4602-ad62-e8f015db0eb4"
+            src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fprospectus.jpg?alt=media&token=69cc10bd-cacd-4839-aacc-76adb15e642b"
             alt=""
           />
           <div className="visitOverlay">

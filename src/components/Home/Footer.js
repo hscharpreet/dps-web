@@ -11,7 +11,7 @@ const Footer = () => {
 
           <div className="footer-container">
             <div className="address ">
-              <img className="addressImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FLogo.png?alt=media&token=07a78930-2cbb-4c2f-a33d-275fd3251423" alt="" />
+              <img className="addressImg" src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2FEllipse%202.png?alt=media&token=fac1b01a-7123-4d1c-8f31-9f9086754f6f" alt="" />
               <h1 className="addressHead">Divine Public School</h1>
               <p className="addressText">
                 Satyanganj, Ahraura, <br />
