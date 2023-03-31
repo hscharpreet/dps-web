@@ -20,14 +20,14 @@ const CardCarousel = () => {
                 <figure>
                   <img src={data.imgSrc} alt="activities" key={index} />
                   <figcaption>
-                    <h1>
-                      {data.title} <br /> 
+                    <div>
+                     <h1>{data.title}</h1>  <br /> 
                       <span className="cardBtn">
-                        <Link to="/dps-web/admission" className="cardLink">
+                        <Link to="/dps-web/activities" className="cardLink">
                           see More
                         </Link>
                       </span>
-                    </h1>
+                    </div>
                   </figcaption>
                 </figure>
               </article>

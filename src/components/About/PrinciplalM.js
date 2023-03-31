@@ -7,7 +7,7 @@ const PrinciplalM = () => {
   return (
     <>
     <div className="aboutBanner">
-      <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fmaingate_11zon.webp?alt=media&token=7981cd2f-e925-445b-9432-8462ca9a1f54" alt="aboutBanner" />
+      <img src="https://img.freepik.com/free-photo/top-view-copy-space-colorful-pencils-green-background_141793-11456.jpg?w=1480&t=st=1680293791~exp=1680294391~hmac=6f3270babb6b8859f709ca268c3e40b3d226c69d16cd0378c600d7213bed9f68" alt="aboutBanner" />
     </div>
       <div className="messageContainer">
         <IconContext.Provider value={{ className: "icon2" }}>
@@ -22,7 +22,7 @@ const PrinciplalM = () => {
                 alt="principalImage"
               />
             </div>
-            <div className="parah ">
+            <div className="messageParah ">
               <h3 className="principaHeading">
                 <span className="line1"></span> A FEW WORDS OF WELCOME FROM OUR HEAD
               </h3>
@@ -41,6 +41,18 @@ const PrinciplalM = () => {
             </div>
           </div>
         </IconContext.Provider>
+      </div>
+
+      <div className="aboutSchool">
+      <p>
+           Divine public
+            School was founded in 2008 as an independent, non sectarian,
+            co-educational kindergarten-through eigth-grade institution, located
+            in UttarPradesh. Divine was designed to provide an exceptional
+            education for students in the rural area of Mirzapur. Its mission is
+            to prepare each of its students for college and for life in a
+            global environment. 
+          </p>
       </div>
     </>
   );

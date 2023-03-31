@@ -1,24 +1,22 @@
-
 .messageContainer {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1000px;
+  height: 600px;
   max-height: 100%;
   gap: 10rem;
   width: 80%;
+  padding: 5rem 1.5rem 0;
 }
-.aboutBanner{
+.aboutBanner {
   width: 100%;
   height: 700px;
-
 }
-.aboutBanner img{
+.aboutBanner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 .headName {
   flex: 20%;
@@ -40,26 +38,26 @@
 }
 .headName p {
   font-size: 1.5rem;
-  font-family: 'Kalam', cursive;
-  color:  rgb(164, 61, 61);
+  font-family: "Kalam", cursive;
+  color: rgb(164, 61, 61);
+  text-align: left;
 }
 .principaHeading {
   font-size: 1.5rem;
   font-family: "Cinzel", serif;
   color: var(--blue);
+  text-align: left;
 }
 
-.parah {
-  text-align: left;
+.messageParah {
   width: 60%;
   height: 100%;
-  font-family: "Montagu Slab";
+}
+.messageParah p {
   font-size: 1rem;
+  text-align: left;
   line-height: 2;
   font-weight: 500;
-}
-.parah p{
-  font-size: 1rem;
 }
 .principalImage img {
   width: 500px;
@@ -68,11 +66,33 @@
   max-height: 100%;
   object-fit: cover;
 }
-.parah a {
+.messageParah a {
   text-decoration: none;
   color: #ffcb42;
   position: relative;
   font-size: 1rem;
+}
+
+.aboutSchool {
+  width: 80%;
+  margin: 10% auto;
+  padding: 1rem 7rem 7rem ;
+  background-color: var(--beige);
+  position: relative;
+}
+.aboutSchool::before {
+  content: "❛";
+  font-weight: 400;
+  color: #e10719;
+  font-size: 6rem;
+}
+
+.aboutSchool > p {
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  color: var(--blue);
 }
 .icon2 {
   font-size: 1.8rem;
@@ -88,15 +108,18 @@
   }
 }
 @media only screen and (max-width: 1200px) {
-  .message{
+  .messageContainer {
+    height: 1000px;
+  }
+  .message {
     display: block;
     width: 100%;
     margin: auto;
   }
-  .parah{
+  .messageParah {
     width: 100%;
   }
-  .principalImage{
+  .principalImage {
     width: 100%;
   }
   .headName h1 {
@@ -108,23 +131,24 @@
   .principaHeading {
     font-size: 1.5rem;
   }
-  .parah{
+  .messageParah {
     text-align: center;
   }
-  .parah p{
+  .messageParah p {
     font-size: 1rem;
     width: 100%;
-   
   }
   .principalImage img {
     width: 50%;
     height: 50%;
   }
+  .aboutSchool {
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 800px) {
-  .messageContainer{
+  .messageContainer {
     height: 900px;
-   
   }
   .message {
     display: block;
@@ -141,10 +165,9 @@
     position: absolute;
     bottom: -2px;
   }
-  .aboutBanner{
+  .aboutBanner {
     width: 100%;
     height: auto;
-  
   }
   .headName h1 {
     font-size: 2rem;
@@ -155,17 +178,23 @@
   .principaHeading {
     font-size: 1rem;
   }
-  .parah p{
-    font-size: .7rem;
-    
+  .messageParah p {
+    font-size: 0.7rem;
   }
-  .parah a{
+  .messageParah a {
+    font-size: 0.7rem;
+  }
+  .aboutSchool {
+    width: 80%;
+ padding: 0 1.5rem 2rem;
+  }
+  .aboutSchool p{
     font-size: .7rem;
+ 
   }
 }
-@media only screen and (max-width: 500px){
-  .messageContainer{
+@media only screen and (max-width: 500px) {
+  .messageContainer {
     height: 700px;
-   
   }
 }

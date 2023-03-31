@@ -1,6 +1,7 @@
 import React from "react";
 import "./DivineWelcome.css";
 import ProgressiveImage from "react-progressive-graceful-image";
+import { Link } from "react-router-dom";
 
 const DivineWelcome = () => {
   const image =
@@ -37,15 +38,9 @@ const DivineWelcome = () => {
         </ProgressiveImage>
 
         <div className="textArea">
-          <h1>WELCOME TO DIVINE</h1>
-          <p>
-            Divine public School was founded in 2008 as an independent, non
-            sectarian, co-educational kindergarten-through eigth-grade
-            institution, located in UttarPradesh. Divine was designed to provide
-            an exceptional education for students in the rural area of Mirzapur.
-            Its mission is to “prepare each of its students for college and for
-            life in a global environment.”
-          </p>
+          <h1>Explore Divine</h1>
+        <p>"At Divine, we believe that education is the key to unlocking a bright future, and we are committed to providing the best possible learning environment for our students. We are thrilled that you have taken the time to visit our website. As an educational institution, our goal is to provide a nurturing and stimulating environment for our students to learn, grow, and thrive. We offer a wide range of programs and activities designed to foster intellectual curiosity, creativity, and social responsibility. Whether you are a parent, student, or community member, we hope you find our website informative and engaging. Thank you for your interest in Divine."</p> <br />
+        <p className="explore"><Link to = "/dps-web/about"> learn more</Link></p>
         </div>
       </div>
     </div>

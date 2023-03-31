@@ -113,7 +113,7 @@ td {
     width: 50%;
     margin:0 auto;
     text-align: left;
-    background-color: #b37c0d1e;
+    background-color: var(--beige);
     padding: 3rem 5rem;
    
 }

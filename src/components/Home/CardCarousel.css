@@ -103,7 +103,7 @@
   font-size: 0.8rem;
   color: var(--yellow);
 }
-.cardUpdates a:hover{
+.cardUpdates a:hover {
   color: white;
 }
 p {
@@ -112,17 +112,26 @@ p {
 
 @media screen and (max-width: 768px) {
   .cardGrid h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-  .cardCol h2 {
-    font-size: 1rem;
-  }
-  .cardCol p {
-    font-size: 0.6rem;
+  .cardCarousel {
+    display: block;
   }
 }
 @media screen and (max-width: 500px) {
-  .cardRow {
-    display: block;
+  .cardGrid h1 {
+    font-size: 1rem;
+  }
+  .blog-post-teasers {
+    padding: 1rem;
+  }
+  .blog-post-teaser figcaption h1 {
+    font-size: 0.8rem;
+  }
+  .cardLink {
+    font-size: 0.6rem;
+  }
+  .cardUpdates a {
+    font-size: .7rem;
   }
 }

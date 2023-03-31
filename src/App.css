@@ -16,12 +16,14 @@
 :root {
   --blue: #1b0853;
   --yellow: #daab2b;
+  --beige: #b37c0d1e;
 }
 /* font-family: "Cinzel", serif; */
 
-/* body{
-  font-family: "Cinzel", serif;
-} */
+body{
+  font-family: "Montagu Slab", serif;
+  /* font-family: "Cinzel", serif; */
+}
 .loading {
   /* filter: blur(10px); */
   clip-path: inset(0);
