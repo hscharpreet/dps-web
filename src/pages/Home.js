@@ -7,7 +7,7 @@ import Testimonials from "../components/Home/Testimonials";
 import Facts from "../components/Home/Facts";
 import { motion } from "framer-motion";
 import CardCarousel from "../components/Home/CardCarousel";
-import Navbar from "../components/Home/Navbar";
+// import Navbar from "../components/Home/Navbar";
 import SlideUp from "../components/SlideUp";
 import VisitCard from "../components/Home/VisitCard";
 import DivineWelcome from "../components/Home/DivineWelcome";

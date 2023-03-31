@@ -1,11 +1,11 @@
 .testimonialContainer {
   background-color: var(--blue);
-  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3),
-    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
   width: 100%;
   position: relative;
   height: 400px;
   padding: 10% 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .testimonial {
@@ -28,9 +28,9 @@
   width: 50%;
   height: 10%;
   object-fit: cover;
-  border-radius: 40%;
-  box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
-    0px 15px 12px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  /* box-shadow: 9px -16px 0px 0px rgba(235, 203, 42, 0.178),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.16); */
 }
 .voices {
   flex: 70%;

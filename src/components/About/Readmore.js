@@ -15,7 +15,7 @@ const Readmore = () => {
       <Navbar2 />
       <div className="readmoreBanner">
         <img
-          src="https://alimacademy.org/wp-content/uploads/2020/07/Principals-Message-895x430-1.jpg"
+          src="https://img.freepik.com/free-vector/unhappy-mom-talking-with-angry-principal-director-about-son-isolated-flat-illustration_74855-11176.jpg"
           alt=""
         />
       </div>

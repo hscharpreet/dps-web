@@ -14,7 +14,7 @@ const ImageGallery = () => {
       <div className="imageBanner">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Factivity%2FimagegalleryBg%20(1).webp?alt=media&token=2d874cab-6c79-4013-8e13-cfb226c74919"
-          alt=""
+          alt="gallery"
         />
       </div>
       <div className="images">

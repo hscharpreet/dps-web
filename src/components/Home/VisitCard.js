@@ -20,7 +20,7 @@ const VisitCard = () => {
               whileTap={{ scale: 0.9 }}
             >
               <Link to="/dps-web/admission" className="visitLink">
-                See More
+                Know More
               </Link>
             </motion.button>
           </div>
@@ -39,7 +39,7 @@ const VisitCard = () => {
               whileTap={{ scale: 0.9 }}
             >
               <Link to="/dps-web/admission" className="visitLink">
-                See More
+              Know  More
               </Link>
             </motion.button>
           </div>
@@ -58,7 +58,7 @@ const VisitCard = () => {
               whileTap={{ scale: 0.9 }}
             >
               <Link to="/dps-web/admission" className="visitLink">
-                See More
+              Know  More
               </Link>
             </motion.button>
           </div>

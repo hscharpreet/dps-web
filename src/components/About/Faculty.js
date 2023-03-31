@@ -22,7 +22,7 @@ const Faculty = () => {
       </div>
       <div className="teacher-img">
       <div className="imageDiv">
-        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Fteachers.webp?alt=media&token=5cd7688b-2d58-40a5-b3e6-00a807cca6f7" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fabout%2Fteachers.webp?alt=media&token=75aeeb07-3001-48fb-a4da-3a30ec09bf4a" alt="teachers" />
         </div>
       </div>
     </div>

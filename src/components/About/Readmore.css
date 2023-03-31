@@ -18,12 +18,12 @@
 }
 .readmoreBanner{
     width: 100%;
-    height:500px;
+    height:600px;
 }
 .readmoreBanner img{
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 @media screen and (max-width: 1200px){
     .readMore p{

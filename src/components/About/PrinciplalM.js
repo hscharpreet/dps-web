@@ -7,7 +7,7 @@ const PrinciplalM = () => {
   return (
     <>
     <div className="aboutBanner">
-      <img src="https://cdn-gpodp.nitrocdn.com/CSsCpSeQhHUngfvhnGrLHfGuscVvfbli/assets/images/optimized/rev-8982a5d/wp-content/uploads/2022/10/10-Inspiring-Leadership-Quotes-for-21st-Century-School-Principals.jpg" alt="aboutBanner" />
+      <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fmaingate_11zon.webp?alt=media&token=7981cd2f-e925-445b-9432-8462ca9a1f54" alt="aboutBanner" />
     </div>
       <div className="messageContainer">
         <IconContext.Provider value={{ className: "icon2" }}>
