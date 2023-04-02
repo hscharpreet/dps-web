@@ -3,7 +3,6 @@ import "./CardCarousel.css";
 import { Link } from "react-router-dom";
 import { cardData } from "./CardCarouselData";
 
-
 const CardCarousel = () => {
   return (
     <div className="cardGrid">
@@ -15,13 +14,13 @@ const CardCarousel = () => {
       <div className="cardCarousel">
         {cardData.map((data, index) => {
           return (
-            <div class="blog-post-teasers">
-              <article class="blog-post-teaser">
+            <div className="blog-post-teasers" key={index}>
+              <article className="blog-post-teaser">
                 <figure>
                   <img src={data.imgSrc} alt="activities" key={index} />
                   <figcaption>
                     <div>
-                     <h1>{data.title}</h1>  <br /> 
+                      <h1>{data.title}</h1> <br />
                       <span className="cardBtn">
                         <Link to="/dps-web/activities" className="cardLink">
                           see More
