@@ -50,15 +50,14 @@ p {
 .links a:hover {
   color: var(--yellow);
 }
-.icon3{
   cursor: pointer;
 }
-.icon3:hover{
-  background-color: var(--blue);
+.icon3:hover {
+  background-image: radial-gradient(50% 50% at center, var(--blue) 0% 80%,#0000)
 }
+
 @media only screen and (max-width: 1024px) {
   .funding {
-    padding:  3rem;
   }
   .funding p {
     font-size: 1.5rem;

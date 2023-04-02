@@ -8,33 +8,30 @@ body {
   width: 100%;
   height: 900px;
   margin: 0 auto;
-  font-family: "Cinzel", serif;
 }
 
-.header h1 {
+.header .animate-charcter {
   color: var(--blue);
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
-  animation: 5s anim-lineUp ease-out;
+  animation: 2.5s anim-lineUp ease-out;
 }
+
 @keyframes anim-lineUp {
   0% {
     opacity: 0;
-    transform: translateY(80%);
+    transform: translate(-50%, 30%);
   }
   20% {
     opacity: 0;
   }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
   100% {
     opacity: 1;
-    transform: translateY(0%);
+    transform: translate(-50%, -50%);
   }
 }
 
