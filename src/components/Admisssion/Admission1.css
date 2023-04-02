@@ -16,14 +16,14 @@
 }
 .admissionContent h1 {
   font-size: 2rem;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 
 }
 
 .admissionContent h3 {
   font-size: 1.5rem;
   line-height: 1.5;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .admissionContent p {
   font-size: 1rem;

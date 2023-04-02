@@ -6,7 +6,7 @@
   text-align: center;
   padding: 5% 0;
   letter-spacing: 2px;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .contactHeading h1 {
   color: var(--blue);

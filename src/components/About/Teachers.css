@@ -24,7 +24,7 @@
   font-size: 2em;
   font-weight: 800;
   letter-spacing: 5px;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   color: rgb(27, 22, 127);
 }
 .teacherContainer .underline {

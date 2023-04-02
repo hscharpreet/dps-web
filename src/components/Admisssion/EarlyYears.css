@@ -14,7 +14,7 @@
 
 .early1 h1 {
   font-size: 2rem;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   color: var(--blue);
 }
 .early1 p {

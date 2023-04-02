@@ -16,23 +16,22 @@
 }
 .slideUp:hover {
   background-color: white;
-
 }
 .topbtnIcon {
   color: var(--blue);
 }
 
 .slideUp:active {
-    transform: translateY(4px);
+  transform: translateY(4px);
+}
+@media screen and (max-width: 768px) {
+  .slideUp {
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
   }
-  @media screen and (max-width: 768px) {
-    .slideUp {
-      font-size: 1rem;
-      width: 2rem;
-      height: 2rem;
-    }
-    .slideUp{
-      right: 2rem;
-      bottom: 2rem;
-    }
+  .slideUp {
+    right: 2rem;
+    bottom: 2rem;
   }
+}

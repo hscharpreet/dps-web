@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   height: 100%;
   padding-bottom: 2rem;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 
 .additional h1 {

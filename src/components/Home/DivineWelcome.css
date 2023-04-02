@@ -5,7 +5,7 @@
   justify-content: center;
   height: 950px;
   margin: 2rem 0;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 
 .welcomeImage {
@@ -22,6 +22,7 @@
   height: 60rem;
   object-fit: cover;
 }
+
 .welcomeImage:before {
   content: "";
   position: absolute;
@@ -43,32 +44,36 @@
   align-items: center;
   justify-content: center;
 }
+
 .welcome-text img {
   width: 30rem;
   height: 30rem;
   flex: 1 0 0;
   object-fit: cover;
 }
+
 .textArea {
   position: relative;
   left: 10%;
 }
+
 .welcome-text h1 {
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 5px;
   color: var(--blue);
-
   width: 60%;
 }
+
 .welcome-text p {
   font-size: 1rem;
   color: black;
   line-height: 1.8;
   text-align: left;
   width: 60%;
-  font-family: "Montagu Slab", serif;
+  font-family: var(--body-font);
 }
+
 .explore a {
   text-decoration: none;
   color: #980e0e;
@@ -79,8 +84,9 @@
   padding: 0.8rem 2rem;
   letter-spacing: 2px;
   cursor: pointer;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
+
 .explore a:hover {
   background-color: #980e0e;
   color: white;
@@ -96,14 +102,17 @@
     left: 20rem;
   }
 }
+
 @media (max-width: 1600px) {
   .welcome-text p {
     width: 80%;
   }
+
   .welcome-text h1 {
     width: 80%;
   }
 }
+
 @media (max-width: 1200px) {
   .welcome-text {
     padding: 0 5%;
@@ -111,37 +120,45 @@
     left: 5rem;
     width: 90%;
   }
+
   .textArea {
     left: 2rem;
   }
+
   .welcomeImage img,
   .welcomeImage:before {
     width: 20rem;
   }
 }
+
 @media (max-width: 1024px) {
   .welcome-text img {
     width: 20rem;
     height: 20rem;
   }
+
   .welcome-text {
     left: 0;
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
   .welcome {
     height: 1300px;
   }
+
   .welcome-text {
     flex-wrap: wrap;
     gap: 10rem;
     text-align: center;
   }
+
   .welcome-text img {
     height: 50%;
     object-fit: cover;
   }
+
   .welcomeImage img,
   .welcomeImage:before {
     height: 50%;
@@ -150,24 +167,28 @@
   .welcome-text p {
     width: 80%;
   }
+
   .welcome-text h1 {
     width: 80%;
     padding-top: 2rem;
   }
+
   .explore a {
     padding: 0.5rem 1rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 }
+
 @media (max-width: 450px) {
   .welcome {
     height: 1100px;
   }
+
   .welcome-text h1 {
     font-size: 1.5rem;
   }
- 
+
   .welcome-text p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }

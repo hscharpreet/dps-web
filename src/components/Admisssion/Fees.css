@@ -48,37 +48,35 @@ td {
 .head {
   font-weight: bold;
 }
-@media screen and (max-width: 600px) { 
-
+@media screen and (max-width: 600px) {
   .responsive thead {
     visibility: hidden;
     height: 0;
     position: absolute;
-    
   }
   .head {
     background-color: #dcd483;
   }
   .responsive tr {
     display: block;
-    margin-bottom: .625em;
+    margin-bottom: 0.625em;
   }
-  
+
   .responsive td {
     border: 1px solid;
     border-bottom: none;
     display: block;
-    font-size: .8em;
+    font-size: 0.8em;
     text-align: right;
   }
-  
+
   .responsive td::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   .responsive td:last-child {
     border-bottom: 1px solid;
   }
@@ -86,49 +84,44 @@ td {
 
 /* uniform========================================================== */
 .uniform {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 5rem 0;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 0;
 }
-.uniform h1{
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: #1f0e5f;
+.uniform h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: #1f0e5f;
 }
-.uniform h2{
-    font-size: 2rem;
-    letter-spacing: 5px;
-    color: #5d6523;
+.uniform h2 {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: #5d6523;
 }
-.feesLine{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    width: 50%;
-
+.feesLine {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 50%;
 }
-.uniformList{
-    width: 50%;
-    margin:0 auto;
-    text-align: left;
-    background-color: var(--beige);
-    padding: 3rem 5rem;
-   
+.uniformList {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--beige);
+  padding: 3rem 5rem;
 }
-.uniformList h2{
-    font-size: 1.5rem;
-    color: #402f7e;
+.uniformList h2 {
+  font-size: 1.5rem;
+  color: #402f7e;
 }
-.uniformList ol li{
-    font-size: 1rem;
-    list-style: circle;
-    color: #0e0728;
+.uniformList ol li {
+  font-size: 1rem;
+  list-style: circle;
+  color: #0e0728;
 }
-
-
-
 
 @media only screen and (max-width: 1024px) {
   .feeTable h1 {
@@ -137,7 +130,6 @@ td {
   }
 }
 @media only screen and (max-width: 768px) {
- 
   .uniform {
     width: 80%;
     padding: 0 1rem;
@@ -148,25 +140,21 @@ td {
     height: 400px;
     object-fit: cover;
   }
-  .uniformList{
+  .uniformList {
     width: 50%;
   }
 }
 @media only screen and (max-width: 600px) {
-
- 
-    .uniform h1{
-      font-size: 2rem;
-    }
-    .uniform h2{
-      font-size: 1.5rem;
-    }
-    .uniformList h2{
-        font-size: 1rem;
-    }
-    .uniformList ol li{
-        font-size: .7rem;
-    }
+  .uniform h1 {
+    font-size: 2rem;
+  }
+  .uniform h2 {
+    font-size: 1.5rem;
+  }
+  .uniformList h2 {
+    font-size: 1rem;
+  }
+  .uniformList ol li {
+    font-size: 0.7rem;
+  }
 }
-
-

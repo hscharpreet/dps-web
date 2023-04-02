@@ -11,10 +11,8 @@
   cursor: pointer;
 }
 
-
 .menuBars:active {
   transform: translateY(7px);
- 
 }
 .menuBars2 {
   font-size: 2rem;
@@ -81,9 +79,8 @@ li {
   display: inline-flex;
   transition: 0.5s;
   letter-spacing: 5px;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
-
 
 .navMenu ul li a:hover {
   color: var(--yellow);
@@ -106,16 +103,12 @@ li {
     top: 7%;
     right: 5%;
   }
-  .menuImage{
+  .menuImage {
     display: none;
   }
 }
 @media screen and (max-width: 400px) {
   .navMenu ul li a {
     font-size: 1rem;
-   
   }
-
-
 }
-  

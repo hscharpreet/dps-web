@@ -3,7 +3,6 @@ import "./Admission1.css";
 const Admission1 = () => {
   return (
     <>
-      
       <div className="admissionBanner">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2Flittlekids1.webp?alt=media&token=7855a9b0-57a0-4eb9-821b-660cffc066cb"

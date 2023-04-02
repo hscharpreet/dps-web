@@ -7,7 +7,6 @@ import { useState } from "react";
 import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons/lib";
 
-
 const Button = () => {
   const [sidebar, setSidebar] = useState(false);
 
@@ -15,7 +14,9 @@ const Button = () => {
 
   return (
     <div className="sidebar">
-      <IconContext.Provider value={{ color: "#daab2b", className: "icon1" }}>
+      <IconContext.Provider
+        value={{ color: "var(--yellow)", className: "icon1" }}
+      >
         <div className="sidebarIcon">
           <GiHamburgerMenu
             onClick={showSidebar}
@@ -28,7 +29,6 @@ const Button = () => {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2Fchildrenback_11zon%20(1).webp?alt=media&token=e7684118-402d-4ada-af5f-8b796f3f1031"
               alt="menuImage"
-
             />
           </div>
           <div className="navMenuItem">

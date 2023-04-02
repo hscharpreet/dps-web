@@ -1,7 +1,7 @@
 .activityBanner {
   width: 100%;
   height: 700px;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .activityBanner img {
   width: 100%;
@@ -9,7 +9,7 @@
   object-fit: cover;
 }
 .activityGallery {
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .activityGallery h1 {
   font-size: 3rem;
@@ -67,7 +67,7 @@
   text-decoration: none;
   color: rgba(58, 50, 130, 0.908);
   letter-spacing: 4px;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   text-align: center;
 }
 .activityGallery a:hover {

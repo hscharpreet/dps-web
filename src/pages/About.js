@@ -19,11 +19,11 @@ const About = () => {
     >
       <Navbar2 />
       <PrinciplalM />
-      <Growth/>
-      <Provide/>
+      <Growth />
+      <Provide />
       <Faculty />
-      <SlideUp/>
-      <VisitCard/>
+      <SlideUp />
+      <VisitCard />
       <Footer />
     </motion.div>
   );

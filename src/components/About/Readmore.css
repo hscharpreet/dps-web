@@ -1,51 +1,49 @@
-.readmore{
-    background-color: #ebeaea61;
+.readmore {
+  background-color: #ebeaea61;
 }
 
-.readMore{
-    margin: 0 auto;
-    width: 100%;
-    height: 700px;
-    
+.readMore {
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
 }
-.readMore p{
-    font-family: 'Kalam', cursive;
-    font-size: 1.3rem;
-    line-height: 2;
-    width: 70%;
-    margin: 0 auto;
-    padding: 5rem ;
+.readMore p {
+  font-family: "Kalam", cursive;
+  font-size: 1.3rem;
+  line-height: 2;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem;
 }
-.readmoreBanner{
-    width: 100%;
-    height:600px;
+.readmoreBanner {
+  width: 100%;
+  height: 600px;
 }
-.readmoreBanner img{
-    width: 100%;
+.readmoreBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1200px) {
+  .readMore p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .readMore p {
+    font-size: 0.7rem;
+  }
+  .readmoreBanner {
     height: 100%;
-    object-fit: cover;
+  }
 }
-@media screen and (max-width: 1200px){
-    .readMore p{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .readMore p{
-        font-size: .7rem;
-    }
-    .readmoreBanner{
-        height:100%;
-    }
-}
-@media screen and (max-width: 500px){
-    .readMore{
-        height: 100%;
-       
-    }
-    .readMore p{
-        width: 80%;
-        padding: 5rem 1rem;
-    }
+@media screen and (max-width: 500px) {
+  .readMore {
+    height: 100%;
+  }
+  .readMore p {
+    width: 80%;
+    padding: 5rem 1rem;
+  }
 }

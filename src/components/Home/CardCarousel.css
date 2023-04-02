@@ -2,7 +2,7 @@
   background-color: var(--blue);
   margin-top: -2rem;
   padding-bottom: 3rem;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .cardGrid h1 {
   text-align: center;
@@ -118,6 +118,7 @@ p {
     display: block;
   }
 }
+
 @media screen and (max-width: 500px) {
   .cardGrid h1 {
     font-size: 1rem;
@@ -132,6 +133,6 @@ p {
     font-size: 0.6rem;
   }
   .cardUpdates a {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }

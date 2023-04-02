@@ -51,9 +51,7 @@ const Fees = () => {
                 <td data-label="PER MONTH">₹300</td>
                 <td data-label="PER ANNUM">₹4400</td>
                 <td data-label="COMPUTER FEE(4 month)"> ---</td>
-                <td data-label="EXAM FEE (half yearly & annual)">
-                  ₹400
-                </td>
+                <td data-label="EXAM FEE (half yearly & annual)">₹400</td>
                 <td data-label="ANNUAL CHARGE(july)">₹400</td>
               </tr>
               <tr>
@@ -61,9 +59,7 @@ const Fees = () => {
                 <td data-label="PER MONTH">₹300</td>
                 <td data-label="PER ANNUM">₹4400</td>
                 <td data-label="COMPUTER FEE (4 month)">---</td>
-                <td data-label="EXAM FEE (half yearly & annual)">
-                  ₹400
-                </td>
+                <td data-label="EXAM FEE (half yearly & annual)">₹400</td>
                 <td data-label="ANNUAL CHARGE(july)">₹400</td>
               </tr>
               <tr>
@@ -78,7 +74,6 @@ const Fees = () => {
                 <td data-label="2)" className="head">
                   Primary School
                 </td>
-             
               </tr>
               <tr>
                 <td data-label="CLASS">Class 1 </td>
@@ -98,7 +93,7 @@ const Fees = () => {
                 <td data-label="EXAM FEE(half yearly & annual)">₹400</td>
                 <td data-label="ANNUAL CHARGE(july)">₹400</td>
               </tr>
-        
+
               <tr>
                 <td data-label="CLASS">Class 3 </td>
 
@@ -121,7 +116,6 @@ const Fees = () => {
                 <td data-label="3)" className="head">
                   Middle School
                 </td>
-              
               </tr>
               <tr>
                 <td data-label="CLASS">Class 5 </td>
@@ -153,7 +147,7 @@ const Fees = () => {
               <tr>
                 <td data-label="CLASS">Class 8 </td>
 
-                <td data-label="PER MONTH" >₹350</td>
+                <td data-label="PER MONTH">₹350</td>
                 <td data-label="PER ANNUM">₹5000</td>
                 <td data-label="COMPUTER FEE(4 month)">₹600</td>
                 <td data-label="EXAM FEE(half yearly & annual)">₹400</td>

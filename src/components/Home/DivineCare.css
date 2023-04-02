@@ -36,7 +36,7 @@
   font-weight: 600;
   letter-spacing: 5px;
   color: #ffffff;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   padding-bottom: 2.5rem;
 }
 .divine-care .lines h2 {

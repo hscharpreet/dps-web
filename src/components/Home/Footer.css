@@ -3,7 +3,7 @@
   height: 100%;
   overflow: hidden;
   position: relative;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .footerOverlay {
   position: relative;

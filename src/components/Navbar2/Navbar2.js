@@ -24,12 +24,15 @@ const Navbar2 = () => {
       <div className="navbar2">
         <nav className="aboutNav">
           <IconContext.Provider
-            value={{ color: "#daab2b", className: "icon1" }}
+            value={{ color: "var(--yellow)", className: "icon1" }}
           >
             <div className="leftNav">
               <NavLink to="/dps-web" className="link">
                 <div>
-                  <img src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2FGroup%201.png?alt=media&token=2af23d25-d3ce-4e0d-bd8d-92c9759108f7" alt="Logo" />
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/divine-public-school-e196f.appspot.com/o/websiteImages%2Fhome%2FmainImage%2FGroup%201.png?alt=media&token=2af23d25-d3ce-4e0d-bd8d-92c9759108f7"
+                    alt="Logo"
+                  />
                 </div>
               </NavLink>
             </div>

@@ -38,18 +38,18 @@
   color: rgb(255, 255, 255);
   font-size: 1.4rem;
   font-weight: 500;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .voices h1 {
   color: rgb(238, 215, 151);
   font-size: 3rem;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   font-weight: 600;
 }
 .voices p {
   color: rgb(255, 255, 255);
   font-size: 1rem;
-  font-family: "Montagu Slab", serif;
+  font-family: var(--body-font);
   line-height: 2;
   text-align: left;
 }
@@ -61,7 +61,7 @@
 }
 .parents-name p {
   color: rgb(236, 143, 136);
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
 }
 .arrow {
   color: var(--blue);

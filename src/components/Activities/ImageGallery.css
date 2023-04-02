@@ -5,7 +5,7 @@
   font-weight: 700;
   font-size: 4rem;
   color: #222270;
-  font-family: "Cinzel", serif;
+  font-family: var(--title-font);
   letter-spacing: 5px;
 }
 .underline {

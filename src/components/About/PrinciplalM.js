@@ -6,9 +6,12 @@ import { IconContext } from "react-icons/lib";
 const PrinciplalM = () => {
   return (
     <>
-    <div className="aboutBanner">
-      <img src="https://img.freepik.com/free-photo/top-view-copy-space-colorful-pencils-green-background_141793-11456.jpg?w=1480&t=st=1680293791~exp=1680294391~hmac=6f3270babb6b8859f709ca268c3e40b3d226c69d16cd0378c600d7213bed9f68" alt="aboutBanner" />
-    </div>
+      <div className="aboutBanner">
+        <img
+          src="https://img.freepik.com/free-photo/top-view-copy-space-colorful-pencils-green-background_141793-11456.jpg?w=1480&t=st=1680293791~exp=1680294391~hmac=6f3270babb6b8859f709ca268c3e40b3d226c69d16cd0378c600d7213bed9f68"
+          alt="aboutBanner"
+        />
+      </div>
       <div className="messageContainer">
         <IconContext.Provider value={{ className: "icon2" }}>
           <div className="headName ">
@@ -24,7 +27,8 @@ const PrinciplalM = () => {
             </div>
             <div className="messageParah ">
               <h3 className="principaHeading">
-                <span className="line1"></span> A FEW WORDS OF WELCOME FROM OUR HEAD
+                <span className="line1"></span> A FEW WORDS OF WELCOME FROM OUR
+                HEAD
               </h3>
               <p>
                 " My leadership role will focus on providing an enabling
@@ -32,9 +36,9 @@ const PrinciplalM = () => {
                 guided towards becoming future leaders and ideal citizens of our
                 great nation. Pursuing excellence by students in their chosen
                 fields; academics, sports, or extracurricular activities shall
-                be encouraged at every step." 
+                be encouraged at every step."
                 <NavLink to="/dps-web/about/principal-message">
-                  <span className="readMore">  read more</span>{" "}
+                  <span className="readMore"> read more</span>{" "}
                   <HiOutlineArrowLongRight />
                 </NavLink>
               </p>
@@ -44,21 +48,17 @@ const PrinciplalM = () => {
       </div>
 
       <div className="aboutSchool">
-      <p>
-           Divine public
-            School was founded in 2008 as an independent, non sectarian,
-            co-educational kindergarten-through eigth-grade institution, located
-            in UttarPradesh. Divine was designed to provide an exceptional
-            education for students in the rural area of Mirzapur. Its mission is
-            to prepare each of its students for college and for life in a
-            global environment. 
-          </p>
+        <p>
+          Divine public School was founded in 2008 as an independent, non
+          sectarian, co-educational kindergarten-through eigth-grade
+          institution, located in UttarPradesh. Divine was designed to provide
+          an exceptional education for students in the rural area of Mirzapur.
+          Its mission is to prepare each of its students for college and for
+          life in a global environment.
+        </p>
       </div>
     </>
   );
 };
 
 export default PrinciplalM;
-
-
-

@@ -6,7 +6,7 @@ import { IconContext } from "react-icons/lib";
 const Download = () => {
   return (
     <div className="download">
-      <IconContext.Provider value={{ color: "#daab2b", className: "icon3" }}>
+      <IconContext.Provider value={{ color: "var(--yellow)", className: "icon3" }}>
         <div className="funding">
           <p>
             Please check eligibility of the Free Early Education Entitlement{" "}
